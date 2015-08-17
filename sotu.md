@@ -962,7 +962,8 @@ rich ecosystem including common streaming tasks like:
 
 **Notable libraries:**
 
-* `conduit` / `io-streams` / `pipes` - Stream programming libraries (Full disclosure: I authored `pipes` and wrote the official `io-streams` tutorial)
+* `conduit` / `io-streams` / `pipes` - Stream programming libraries (Full disclosure: I authored `pipes` and wrote the official `io-streams` tutoria)
+* machines - Networked stream transducers library
 
 **Educational resources:**
 
@@ -1107,6 +1108,7 @@ worth checking out which is reasonably polished but cannot be used offline.
 * `ghc-mod` - editor agnostic tool that powers many IDE-like features
 * `ghcid` - lightweight background type-checker that triggers on code changes
 * `haskell-mode` - Umbrella project for Haskell `emacs` support
+* `codex` - Tags file generator for cabal project dependencies.
 
 **Educational resources:**
 
