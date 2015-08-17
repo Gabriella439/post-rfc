@@ -96,6 +96,7 @@ languages which you can use to write compilers to or from these languages.
 * `Agda`
 * `Pugs` (the first Perl 6 implementation)
 * `ghc` (self-hosting)
+* `frege` (very similar to Haskell, also self-hosting)
 
 **Educational resources:**
 
