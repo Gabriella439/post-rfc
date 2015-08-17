@@ -409,6 +409,7 @@ by Keera Studios:
 * `X11` - X11 bindings
 * `threepenny-gui` - Framework for local apps that use the web browser as the
   interface
+* [`hsqml`](http://hackage.haskell.org/package/hsqml) - A Haskell binding for Qt Quick, a cross-platform framework for creating graphical user interfaces. 
 
 **Some example applications:**
 
