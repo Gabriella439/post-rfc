@@ -1118,6 +1118,12 @@ worth checking out which is reasonably polished but cannot be used offline.
 * `haskell-mode` - Umbrella project for Haskell `emacs` support
 * `codex` - Tags file generator for cabal project dependencies.
 
+**IDE plugins**:
+
+* IntelliJ (the official plugin or Haskforce)
+* Eclipse (the EclipseFP plugin)
+* Atom (the IDE-Haskell plugin)
+
 **Educational resources:**
 
 * [Survey: Which Haskell development tools are you using that make you a more
