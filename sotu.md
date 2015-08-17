@@ -1121,6 +1121,7 @@ worth checking out which is reasonably polished but cannot be used offline.
 * `ghcid` - lightweight background type-checker that triggers on code changes
 * `haskell-mode` - Umbrella project for Haskell `emacs` support
 * `codex` - Tags file generator for cabal project dependencies.
+* `hdevtools` - Persistent GHC-powered background server for development tools
 
 **IDE plugins**:
 
