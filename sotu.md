@@ -1121,6 +1121,7 @@ worth checking out which is reasonably polished but cannot be used offline.
 * `ghc-mod` - editor agnostic tool that powers many IDE-like features
 * `ghcid` - lightweight background type-checker that triggers on code changes
 * `haskell-mode` - Umbrella project for Haskell `emacs` support
+* `structured-haskell-mode` - structural editing based on Haskell syntax for `emacs`
 * `codex` - Tags file generator for cabal project dependencies.
 * `hdevtools` - Persistent GHC-powered background server for development tools
 
