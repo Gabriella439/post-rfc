@@ -46,6 +46,41 @@ in my external link sections.  :)
 
 <br>
 
+# Table of Contents
+<br>
+
+* [Application Domains](application-domains)
+  * [Compilers](compliers)
+  * [Server-side web programming](server-side-web-programming)
+  * [Scripting / Command-line applications](scripting-command-line-applications)
+  * [Numerical programming]()
+  * [Client-side web programming]()
+  * [Distributed programming]()
+  * [Standalone GUI applications]()
+  * [Machine learning]()
+  * [Data science]()
+  * [Game programming]()
+  * [Systems / embedded programming]()
+  * [Mobile apps]()
+]()
+* [Common Programming Needs]()
+  * [Refactoring]()
+  * [Type system]()
+  * [Domain-specific languages (DSLs)]()
+  * [Testing]()
+  * [Concurrency]()
+  * [Data structures and algorithms]()
+  * [Benchmarking]()
+  * [Unicode]()
+  * [Parsing / Pretty-printing]()
+  * [Stream programming]()
+  * [Serialization / Deserialization]()
+  * [Support for file formats]()
+  * [Package management]()
+  * [Logging]()
+  * [Databases and data stores]()
+  * [IDE support]()
+
 # Application Domains
 <br>
 
