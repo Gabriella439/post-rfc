@@ -49,10 +49,10 @@ in my external link sections.  :)
 # Table of Contents
 <br>
 
-* [Application Domains](application-domains)
-  * [Compilers](compliers)
-  * [Server-side web programming](server-side-web-programming)
-  * [Scripting / Command-line applications](scripting-command-line-applications)
+* [Application Domains](#application-domains)
+  * [Compilers](#compliers)
+  * [Server-side web programming](#server-side-web-programming)
+  * [Scripting / Command-line applications](#scripting-command-line-applications)
   * [Numerical programming]()
   * [Client-side web programming]()
   * [Distributed programming]()
