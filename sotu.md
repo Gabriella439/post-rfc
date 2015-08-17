@@ -968,7 +968,7 @@ rich ecosystem including common streaming tasks like:
 
 **Notable libraries:**
 
-* `conduit` / `io-streams` / `pipes` - Stream programming libraries (Full disclosure: I authored `pipes` and wrote the official `io-streams` tutoria)
+* `conduit` / `io-streams` / `pipes` - Stream programming libraries (Full disclosure: I authored `pipes` and wrote the official `io-streams` tutorial)
 * machines - Networked stream transducers library
 
 **Educational resources:**
