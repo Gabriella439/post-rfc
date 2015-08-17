@@ -414,7 +414,8 @@ by Keera Studios:
 * `X11` - X11 bindings
 * `threepenny-gui` - Framework for local apps that use the web browser as the
   interface
-* [`hsqml`](http://hackage.haskell.org/package/hsqml) - A Haskell binding for Qt Quick, a cross-platform framework for creating graphical user interfaces. 
+* [`hsqml`](http://hackage.haskell.org/package/hsqml) - A Haskell binding for Qt Quick, a cross-platform framework for creating graphical user interfaces.
+* [`fltkhs`](http://hackage.haskell.org/package/fltkhs) - A Haskell binding to FLTK. Easy install/use, cross-platform, self-contained executables.
 
 **Some example applications:**
 
@@ -448,7 +449,7 @@ Github page for the `HLearn` project:
 
 **Notable libraries:**
 
-* `HLearn-*` 
+* `HLearn-*`
 
 <br>
 
@@ -814,7 +815,7 @@ best explanation of Haskell's threading module is the documentation in
 > Concurrency is "lightweight", which means that both thread creation and
 > context switching overheads are extremely low. Scheduling of Haskell threads
 > is done internally in the Haskell runtime system, and doesn't make use of any
-> operating system-supplied thread packages. 
+> operating system-supplied thread packages.
 
 The best way to explain the performance of Haskell's threaded runtime is to
 give hard numbers:
