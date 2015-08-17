@@ -234,7 +234,7 @@ features such as:
 
 **Notable libraries:**
 
-* [shelly](https://hackage.haskell.org/package/shelly) / [`turtle`](https://hackage.haskell.org/package/turtle) - scripting libraries (Full disclosure: I authored `turtle`)
+* [`shelly`](https://hackage.haskell.org/package/shelly) / [`turtle`](https://hackage.haskell.org/package/turtle) - scripting libraries (Full disclosure: I authored `turtle`)
 * [`optparse-applicative`](https://hackage.haskell.org/package/optparse-applicative) / [`cmdargs`](https://hackage.haskell.org/package/cmdargs) - command-line argument parsing
 * [`haskeline`](https://hackage.haskell.org/package/haskeline) - a complete Haskell implementation of `readline` for console
   building
