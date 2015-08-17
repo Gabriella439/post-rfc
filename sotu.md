@@ -332,6 +332,10 @@ operations.
 * `ghcjs`
 * `haste`
 
+**Notable libraries:**
+
+* `reflex-dom` - Functional reactive programming library for DOM manipulation
+
 <br>
 
 ## Distributed programming
