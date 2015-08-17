@@ -322,6 +322,7 @@ upward.
 * [`vector`](https://hackage.haskell.org/package/vector) - high-performance arrays
 * [`repa`](https://hackage.haskell.org/package/repa) / [`repa-*`](https://hackage.haskell.org/packages/search?terms=repa) - parallel shape-polymorphic arrays
 * [`hmatrix`](https://hackage.haskell.org/package/hmatrix) / [`hmatrix-*`](https://hackage.haskell.org/packages/search?terms=hmatrix) - Haskell's BLAS / LAPACK wrapper
+* [`ad`](https://hackage.haskell.org/package/ad) - automatic differentiation
 
 **Propaganda:**
 
