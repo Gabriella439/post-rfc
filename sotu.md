@@ -791,6 +791,7 @@ languages, including:
 * `free` - Haskell's abstract version of "dependency injection"
 * `HSpec` - Testing library analogous to Ruby's RSpec
 * `HUnit` - Testing library analogous to Java's JUnit
+* `tasty` - Combination unit / regression / property testing library
 
 **Educational resources:**
 
