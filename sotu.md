@@ -481,12 +481,7 @@ Github page for the `HLearn` project:
 * [Github repository for `HLearn`](https://github.com/mikeizbicki/HLearn)
 
 **Notable libraries:**
-
-<<<<<<< HEAD
-* `HLearn-*`
-=======
 * [`HLearn-*`](https://hackage.haskell.org/packages/search?terms=HLearn)
->>>>>>> 21d2beb792cd5f8dcb5a85dea3494eed6b72be6e
 
 <br>
 
