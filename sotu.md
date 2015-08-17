@@ -717,7 +717,7 @@ Haskell rocks at DSL-building.  While not as flexible as a Lisp language I
 would venture that Haskell is the most flexible of the non-Lisp languages.
 You can overload a large amount of built-in syntax for your custom DSL.
 
-The most popular example of overloaded syntax is @do@ notation, which you can
+The most popular example of overloaded syntax is `do` notation, which you can
 overload to work with any type that implements the `Monad` interface.  This
 syntactic sugar for `Monad`s in turn led to a huge overabundance of `Monad`
 tutorials.
@@ -1104,7 +1104,7 @@ IDE plugins, and low-level IDE tools keep breaking with every new GHC release.
 Most of the Haskell early adopters have been `vi`/`vim` or `emacs` users so
 those editors have gotten the most love.  Support for more traditional IDEs
 has improved recently with Haskell plugins for IntelliJ and Eclipse and also
-the Haskell-native @leksah@ IDE.
+the Haskell-native `leksah` IDE.
 
 FPComplete has also released a web IDE for Haskell programming that is also
 worth checking out which is reasonably polished but cannot be used offline.
