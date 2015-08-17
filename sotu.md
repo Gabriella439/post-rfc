@@ -1000,29 +1000,6 @@ ongoing work to improve the serialization speed of existing libraries.
 
 * [Faster binary serialization](http://code.haskell.org/~duncan/binary-experiment/binary.pdf)
 
-## Databases and data stores
-
-**Rating:** Mature
-
-I'm a bit hesitant to call this mature as this is not one of my areas of
-expertise.  What I do know is that Haskell has bindings to most of the open
-source databases and datastores such as MySQL, Postgres, SQLite, Cassandra
- Redis, and MongoDB.  However, I haven't really evaluated the quality of these
-bindings other than the `postgresql-simple` library, which is the only one I've
-personally used and was decent as far as I could tell.
-
-However, Haskell appears to be deficient in bindings to commercial databases
-like Microsoft SQL server and Oracle.  So whether or not Haskell is right for
-you probably depends heavily on whether there are bindings to the specific data
-store you use.
-
-**Notable libraries:**
-
-* `mysql-simple` - MySQL bindings
-* `postgresql-simple` - Postgres bindings
-* `persistent` - Database-agnostic ORM that supports automatic migrations
-* `esqueleto` - type-safe API for building well-formed SQL queries
-
 ## Support for file formats
 
 **Rating:** Mature
@@ -1083,6 +1060,36 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 
 * `fast-logger` - High-performance multicore logging system
 * `hslogger` - Logging library analogous to Python's `ConfigParser` library
+
+## Databases and data stores
+
+**Rating:** Immature
+
+This is is not one of my areas of expertise, but what I do know is that Haskell
+has bindings to most of the open source databases and datastores such as MySQL,
+Postgres, SQLite, Cassandra, Redis, and MongoDB.  However, I haven't really
+evaluated the quality of these bindings other than the `postgresql-simple`
+library, which is the only one I've personally used and was decent as far as I
+could tell.
+
+The "Immature" ranking is based on the recommendation of Stephen Diehl who
+notes:
+
+> Raw bindings are mature, but the higher level ORM tooling is a lot less mature
+> than its Java, Scala, Python counterparts [Source](https://twitter.com/smdiehl/status/633262465938157569)
+
+However, Haskell appears to be deficient in bindings to commercial databases
+like Microsoft SQL server and Oracle.  So whether or not Haskell is right for
+you probably depends heavily on whether there are bindings to the specific data
+store you use.
+
+**Notable libraries:**
+
+* `mysql-simple` - MySQL bindings
+* `postgresql-simple` - Postgres bindings
+* `persistent` - Database-agnostic ORM that supports automatic migrations
+* `esqueleto` / `relational-record` / `opaleye` - type-safe APIs for building well-formed SQL queries
+* `acid-state` - Simple ACID data store that saves Haskell data types natively
 
 ## IDE support
 
