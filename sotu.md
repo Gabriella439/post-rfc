@@ -318,6 +318,11 @@ Haskell-to-Javascript compilers is that a huge number of Haskell libraries work
 out of the box with `ghcjs` because it supports most Haskell primitive
 operations.
 
+I would also like to mention that there are two Haskell-like languages that
+you should also try out for front-end programming: `elm` and `purescript`.
+These are both used in production today and have equally active maintainers and
+communities of their own.
+
 **Areas for improvement:**
 
 * There needs to be a clear story for smooth integration with existing
