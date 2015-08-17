@@ -44,7 +44,38 @@ the language, but please challenge my ratings if you believe that my bias is
 blinding me!  I've also clearly marked Haskell sales pitches as "Propaganda"
 in my external link sections.  :)
 
-<br>
+## Table of Contents
+
+* [Application Domains](#application-domains)
+  * [Compilers](#compilers)
+  * [Server-side web programming](#server-side-web-programming)
+  * [Scripting / Command-line applications](#scripting--command-line-applications)
+  * [Numerical programming](#numerical-programming)
+  * [Client-side web programming](#client-side-web-programming)
+  * [Distributed programming](#distributed-programming)
+  * [Standalone GUI applications](#standalone-gui-applications)
+  * [Machine learning](#machine-learning)
+  * [Data science](#data-science)
+  * [Game programming](#game-programming)
+  * [Systems / embedded programming](#systems--embedded-programming)
+  * [Mobile apps](#mobile-apps)
+* [Common Programming Needs](#common-programming-needs)
+  * [Refactoring](#refactoring)
+  * [Type system](#type-system)
+  * [Domain-specific languages (DSLs)](#domain-specific-languages-dsls)
+  * [Testing](#testing)
+  * [Concurrency](#concurrency)
+  * [Data structures and algorithms](#data-structures-and-alogirthms)
+  * [Benchmarking](#benchmarking)
+  * [Unicode](#unicode)
+  * [Parsing / Pretty-printing](#parsing--pretty-printing)
+  * [Stream programming](#stream-programming)
+  * [Serialization / Deserialization](#serialization--deserialization)
+  * [Support for file formats](#support-for-file-formats)
+  * [Package management](#package-management)
+  * [Logging](#logging)
+  * [Databases and data stores](#databases-and-data-stores)
+  * [IDE support](#ide-support)
 
 # Application Domains
 <br>
