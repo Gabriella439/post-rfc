@@ -328,6 +328,7 @@ operations.
 
 **Notable Haskell-to-Javascript compilers:**
 
+* `fay`
 * `ghcjs`
 * `haste`
 
