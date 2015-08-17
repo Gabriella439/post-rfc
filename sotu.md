@@ -454,6 +454,7 @@ by Keera Studios:
 **Educational resources:**
 
 * [Haskell port of the GTK tutorial](http://code.haskell.org/gtk2hs/docs/tutorial/Tutorial_Port/)
+* [Building pragmatic user interfaces in Haskell with HsQML](https://www.youtube.com/watch?v=JCSxWfUvi6o)
 
 <br>
 
