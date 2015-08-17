@@ -867,7 +867,6 @@ pretty good and diverse enough to cover the majority of use cases.
 * `vector` - High-performance arrays
 * `ordered-containers` - High-performance `Map`s, `Set`s, `Tree`s, `Graph`s, `Seq`s
 * `unordered-containers` - High-performance `HashMap`s, HashSets
-* `discrimination` - Datatype-generic linear-time sorting
 * `accelerate` / `accelerate-*` - GPU programming
 * `repa` / `repa-*` - parallel shape-polymorphic arrays
 
