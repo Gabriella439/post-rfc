@@ -81,7 +81,7 @@ languages which you can use to write compilers to or from these languages.
 **Notable libraries:**
 
 * `parsec` / `attoparsec` / `trifecta` / `alex`+`happy` - parsing libraries
-* `bound` - manipulating bound variables
+* `bound`, `unbound` - manipulating bound variables
 * `hoopl` - optimization
 * `wl-pprint` / `ansi-wl-pprint` - pretty-printing
 * `llvm-general` - LLVM API
