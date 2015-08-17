@@ -1124,8 +1124,21 @@ worth checking out which is reasonably polished but cannot be used offline.
 * Eclipse (the EclipseFP plugin)
 * Atom (the IDE-Haskell plugin)
 
+**IDEs**:
+
+* FPComplete Center
+* `leksah`
+
 **Educational resources:**
 
 * [Survey: Which Haskell development tools are you using that make you a more
    productive Haskell programmer?](https://www.reddit.com/r/haskell/comments/3bqy5h/survey_which_haskell_development_tools_are_you/)
 * [FPComplete Center](https://www.fpcomplete.com/business/haskell-center/overview/) - A web-based Haskell IDE
+
+# Contributors
+
+* Ben Kovach
+* Liam O'Connor-Davis
+* Oliver Charles
+* Stephen Diehl
+* Tran Ma
