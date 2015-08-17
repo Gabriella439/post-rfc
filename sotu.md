@@ -90,7 +90,7 @@ languages which you can use to write compilers to or from these languages.
 
 **Some compilers written in Haskell:**
 
-* [`Elm`](https://hackage.haskell.org/package/language-objc)
+* [`Elm`](http://elm-lang.org)
 * [`Purescript`](http://www.purescript.org)
 * [`Idris`](http://www.idris-lang.org)
 * [`Agda`](http://wiki.portal.chalmers.se/agda/pmwiki.php)
