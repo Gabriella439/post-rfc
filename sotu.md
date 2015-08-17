@@ -151,7 +151,7 @@ of the Haskell runtime.
 
 **Notable libraries:**
 
-* `warp` / `wai` - the low-level server and API that all server libraries share
+* `warp` / `wai` - the low-level server and API that all server libraries share, with the exception of snap
 * `scotty` - A beginner-friendly server framework analogous to Ruby's Sinatra
 * `yesod` / `yesod-*` / `snap` / `snap-*` - "Enterprise" server frameworks with all the bells and whistles
 * `servant` / `servant-*` - This server framework might blow your mind
