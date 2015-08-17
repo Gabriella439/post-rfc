@@ -44,7 +44,38 @@ the language, but please challenge my ratings if you believe that my bias is
 blinding me!  I've also clearly marked Haskell sales pitches as "Propaganda"
 in my external link sections.  :)
 
-<br>
+## Table of Contents
+
+* [Application Domains](#application-domains)
+  * [Compilers](#compilers)
+  * [Server-side web programming](#server-side-web-programming)
+  * [Scripting / Command-line applications](#scripting--command-line-applications)
+  * [Numerical programming](#numerical-programming)
+  * [Client-side web programming](#client-side-web-programming)
+  * [Distributed programming](#distributed-programming)
+  * [Standalone GUI applications](#standalone-gui-applications)
+  * [Machine learning](#machine-learning)
+  * [Data science](#data-science)
+  * [Game programming](#game-programming)
+  * [Systems / embedded programming](#systems--embedded-programming)
+  * [Mobile apps](#mobile-apps)
+* [Common Programming Needs](#common-programming-needs)
+  * [Refactoring](#refactoring)
+  * [Type system](#type-system)
+  * [Domain-specific languages (DSLs)](#domain-specific-languages-dsls)
+  * [Testing](#testing)
+  * [Concurrency](#concurrency)
+  * [Data structures and algorithms](#data-structures-and-alogirthms)
+  * [Benchmarking](#benchmarking)
+  * [Unicode](#unicode)
+  * [Parsing / Pretty-printing](#parsing--pretty-printing)
+  * [Stream programming](#stream-programming)
+  * [Serialization / Deserialization](#serialization--deserialization)
+  * [Support for file formats](#support-for-file-formats)
+  * [Package management](#package-management)
+  * [Logging](#logging)
+  * [Databases and data stores](#databases-and-data-stores)
+  * [IDE support](#ide-support)
 
 # Application Domains
 <br>
@@ -80,23 +111,23 @@ languages which you can use to write compilers to or from these languages.
 
 **Notable libraries:**
 
-* `parsec` / `attoparsec` / `trifecta` / `alex`+`happy` - parsing libraries
-* `bound` - manipulating bound variables
-* `hoopl` - optimization
-* `wl-pprint` / `ansi-wl-pprint` - pretty-printing
-* `llvm-general` - LLVM API
-* `language-{javascript|python|c-quote|lua|java|objc}` - parsers and
+* [`parsec`](https://hackage.haskell.org/package/parsec) / [`attoparsec`](https://hackage.haskell.org/package/attoparsec) / [`trifecta`](https://hackage.haskell.org/package/trifecta) / [`alex`](https://hackage.haskell.org/package/alex)+[`happy`](https://hackage.haskell.org/package/happy) - parsing libraries
+* [`bound`](https://hackage.haskell.org/package/bound) - manipulating bound variables
+* [`hoopl`](https://hackage.haskell.org/package/hoopl) - optimization
+* [`wl-pprint`](https://hackage.haskell.org/package/wl-pprint) / [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - pretty-printing
+* [`llvm-general`](https://hackage.haskell.org/package/llvm-general) - LLVM API
+* `language-`{[`javascript`](https://hackage.haskell.org/package/language-javascript)|[`python`](https://hackage.haskell.org/package/language-python)|[`c-quote`](https://hackage.haskell.org/package/language-c-quote)|[`lua`](https://hackage.haskell.org/package/language-lua)|[`java`](https://hackage.haskell.org/package/language-java)|[`objc`](https://hackage.haskell.org/package/language-objc)} - parsers and
    pretty-printers for other languages
 
 **Some compilers written in Haskell:**
 
-* `Elm`
-* `Purescript`
-* `Idris`
-* `Agda`
-* `Pugs` (the first Perl 6 implementation)
-* `ghc` (self-hosting)
-* `frege` (very similar to Haskell, also self-hosting)
+* [`Elm`](http://elm-lang.org)
+* [`Purescript`](http://www.purescript.org)
+* [`Idris`](http://www.idris-lang.org)
+* [`Agda`](http://wiki.portal.chalmers.se/agda/pmwiki.php)
+* [`Pugs`](http://www.perlfoundation.org/perl6/index.cgi?pugs) (the first Perl 6 implementation)
+* [`ghc`](https://www.haskell.org/ghc/) (self-hosting)
+* [`frege`](https://github.com/Frege/frege) (very similar to Haskell, also self-hosting)
 
 **Educational resources:**
 
@@ -151,13 +182,13 @@ of the Haskell runtime.
 
 **Notable libraries:**
 
-* `warp` / `wai` - the low-level server and API that all server libraries share
-* `scotty` - A beginner-friendly server framework analogous to Ruby's Sinatra
-* `yesod` / `yesod-*` / `snap` / `snap-*` - "Enterprise" server frameworks with all the bells and whistles
-* `servant` / `servant-*` - This server framework might blow your mind
-* `authenticate` / `authenticate-*` - Shared authentication libraries
-* `ekg` / `ekg-*` - Haskell service monitoring
-* `stm` - Software-transactional memory
+* [`warp`](https://hackage.haskell.org/package/warp) / [`wai`](https://hackage.haskell.org/package/wai) - the low-level server and API that all server libraries share
+* [`scotty`](https://hackage.haskell.org/package/scotty) - A beginner-friendly server framework analogous to Ruby's Sinatra
+* [`yesod`](https://hackage.haskell.org/package/yesod) / [`yesod-*`](https://hackage.haskell.org/packages/search?terms=yesod) / [`snap`](https://hackage.haskell.org/package/snap) / [`snap-*`](https://hackage.haskell.org/packages/search?terms=snap) - "Enterprise" server frameworks with all the bells and whistles
+* [`servant`](https://hackage.haskell.org/package/servant) / [`servant-*`](https://hackage.haskell.org/packages/search?terms=servant) - This server framework might blow your mind
+* [`authenticate`](https://hackage.haskell.org/package/authenticate) / [`authenticate-*`](https://hackage.haskell.org/packages/search?terms=authenticate) - Shared authentication libraries
+* [`ekg`](https://hackage.haskell.org/package/ekg) / [`ekg-*`](https://hackage.haskell.org/packages/search?terms=ekg) - Haskell service monitoring
+* [`stm`](https://hackage.haskell.org/package/stm) - Software-transactional memory
 
 **Some web sites and services powered by Haskell:**
 
@@ -234,16 +265,16 @@ features such as:
 
 **Notable libraries:**
 
-* `shelly` / `turtle` - scripting libraries (Full disclosure: I authored `turtle`)
-* `optparse-applicative` / `cmdargs` - command-line argument parsing
-* `haskeline` - a complete Haskell implementation of `readline` for console
+* [`shelly`](https://hackage.haskell.org/package/shelly) / [`turtle`](https://hackage.haskell.org/package/turtle) - scripting libraries (Full disclosure: I authored `turtle`)
+* [`optparse-applicative`](https://hackage.haskell.org/package/optparse-applicative) / [`cmdargs`](https://hackage.haskell.org/package/cmdargs) - command-line argument parsing
+* [`haskeline`](https://hackage.haskell.org/package/haskeline) - a complete Haskell implementation of `readline` for console
   building
-* `process` - low-level library for sub-process management
+* [`process`](https://hackage.haskell.org/package/process) - low-level library for sub-process management
 
 **Some command-line tools written in Haskell:**
 
-* `pandoc`
-* `git-annex`
+* [`pandoc`](https://hackage.haskell.org/package/pandoc)
+* [`git-annex`](https://hackage.haskell.org/package/git-annex)
 
 **Educational resources:**
 
@@ -287,10 +318,11 @@ upward.
 
 **Notable libraries:**
 
-* `accelerate` / `accelerate-*` - GPU programming
-* `vector` - high-performance arrays
-* `repa` / `repa-*` - parallel shape-polymorphic arrays
-* `hmatrix` / `hmatrix-*` - Haskell's BLAS / LAPACK wrapper
+* [`accelerate`](https://hackage.haskell.org/package/accelerate) / [`accelerate-*`](https://hackage.haskell.org/packages/search?terms=accelerate) - GPU programming
+* [`vector`](https://hackage.haskell.org/package/vector) - high-performance arrays
+* [`repa`](https://hackage.haskell.org/package/repa) / [`repa-*`](https://hackage.haskell.org/packages/search?terms=repa) - parallel shape-polymorphic arrays
+* [`hmatrix`](https://hackage.haskell.org/package/hmatrix) / [`hmatrix-*`](https://hackage.haskell.org/packages/search?terms=hmatrix) - Haskell's BLAS / LAPACK wrapper
+* [`ad`](https://hackage.haskell.org/package/ad) - automatic differentiation
 
 **Propaganda:**
 
@@ -329,12 +361,12 @@ operations.
 
 **Notable Haskell-to-Javascript compilers:**
 
-* `ghcjs`
-* `haste`
+* [`ghcjs`](https://github.com/ghcjs/ghcjs)
+* [`haste`](https://hackage.haskell.org/package/haste)
 
 **Notable libraries:**
 
-* `reflex-dom` - Functional reactive programming library for DOM manipulation
+* [reflex-dom](https://hackage.haskell.org/package/reflex-dom) - Functional reactive programming library for DOM manipulation
 
 <br>
 
@@ -365,9 +397,9 @@ Cloud Haskell.
 
 **Notable libraries:**
 
-* `distributed-process` / `distributed-process-*` - Haskell analog to Erlang
-* `hadron` - Haskell wrapper around `hadoop`
-* `aws` / `aws-*` - Amazon web services libraries
+* [`distributed-process`](https://hackage.haskell.org/package/distributed-process) / [`distributed-process-*`](https://hackage.haskell.org/packages/search?terms=distributed-process) - Haskell analog to Erlang
+* [`hadron`](https://github.com/Soostone/hadron) - Haskell wrapper around `hadoop`
+* [`aws`](https://hackage.haskell.org/package/aws) / [`aws-*`](https://hackage.haskell.org/packages/search?terms=aws) - Amazon web services libraries
 
 <br>
 
@@ -409,21 +441,22 @@ by Keera Studios:
 
 **Notable libraries:**
 
-* `gtk` / `glib` / `cairo` / `pango` - The GTK+ suite of libraries
-* `wx` - wxWidgets bindings
-* `X11` - X11 bindings
-* `threepenny-gui` - Framework for local apps that use the web browser as the
+* [`gtk`](https://hackage.haskell.org/package/gtk) / [`glib`](https://hackage.haskell.org/package/glib) / [`cairo`](https://hackage.haskell.org/package/cairo) / [`pango`](https://hackage.haskell.org/package/pango) - The GTK+ suite of libraries
+* [`wx`](https://hackage.haskell.org/package/wx) - wxWidgets bindings
+* [`X11`](https://hackage.haskell.org/package/X11) - X11 bindings
+* [`threepenny-gui`](https://hackage.haskell.org/package/threepenny-gui) - Framework for local apps that use the web browser as the
   interface
 * [`hsqml`](http://hackage.haskell.org/package/hsqml) - A Haskell binding for Qt Quick, a cross-platform framework for creating graphical user interfaces.
 * [`fltkhs`](http://hackage.haskell.org/package/fltkhs) - A Haskell binding to FLTK. Easy install/use, cross-platform, self-contained executables.
 
 **Some example applications:**
 
-* `xmonad`
+* [`xmonad`](http://xmonad.org)
 
 **Educational resources:**
 
 * [Haskell port of the GTK tutorial](http://code.haskell.org/gtk2hs/docs/tutorial/Tutorial_Port/)
+* [Building pragmatic user interfaces in Haskell with HsQML](https://www.youtube.com/watch?v=JCSxWfUvi6o)
 
 <br>
 
@@ -449,7 +482,11 @@ Github page for the `HLearn` project:
 
 **Notable libraries:**
 
+<<<<<<< HEAD
 * `HLearn-*`
+=======
+* [`HLearn-*`](https://hackage.haskell.org/packages/search?terms=HLearn)
+>>>>>>> 21d2beb792cd5f8dcb5a85dea3494eed6b72be6e
 
 <br>
 
@@ -511,13 +548,13 @@ project if you have time:
 
 **Notable libraries:**
 
-* `cassava` - CSV encoding and decoding
-* `hmatrix` - BLAS / LAPACK wrapper
-* `frames` - Haskell data analysis tool analogous to Python's `pandas`
-* `statistics` - Statistics (duh!)
-* `Chart` / `Chart-*` - Charting library
-* `diagrams` / `diagrams-*` - Vector graphics library
-* `IHaskell` - Haskell backend to IPython
+* [`cassava`](https://hackage.haskell.org/package/cassava) - CSV encoding and decoding
+* [`hmatrix`](https://hackage.haskell.org/package/hmatrix) - BLAS / LAPACK wrapper
+* [`Frames`](https://hackage.haskell.org/package/Frames) - Haskell data analysis tool analogous to Python's `pandas`
+* [`statistics`](https://hackage.haskell.org/package/statistics) - Statistics (duh!)
+* [`Chart`](https://hackage.haskell.org/package/Chart) / [`Chart-*`](https://hackage.haskell.org/packages/search?terms=Chart) - Charting library
+* [`diagrams`](https://hackage.haskell.org/package/diagrams) / [`diagrams-*`](https://hackage.haskell.org/packages/search?terms=diagrams) - Vector graphics library
+* [`ihaskell`](https://hackage.haskell.org/package/ihaskell) - Haskell backend to IPython
 
 <br>
 
@@ -556,10 +593,10 @@ you then you should follow their blog:
 
 **Notable libraries:**
 
-* `gl`
-* `SDL` / `SDL-*`
-* `SFML`
-* `quine` (Github-only project)
+* [`gl`](https://hackage.haskell.org/package/gl)
+* [`SDL`](https://hackage.haskell.org/package/SDL) / [`SDL-*`](https://hackage.haskell.org/packages/search?terms=SDL)
+* [`SFML`](https://hackage.haskell.org/package/SFML)
+* [`quine`](https://github.com/ekmett/quine) (Github-only project)
 
 <br>
 
@@ -589,9 +626,9 @@ approach championed by the company Galois.
 
 **Notable libraries:**
 
-* `atom` / `ivory` - DSL for generating embedded programs
-* `copilot` - Stream DSL that generates C code
-* `improve` - High-assurance DSL for embedded code that generates C and Ada
+* [`atom`](https://hackage.haskell.org/package/atom) / [`ivory`](https://hackage.haskell.org/package/ivory) - DSL for generating embedded programs
+* [`copilot`](https://hackage.haskell.org/package/copilot) - Stream DSL that generates C code
+* [`improve`](https://hackage.haskell.org/package/improve) - High-assurance DSL for embedded code that generates C and Ada
 
 <br>
 
@@ -792,12 +829,12 @@ languages, including:
 
 **Notable libraries:**
 
-* `QuickCheck` - property-based testing
-* `doctest` - tests embedded directly within documentation
-* `free` - Haskell's abstract version of "dependency injection"
-* `HSpec` - Testing library analogous to Ruby's RSpec
-* `HUnit` - Testing library analogous to Java's JUnit
-* `tasty` - Combination unit / regression / property testing library
+* [`QuickCheck`](https://hackage.haskell.org/package/QuickCheck) - property-based testing
+* [`doctest`](https://hackage.haskell.org/package/doctest) - tests embedded directly within documentation
+* [`free`](https://hackage.haskell.org/package/free) - Haskell's abstract version of "dependency injection"
+* [`hspec`](https://hackage.haskell.org/package/hspec) - Testing library analogous to Ruby's RSpec
+* [`HUnit`](https://hackage.haskell.org/package/HUnit) - Testing library analogous to Java's JUnit
+* [`tasty`](https://hackage.haskell.org/package/tasty) - Combination unit / regression / property testing library
 
 **Educational resources:**
 
@@ -838,9 +875,9 @@ is always safe.
 
 Notable libraries:
 
-* `stm` - Software transactional memory
-* `unagi-chan` - High performance channels
-* `async` - Futures library
+* [`stm`](https://hackage.haskell.org/package/stm) - Software transactional memory
+* [`unagi-chan`](https://hackage.haskell.org/package/unagi-chan) - High performance channels
+* [`async`](https://hackage.haskell.org/package/async) - Futures library
 
 Educational resources:
 
@@ -870,11 +907,11 @@ pretty good and diverse enough to cover the majority of use cases.
 
 **Notable libraries:**
 
-* `vector` - High-performance arrays
-* `ordered-containers` - High-performance `Map`s, `Set`s, `Tree`s, `Graph`s, `Seq`s
-* `unordered-containers` - High-performance `HashMap`s, HashSets
-* `accelerate` / `accelerate-*` - GPU programming
-* `repa` / `repa-*` - parallel shape-polymorphic arrays
+* [`vector`](https://hackage.haskell.org/package/vector) - High-performance arrays
+* [`containers`](https://hackage.haskell.org/package/containers) - High-performance `Map`s, `Set`s, `Tree`s, `Graph`s, `Seq`s
+* [`unordered-containers`](https://hackage.haskell.org/package/unordered-containers) - High-performance `HashMap`s, HashSets
+* [`accelerate`](https://hackage.haskell.org/package/accelerate) / [`accelerate-*`](https://hackage.haskell.org/packages/search?terms=accelerate) - GPU programming
+* [`repa`](https://hackage.haskell.org/package/repa) / [`repa-*`](https://hackage.haskell.org/packages/search?terms=repa) - parallel shape-polymorphic arrays
 
 ## Benchmarking
 
@@ -892,7 +929,7 @@ features include:
 
 **Notable libraries:**
 
-* `criterion`
+* [`criterion`](https://hackage.haskell.org/package/criterion)
 
 **Educational resources:**
 
@@ -908,8 +945,8 @@ API for Unicode-aware text operations.
 
 **Notable libraries:**
 
-* `text`
-* `text-icu`
+* [`text`](https://hackage.haskell.org/package/text)
+* [`text-icu`](https://hackage.haskell.org/package/text-icu)
 
 ## Parsing / Pretty-printing
 
@@ -936,12 +973,12 @@ love writing pretty-printing libraries in Haskell for some reason.
 
 **Notable libraries:**
 
-* `parsec` - best overall "value"
-* `attoparsec` - Extremely fast backtracking parser
-* `trifecta` - Best error messages (`clang`-style)
-* `alex` / `happy` - Like `lexx` / `yacc` but with Haskell integration
-* `ansi-wl-pprint` - Pretty-printing library
-* `text-format` - High-performance string formatting
+* [`parsec`](https://hackage.haskell.org/package/parsec) - best overall "value"
+* [`attoparsec`](https://hackage.haskell.org/package/attoparsec) - Extremely fast backtracking parser
+* [`trifecta`](https://hackage.haskell.org/package/trifecta) - Best error messages (`clang`-style)
+* [`alex`](https://hackage.haskell.org/package/alex) / [`happy`](https://hackage.haskell.org/package/happy) - Like `lexx` / `yacc` but with Haskell integration
+* [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - Pretty-printing library
+* [`text-format`](https://hackage.haskell.org/package/text-format) - High-performance string formatting
 
 **Educational resources:**
 
@@ -969,7 +1006,7 @@ rich ecosystem including common streaming tasks like:
 
 **Notable libraries:**
 
-* `conduit` / `io-streams` / `pipes` - Stream programming libraries (Full disclosure: I authored `pipes` and wrote the official `io-streams` tutoria)
+* [`conduit`](https://hackage.haskell.org/package/conduit) / [`io-streams`](https://hackage.haskell.org/package/io-streams) / [`pipes`](https://hackage.haskell.org/package/pipes) - Stream programming libraries (Full disclosure: I authored `pipes` and wrote the official `io-streams` tutoria)
 * machines - Networked stream transducers library
 
 **Educational resources:**
@@ -1000,7 +1037,7 @@ ongoing work to improve the serialization speed of existing libraries.
 
 **Notable libraries:**
 
-* `binary` / `cereal` - serialization / deserialization libraries
+* [`binary`](https://hackage.haskell.org/package/binary) / [`cereal`](https://hackage.haskell.org/package/cereal) - serialization / deserialization libraries
 
 **Educational resources:**
 
@@ -1018,10 +1055,10 @@ not much of an issue.
 
 **Notable libraries:**
 
-* `aeson` - JSON encoding/decoding
-* `cassava` - CSV encoding/decoding
-* `yaml` - YAML encoding/decoding
-* `xml` - XML encoding/decoding
+* [`aeson`](https://hackage.haskell.org/package/aeson) - JSON encoding/decoding
+* [`cassava`](https://hackage.haskell.org/package/cassava) - CSV encoding/decoding
+* [`yaml`](https://hackage.haskell.org/package/yaml) - YAML encoding/decoding
+* [`xml`](https://hackage.haskell.org/package/xml) - XML encoding/decoding
 
 ## Package management
 
@@ -1064,8 +1101,8 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 
 **Rating:** Mature
 
-* `fast-logger` - High-performance multicore logging system
-* `hslogger` - Logging library analogous to Python's `ConfigParser` library
+* [`fast-logger`](https://hackage.haskell.org/package/fast-logger) - High-performance multicore logging system
+* [`hslogger`](https://hackage.haskell.org/package/hslogger) - Logging library analogous to Python's `ConfigParser` library
 
 ## Databases and data stores
 
@@ -1091,11 +1128,11 @@ store you use.
 
 **Notable libraries:**
 
-* `mysql-simple` - MySQL bindings
-* `postgresql-simple` - Postgres bindings
-* `persistent` - Database-agnostic ORM that supports automatic migrations
-* `esqueleto` / `relational-record` / `opaleye` - type-safe APIs for building well-formed SQL queries
-* `acid-state` - Simple ACID data store that saves Haskell data types natively
+* [`mysql-simple`](https://hackage.haskell.org/package/mysql-simple) - MySQL bindings
+* [`postgresql-simple`](https://hackage.haskell.org/package/postgresql-simple) - Postgres bindings
+* [`persistent`](https://hackage.haskell.org/package/persistent) - Database-agnostic ORM that supports automatic migrations
+* [`esqueleto`](https://hackage.haskell.org/package/esqueleto) / [`relational-record`](https://hackage.haskell.org/package/relational-record) / [`opaleye`](https://hackage.haskell.org/package/opaleye) - type-safe APIs for building well-formed SQL queries
+* [`acid-state`](https://hackage.haskell.org/package/acid-state) - Simple ACID data store that saves Haskell data types natively
 
 ## IDE support
 
@@ -1117,13 +1154,13 @@ worth checking out which is reasonably polished but cannot be used offline.
 
 **Notable tools:**
 
-* `hoogle` - Type-based function search
-* `hlint` - Code linter
-* `ghc-mod` - editor agnostic tool that powers many IDE-like features
-* `ghcid` - lightweight background type-checker that triggers on code changes
-* `haskell-mode` - Umbrella project for Haskell `emacs` support
-* `codex` - Tags file generator for cabal project dependencies.
-* `hdevtools` - Persistent GHC-powered background server for development tools
+* [`hoogle`](https://www.haskell.org/hoogle/) - Type-based function search
+* [`hlint`](https://hackage.haskell.org/package/hlint) - Code linter
+* [`ghc-mod`](https://hackage.haskell.org/package/ghc-mod) - editor agnostic tool that powers many IDE-like features
+* [`ghcid`](https://hackage.haskell.org/package/ghcid) - lightweight background type-checker that triggers on code changes
+* [`haskell-mode`](https://github.com/haskell/haskell-mode) - Umbrella project for Haskell `emacs` support
+* [`codex`](https://hackage.haskell.org/package/codex) - Tags file generator for cabal project dependencies.
+* [`hdevtools`](https://hackage.haskell.org/package/hdevtools) - Persistent GHC-powered background server for development tools
 
 **IDE plugins**:
 
@@ -1134,7 +1171,7 @@ worth checking out which is reasonably polished but cannot be used offline.
 **IDEs**:
 
 * FPComplete Center
-* `leksah`
+* [`leksah`](https://hackage.haskell.org/package/leksah)
 
 **Educational resources:**
 
