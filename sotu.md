@@ -451,7 +451,7 @@ Github page for the `HLearn` project:
 **Rating:** Immature
 
 Haskell really lags behind Python and R in this area.  Haskell is somewhat
-usable for data science, but probaly not ready for expert use under deadline
+usable for data science, but probably not ready for expert use under deadline
 pressure.
 
 I'll primarily compare Haskell to Python since that's the data science
@@ -1097,7 +1097,7 @@ those editors have gotten the most love.  Support for more traditional IDEs
 has improved recently with Haskell plugins for IntelliJ and Eclipse and also
 the Haskell-native @leksah@ IDE.
 
-FPComplete has also release a web IDE for Haskell programming that is also
+FPComplete has also released a web IDE for Haskell programming that is also
 worth checking out which is reasonably polished but cannot be used offline.
 
 **Notable tools:**
