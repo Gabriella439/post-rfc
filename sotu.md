@@ -447,6 +447,7 @@ by Keera Studios:
 * [`threepenny-gui`](https://hackage.haskell.org/package/threepenny-gui) - Framework for local apps that use the web browser as the
   interface
 * [`hsqml`](http://hackage.haskell.org/package/hsqml) - A Haskell binding for Qt Quick, a cross-platform framework for creating graphical user interfaces.
+* [`fltkhs`](http://hackage.haskell.org/package/fltkhs) - A Haskell binding to FLTK. Easy install/use, cross-platform, self-contained executables.
 
 **Some example applications:**
 
@@ -480,7 +481,6 @@ Github page for the `HLearn` project:
 * [Github repository for `HLearn`](https://github.com/mikeizbicki/HLearn)
 
 **Notable libraries:**
-
 * [`HLearn-*`](https://hackage.haskell.org/packages/search?terms=HLearn)
 
 <br>
