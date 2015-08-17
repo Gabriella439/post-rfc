@@ -947,6 +947,8 @@ love writing pretty-printing libraries in Haskell for some reason.
 
 ## Stream programming
 
+**Rating:** Mature
+
 Haskell's streaming ecosystem is mature.  Probably the biggest issue is that
 there are too many good choices (and a lot of ecosystem fragmentation as a
 result), but each of the streaming libraries listed below has a sufficiently
@@ -958,8 +960,6 @@ rich ecosystem including common streaming tasks like:
 * High-performance streaming aggregation
 * Concurrent streams
 * Incremental parsing
-
-**Rating:** Mature
 
 **Notable libraries:**
 
