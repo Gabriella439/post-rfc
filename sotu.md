@@ -835,6 +835,7 @@ languages, including:
 
 * [Why free monads matter](http://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html)
 * [Purify code using free monads](http://www.haskellforall.com/2012/07/purify-code-using-free-monads.html)
+* [Up-front Unit Testing in Haskell](https://github.com/kazu-yamamoto/unit-test-example/blob/master/markdown/en/tutorial.md)
 
 ## Concurrency
 
