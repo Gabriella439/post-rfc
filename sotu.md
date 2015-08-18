@@ -593,6 +593,7 @@ you then you should follow their blog:
 
 **Notable libraries:**
 
+* [`Helm`](http://helm-engine.org/)
 * [`gl`](https://hackage.haskell.org/package/gl)
 * [`SDL`](https://hackage.haskell.org/package/SDL) / [`SDL-*`](https://hackage.haskell.org/packages/search?terms=SDL)
 * [`SFML`](https://hackage.haskell.org/package/SFML)
