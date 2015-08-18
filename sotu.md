@@ -1165,6 +1165,7 @@ worth checking out which is reasonably polished but cannot be used offline.
 * [`structured-haskell-mode`](https://github.com/chrisdone/structured-haskell-mode) - structural editing based on Haskell syntax for `emacs`
 * [`codex`](https://hackage.haskell.org/package/codex) - Tags file generator for cabal project dependencies.
 * [`hdevtools`](https://hackage.haskell.org/package/hdevtools) - Persistent GHC-powered background server for development tools
+* [`ghc-imported-from`](https://hackage.haskell.org/package/ghc-imported-from) - editor agnostic tool that finds Haddock documentation page for a symbol
 
 **IDE plugins**:
 
