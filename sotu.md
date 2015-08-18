@@ -1130,7 +1130,7 @@ store you use.
 * [`esqueleto`](https://hackage.haskell.org/package/esqueleto) / [`relational-record`](https://hackage.haskell.org/package/relational-record) / [`opaleye`](https://hackage.haskell.org/package/opaleye) - type-safe APIs for building well-formed SQL queries
 * [`acid-state`](https://hackage.haskell.org/package/acid-state) - Simple ACID data store that saves Haskell data types natively
 * [`aws`](https://hackage.haskell.org/package/aws) - Bindings to Amazon DynamoDB 
-* [`hedis`](https://hackage.haskell.org/package/aws) - Bindings to Redis
+* [`hedis`](https://hackage.haskell.org/package/hedis) - Bindings to Redis
 
 ## IDE support
 
