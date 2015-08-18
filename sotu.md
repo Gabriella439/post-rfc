@@ -213,7 +213,7 @@ of the Haskell runtime.
 
 * [Making a Website With Haskell](http://adit.io/posts/2013-04-15-making-a-website-with-haskell.html)
 * [Beautiful concurrency](https://www.fpcomplete.com/school/advanced-haskell/beautiful-concurrency) - a software-transactional memory tutorial
-* [The Yesod book](https://www.fpcomplete.com/school/advanced-haskell/beautiful-concurrency)
+* [The Yesod book](http://www.yesodweb.com/book)
 * [The Servant tutorial](http://haskell-servant.github.io/tutorial/)
 
 <br>
