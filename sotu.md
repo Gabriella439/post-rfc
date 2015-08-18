@@ -1183,9 +1183,10 @@ worth checking out which is reasonably polished but cannot be used offline.
 
 # Contributors
 
+* Aaron Levin
 * Ben Kovach
+* Edward Cho
 * Liam O'Connor-Davis
 * Oliver Charles
 * Stephen Diehl
 * Tran Ma
-* Aaron Levin
