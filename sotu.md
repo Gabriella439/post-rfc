@@ -1105,7 +1105,7 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 
 This is is not one of my areas of expertise, but what I do know is that Haskell
 has bindings to most of the open source databases and datastores such as MySQL,
-Postgres, SQLite, Cassandra, Redis, and MongoDB.  However, I haven't really
+Postgres, SQLite, Cassandra, Redis, DynamoDB and MongoDB.  However, I haven't really
 evaluated the quality of these bindings other than the `postgresql-simple`
 library, which is the only one I've personally used and was decent as far as I
 could tell.
@@ -1126,8 +1126,11 @@ store you use.
 * [`mysql-simple`](https://hackage.haskell.org/package/mysql-simple) - MySQL bindings
 * [`postgresql-simple`](https://hackage.haskell.org/package/postgresql-simple) - Postgres bindings
 * [`persistent`](https://hackage.haskell.org/package/persistent) - Database-agnostic ORM that supports automatic migrations
+* [`opaleye`](https://hackage.haskell.org/package/opaleye) - SQL-generating DSL targeting PostgreSQL
 * [`esqueleto`](https://hackage.haskell.org/package/esqueleto) / [`relational-record`](https://hackage.haskell.org/package/relational-record) / [`opaleye`](https://hackage.haskell.org/package/opaleye) - type-safe APIs for building well-formed SQL queries
 * [`acid-state`](https://hackage.haskell.org/package/acid-state) - Simple ACID data store that saves Haskell data types natively
+* [`aws`](https://hackage.haskell.org/package/aws) - Bindings to Amazon DynamoDB 
+* [`hedis`](https://hackage.haskell.org/package/aws) - Bindings to Redis
 
 ## IDE support
 
