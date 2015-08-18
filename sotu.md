@@ -45,7 +45,8 @@ blinding me!  I've also clearly marked Haskell sales pitches as "Propaganda"
 in my external link sections.  :)
 
 ## Table of Contents
-
+* [Learning](#human-learning)
+  * [Interactive learning](#interactive-learning)
 * [Application Domains](#application-domains)
   * [Compilers](#compilers)
   * [Server-side web programming](#server-side-web-programming)
@@ -56,6 +57,7 @@ in my external link sections.  :)
   * [Standalone GUI applications](#standalone-gui-applications)
   * [Machine learning](#machine-learning)
   * [Data science](#data-science)
+  * [Music](#music)
   * [Game programming](#game-programming)
   * [Systems / embedded programming](#systems--embedded-programming)
   * [Mobile apps](#mobile-apps)
@@ -76,6 +78,13 @@ in my external link sections.  :)
   * [Logging](#logging)
   * [Databases and data stores](#databases-and-data-stores)
   * [IDE support](#ide-support)
+
+# Learning
+## Interactive Learning
+<br>
+**Rating:** Mature
+
+FPComplete has a very sofisticated system for writing tutorials with runable code. However, I believe that we lack the structure of Khan Academy. In fact, I believe that many videos of Khan Academy could be redone using Haskell as the language instead of handwriting.
 
 # Application Domains
 <br>
@@ -584,6 +593,8 @@ programming in Haskell is Keera Studios, so if this is an area that interests
 you then you should follow their blog:
 
 * [Keera Studios Blog](http://keera.co.uk/blog/)
+
+Another project about game programming with Haskell and functional reactive programming is [Helm](http://helm-engine.org). It seems to be [active](https://groups.google.com/forum/#!forum/helm-dev).
 
 **Areas for improvement:**
 
@@ -1104,6 +1115,13 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 
 * [`fast-logger`](https://hackage.haskell.org/package/fast-logger) - High-performance multicore logging system
 * [`hslogger`](https://hackage.haskell.org/package/hslogger) - Logging library analogous to Python's `ConfigParser` library
+
+## Music
+**Rating:** Immature
+
+There is [Euterpea] (http://haskell.cs.yale.edu/euterpea/), created by Paul Hudak.
+
+I believe there is potential for implementing this [The Topos Of Music](http://www.springer.com/us/book/9783764357313)
 
 ## Databases and data stores
 
