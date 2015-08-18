@@ -1126,7 +1126,6 @@ store you use.
 * [`mysql-simple`](https://hackage.haskell.org/package/mysql-simple) - MySQL bindings
 * [`postgresql-simple`](https://hackage.haskell.org/package/postgresql-simple) - Postgres bindings
 * [`persistent`](https://hackage.haskell.org/package/persistent) - Database-agnostic ORM that supports automatic migrations
-* [`opaleye`](https://hackage.haskell.org/package/opaleye) - SQL-generating DSL targeting PostgreSQL
 * [`esqueleto`](https://hackage.haskell.org/package/esqueleto) / [`relational-record`](https://hackage.haskell.org/package/relational-record) / [`opaleye`](https://hackage.haskell.org/package/opaleye) - type-safe APIs for building well-formed SQL queries
 * [`acid-state`](https://hackage.haskell.org/package/acid-state) - Simple ACID data store that saves Haskell data types natively
 * [`aws`](https://hackage.haskell.org/package/aws) - Bindings to Amazon DynamoDB 
