@@ -1160,6 +1160,7 @@ worth checking out which is reasonably polished but cannot be used offline.
 * [`ghc-mod`](https://hackage.haskell.org/package/ghc-mod) - editor agnostic tool that powers many IDE-like features
 * [`ghcid`](https://hackage.haskell.org/package/ghcid) - lightweight background type-checker that triggers on code changes
 * [`haskell-mode`](https://github.com/haskell/haskell-mode) - Umbrella project for Haskell `emacs` support
+* [`structured-haskell-mode`](https://github.com/chrisdone/structured-haskell-mode) - structural editing based on Haskell syntax for `emacs`
 * [`codex`](https://hackage.haskell.org/package/codex) - Tags file generator for cabal project dependencies.
 * [`hdevtools`](https://hackage.haskell.org/package/hdevtools) - Persistent GHC-powered background server for development tools
 
