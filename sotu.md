@@ -112,7 +112,7 @@ languages which you can use to write compilers to or from these languages.
 **Notable libraries:**
 
 * [`parsec`](https://hackage.haskell.org/package/parsec) / [`attoparsec`](https://hackage.haskell.org/package/attoparsec) / [`trifecta`](https://hackage.haskell.org/package/trifecta) / [`alex`](https://hackage.haskell.org/package/alex)+[`happy`](https://hackage.haskell.org/package/happy) - parsing libraries
-* [`bound`](https://hackage.haskell.org/package/bound) - manipulating bound variables
+* [`bound`](https://hackage.haskell.org/package/bound) / [`unbound`](https://hackage.haskell.org/package/unbound) - manipulating bound variables
 * [`hoopl`](https://hackage.haskell.org/package/hoopl) - optimization
 * [`wl-pprint`](https://hackage.haskell.org/package/wl-pprint) / [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - pretty-printing
 * [`llvm-general`](https://hackage.haskell.org/package/llvm-general) - LLVM API
@@ -133,6 +133,7 @@ languages which you can use to write compilers to or from these languages.
 
 * [Write you a Haskell](http://dev.stephendiehl.com/fun/)
 * [A Tutorial Implementation of a Dependently Typed Lambda Calculus](http://www.andres-loeh.de/LambdaPi/)
+* [Binders Unbound](http://ozark.hendrix.edu/~yorgey/pub/unbound.pdf)
 
 <br>
 
