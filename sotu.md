@@ -720,6 +720,94 @@ you don't need to reorder or delete those data structures.  They will just
 sit around patiently waiting until they are actually needed, if ever, before
 they are evaluated.
 
+## Single-machine Concurrency
+
+**Rating:** Best in class
+
+I give Haskell a "Best in class" rating because Haskell's concurrency runtime
+performs as well or better than mainstream languages and is significantly easier
+to use due to the runtime support for software-transactional memory.
+
+The best explanation of Haskell's threading module is the documentation in
+`Control.Concurrent`:
+
+> Concurrency is "lightweight", which means that both thread creation and
+> context switching overheads are extremely low. Scheduling of Haskell threads
+> is done internally in the Haskell runtime system, and doesn't make use of any
+> operating system-supplied thread packages.
+
+The best way to explain the performance of Haskell's threaded runtime is to
+give hard numbers:
+
+* The Haskell thread scheduler can easily handle millions of threads
+* Each thread requires 1 kb of memory, so the hard limitation to thread count
+  is memory (1 GB per million threads).
+* Haskell channel overhead for the standard library (using `TQueue`) is on the
+  order of one microsecond per message and degrades linearly with increasing
+  contention
+* Haskell channel overhead using the `unagi-chan` library is on the order of
+  100 nanoseconds (even under contention)
+
+Haskell also provides software-transactional memory, which allows programmers
+build composable and atomic memory transactions.  You can compose transactions
+together in multiple ways to build larger transactions:
+
+* You can sequence two transactions to build a larger atomic transaction
+* You can combine two transactions using alternation, falling back on the
+  second transaction if the first one fails
+* Transactions can retry, rolling back their state and sleeping until one
+  of their dependencies changes in order to avoid wasteful polling
+
+A few other languages provide software-transactional memory, but Haskell's
+implementation has two main advantages over other implementations:
+
+* The type system enforces that transactions only permit reversible memory
+  modifications.  This guarantees at compile time that all transactions can
+  be safely rolled back.
+* Haskell's STM runtime takes advantage of enforced purity to improve the
+  efficiency of transactions, retries, and alternation.
+
+Notable libraries:
+
+* [`stm`](https://hackage.haskell.org/package/stm) - Software transactional memory
+* [`unagi-chan`](https://hackage.haskell.org/package/unagi-chan) - High performance channels
+* [`async`](https://hackage.haskell.org/package/async) - Futures library
+
+Educational resources:
+
+* [Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929)
+* [Parallel and Concurrent Programming in Haskell - Software transactional
+memory](http://chimera.labs.oreilly.com/books/1230000000929/ch10.html#sec_stm-async)
+* [Beautiful concurrency](https://www.fpcomplete.com/school/advanced-haskell/beautiful-concurrency) - a software-transactional memory tutorial
+
+## Domain-specific languages (DSLs)
+
+**Rating:** Mature
+
+Haskell rocks at DSL-building.  While not as flexible as a Lisp language I
+would venture that Haskell is the most flexible of the non-Lisp languages.
+You can overload a large amount of built-in syntax for your custom DSL.
+
+The most popular example of overloaded syntax is `do` notation, which you can
+overload to work with any type that implements the `Monad` interface.  This
+syntactic sugar for `Monad`s in turn led to a huge overabundance of `Monad`
+tutorials.
+
+However, there are lesser known but equally important things that you can
+overload, such as:
+
+* numeric and string literals
+* `if`/`then`/`else` expressions
+* list comprehensions
+* numeric operators
+
+**Educational resources:**
+
+* [You could have invented monads](http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html)
+* [Rebindable syntax](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html#rebindable-syntax)
+* [Monad comprehensions](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html#monad-comprehensions)
+* [Overloaded strings](https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions#overloadedstrings)
+
 ## Type system
 
 **Rating:** Mature
@@ -753,34 +841,6 @@ painlessly when you realize you are on the wrong track.  You can leave out all
 type signatures while prototyping but the types are still there even if you
 don't see them.  Then when you dramatically change course those strong and
 silent types step in and keep large refactors painless.
-
-## Domain-specific languages (DSLs)
-
-**Rating:** Mature
-
-Haskell rocks at DSL-building.  While not as flexible as a Lisp language I
-would venture that Haskell is the most flexible of the non-Lisp languages.
-You can overload a large amount of built-in syntax for your custom DSL.
-
-The most popular example of overloaded syntax is `do` notation, which you can
-overload to work with any type that implements the `Monad` interface.  This
-syntactic sugar for `Monad`s in turn led to a huge overabundance of `Monad`
-tutorials.
-
-However, there are lesser known but equally important things that you can
-overload, such as:
-
-* numeric and string literals
-* `if`/`then`/`else` expressions
-* list comprehensions
-* numeric operators
-
-**Educational resources:**
-
-* [You could have invented monads](http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html)
-* [Rebindable syntax](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html#rebindable-syntax)
-* [Monad comprehensions](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html#monad-comprehensions)
-* [Overloaded strings](https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions#overloadedstrings)
 
 ## Testing
 
@@ -843,51 +903,6 @@ languages, including:
 * [Why free monads matter](http://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html)
 * [Purify code using free monads](http://www.haskellforall.com/2012/07/purify-code-using-free-monads.html)
 * [Up-front Unit Testing in Haskell](https://github.com/kazu-yamamoto/unit-test-example/blob/master/markdown/en/tutorial.md)
-
-## Concurrency
-
-**Rating:** Mature
-
-Haskell's concurrency runtime performs very well and is very easy to use.  The
-best explanation of Haskell's threading module is the documentation in
-`Control.Concurrent`:
-
-> Concurrency is "lightweight", which means that both thread creation and
-> context switching overheads are extremely low. Scheduling of Haskell threads
-> is done internally in the Haskell runtime system, and doesn't make use of any
-> operating system-supplied thread packages.
-
-The best way to explain the performance of Haskell's threaded runtime is to
-give hard numbers:
-
-* The Haskell thread scheduler can easily handle millions of threads
-* Each thread requires 1 kb of memory, so the hard limitation to thread count
-  is memory (1 GB per million threads).
-* Haskell channel overhead for the standard library (using `TQueue`) is on the
-  order of one microsecond per message and degrades linearly with increasing
-  contention
-* Haskell channel overhead using the `unagi-chan` library is on the order of
-  100 nanoseconds (even under contention)
-
-Haskell also provides software-transactional memory, which allows programmers
-build composable and atomic memory transactions.  Haskell's version of STM has
-one important advantage over competing implementations: the type system
-enforces that only memory operations can occur in STM transactions.  This
-guarantees at compile time that rolling back or repeating failed transactions
-is always safe.
-
-Notable libraries:
-
-* [`stm`](https://hackage.haskell.org/package/stm) - Software transactional memory
-* [`unagi-chan`](https://hackage.haskell.org/package/unagi-chan) - High performance channels
-* [`async`](https://hackage.haskell.org/package/async) - Futures library
-
-Educational resources:
-
-* [Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929)
-* [Parallel and Concurrent Programming in Haskell - Software transactional
-memory](http://chimera.labs.oreilly.com/books/1230000000929/ch10.html#sec_stm-async)
-* [Beautiful concurrency](https://www.fpcomplete.com/school/advanced-haskell/beautiful-concurrency) - a software-transactional memory tutorial
 
 ## Data structures and algorithms
 
