@@ -649,6 +649,15 @@ iPhone development using Haskell.
 I also can't really suggest improvements because I'm pretty out of touch with
 this branch of the Haskell ecosystem.
 
+From [/u/Bzzt](https://www.reddit.com/user/Bzzt) on
+[/r/haskell](https://www.reddit.com/r/haskell):
+
+> I'd throw out there that ARM support in ghc is 'immature' or maybe even
+> 'early adopter'. It works, but there are bugs and it can be difficult to get
+> complex projects to build. The only distro I've tried with a working ghci is
+> arch, and that requires downgrading llvm, and the packages for downgrading
+> aren't officially available. 
+
 **Educational resources:**
 
 * [Android development in Haskell](https://wiki.haskell.org/Android)
