@@ -60,7 +60,7 @@ in my external link sections.  :)
   * [Systems / embedded programming](#systems--embedded-programming)
   * [Mobile apps](#mobile-apps)
 * [Common Programming Needs](#common-programming-needs)
-  * [Refactoring](#refactoring)
+  * [Maintenance](#maintenance)
   * [Type system](#type-system)
   * [Domain-specific languages (DSLs)](#domain-specific-languages-dsls)
   * [Testing](#testing)
@@ -658,15 +658,15 @@ this branch of the Haskell ecosystem.
 
 # Common Programming Needs
 
-## Refactoring
+## Maintenance
 
 **Rating:** Best in class
 
-Haskell is unbelievably awesome for refactoring code.  There's nothing that I
-can say that will fully convey how nice it is to refactor Haskell code.  You
-can only appreciate this through experience.
+Haskell is unbelievably awesome for maintaining large projects.  There's nothing
+that I can say that will fully convey how nice it is to modify existing Haskell
+code.  You can only appreciate this through experience.
 
-When I say that Haskell is easy to refactor, I mean that you can easily
+When I say that Haskell is easy to maintain, I mean that you can easily
 approach a large Haskell code base written by somebody else and make sweeping
 architectural changes to the project without breaking the code.
 
@@ -674,7 +674,7 @@ You'll often hear people say: "if it compiles, it works".  I think that is a
 bit of an exaggeration, but a more accurate statement is: "if you refactor and
 it compiles, it works".  This lets you move fast without breaking things.
 
-Most statically typed languages are easy to refactor, but Haskell is on its
+Most statically typed languages are easy to maintain, but Haskell is on its
 own level for the following reasons:
 
 * Strong types
@@ -685,24 +685,24 @@ own level for the following reasons:
 The latter two features are what differentiate Haskell from other statically
 typed languages.
 
-If you've ever refactored code in other languages you know that usually your
+If you've ever maintained code in other languages you know that usually your
 test suite breaks the moment you make large changes to your code base and you
 have to spend a significant amount of effort keeping your test suite up to date
 with your changes.  However, Haskell has a very powerful type system that lets
 you transform tests into invariants that are enforced by the types so that you
 can statically eliminate entire classes of errors at compile time.  These
-types are much more flexible than tests when refactoring and types require much
-less upkeep as you make large changes.
+types are much more flexible than tests when modifying code and types require
+much less upkeep as you make large changes.
 
 The Haskell community and ecosystem use the type system heavily to "test" their
 applications, more so than other programming language communities.  That's not
-to say that Haskell programmers don't write tests (they do), but rather we
+to say that Haskell programmers don't write tests (they do), but rather they
 prefer types over tests when they have the option.
 
 Global type inference means that you don't have to update types and interfaces
-as you refactor.  Whenever I do a large refactor the first thing I do is delete
-all type signatures and let the compiler infer the types and interfaces for me
-as I refactor.  When I'm done refactoring I just insert back the type
+as you change the code.  Whenever I do a large refactor the first thing I do is
+delete all type signatures and let the compiler infer the types and interfaces
+for me as I go.  When I'm done refactoring I just insert back the type
 signatures that the compiler infers as machine-checked documentation.
 
 Type classes also assist refactoring because the compiler automatically
@@ -711,7 +711,7 @@ that you don't need to explicitly annotate interfaces.  This is a huge time
 saver.
 
 Laziness deserves special mention because many outsiders do not appreciate how
-laziness simplifies refactoring.  Many languages require tight coupling between
+laziness simplifies maintenance.  Many languages require tight coupling between
 producers and consumers of data structures in order to avoid wasteful
 evaluation, but laziness avoids this problem by only evaluating data structures
 on demand.  This means that if your refactoring process changes the order in
