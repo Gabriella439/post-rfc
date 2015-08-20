@@ -781,6 +781,41 @@ Educational resources:
 memory](http://chimera.labs.oreilly.com/books/1230000000929/ch10.html#sec_stm-async)
 * [Beautiful concurrency](https://www.fpcomplete.com/school/advanced-haskell/beautiful-concurrency) - a software-transactional memory tutorial
 
+## Type system
+
+**Rating:** Best in class
+
+Haskell definitely does not have the most advanced type system (not even close
+if you count research languages) but out of all languages that are actually used
+in production Haskell is probably at the top.  Idris is probably the closest
+thing to a type system more powerful than Haskell that has a realistic chance of
+use in production in the foreseeable future.
+
+The killer features of Haskell's type system are:
+
+* Type classes
+* Global type and type class inference
+* Light-weight type syntax
+
+Haskell's type system really does not get in your way at all.  You (almost)
+never need to annotate the type of anything.  As a result, the language feels
+light-weight to use like a dynamic language, but you get all the assurances of
+a static language.
+
+Many people are familiar with languages that support "local" type inference
+(like Rust, Java, C#), where you have to explicitly type function arguments but
+then the compiler can infer the types of local variables.  Haskell, on the
+other hand, provides "global" type inference, meaning that the types and
+interfaces of all function arguments are inferred, too.  Type signatures are
+optional (with some minor caveats) and are primarily for the benefit of the
+programmer.
+
+This really benefits projects where you need to prototype quickly but refactor
+painlessly when you realize you are on the wrong track.  You can leave out all
+type signatures while prototyping but the types are still there even if you
+don't see them.  Then when you dramatically change course those strong and
+silent types step in and keep large refactors painless.
+
 ## Domain-specific languages (DSLs)
 
 **Rating:** Mature
@@ -808,40 +843,6 @@ overload, such as:
 * [Rebindable syntax](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html#rebindable-syntax)
 * [Monad comprehensions](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html#monad-comprehensions)
 * [Overloaded strings](https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions#overloadedstrings)
-
-## Type system
-
-**Rating:** Mature
-
-I wasn't sure whether or not to give this a "Best in class" rating or not so
-I conservatively chose "Mature" instead.  Haskell definitely does not have the
-most advanced type system (not even close if you count research languages) but
-out of all languages that are actually used in production Haskell is probably
-at the top.  Idris is probably the closest thing to a type system more powerful
-than Haskell that has a realistic chance of use in production in the
-foreseeable future.
-
-The killer features of Haskell's type system are:
-
-* Type classes
-* Global type and type class inference
-* Light-weight type syntax
-
-Haskell's type system really does not get in your way at all.  You (almost)
-never need to annotate the type of anything.  As a result, the language feels
-light-weight to use like a dynamic language, but you get all the assurances of
-a static language.
-
-The compiler really infers **everything**.  You don't even need to annotate
-function arguments or interfaces.  The compiler deduces all of those for you.
-The optional type signatures are for the benefit of the programmer, not the
-compiler.
-
-This really benefits projects where you need to prototype quickly but refactor
-painlessly when you realize you are on the wrong track.  You can leave out all
-type signatures while prototyping but the types are still there even if you
-don't see them.  Then when you dramatically change course those strong and
-silent types step in and keep large refactors painless.
 
 ## Testing
 
