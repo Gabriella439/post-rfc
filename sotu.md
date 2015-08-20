@@ -74,6 +74,7 @@ in my external link sections.  :)
   * [Support for file formats](#support-for-file-formats)
   * [Package management](#package-management)
   * [Logging](#logging)
+  * [Cross-platform support](#cross-platform-support)
   * [Databases and data stores](#databases-and-data-stores)
   * [IDE support](#ide-support)
 
@@ -1122,6 +1123,59 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 * [`fast-logger`](https://hackage.haskell.org/package/fast-logger) - High-performance multicore logging system
 * [`hslogger`](https://hackage.haskell.org/package/hslogger) - Logging library analogous to Python's `ConfigParser` library
 * [`monad-logger`](https://hackage.haskell.org/package/monad-logger) - add logging with line numbers to your monad stack. Uses fast-logger under the hood.
+
+## Cross-platform support
+
+**Rating:** Immature
+
+I give Haskell an "Immature" rating primarily due to poor user experience on
+Windows:
+
+* Most Haskell tutorials assume a Unix-like system
+* Several Windows-specific GHC bugs
+* Poor IDE support (Most Windows programmers don't use a command-line editor)
+
+This is partly a chicken-and-egg problem.  Haskell has many Windows-specific
+issues because it has such a small pool of Windows developers to contribute
+fixes.  Most Haskell developers are advised to use another operating system or
+a virtual machine to avoid these pain points, which exacerbates the problem.
+
+The situation is not horrible, though.  I know because I do half of my Haskell
+programming on Windows in order to familiarize myself with the pain points of
+the Windows ecosystem and most of the issues affect beginners and can be worked
+around by more experienced developers.  I wouldn't say any individual issue is
+an outright dealbreaker; it's more like a thousand papercuts which turn people
+off of the language.
+
+If you're a Haskell developer using Windows, I highly recommend the following
+installs to get started as quickly as possible with as few issues:
+
+* [Git for Windows](https://git-for-windows.github.io/) - A Unix-like
+  command-line environment bundled with `git` that you can use to follow along
+  with tutorials
+* [MinGHC](https://www.haskell.org/downloads/windows) - Use this for
+  project-independent Haskell experimentation
+* [Stack](https://github.com/commercialhaskell/stack) - Use this for
+  project development
+
+Additionally, learn to use the command line a little bit until Haskell IDE
+support improves.  Plus, it's a useful skill in general as you become a more
+experienced programmer.
+
+For Mac, the recommended installation is:
+
+* [Haskell for Mac OS X](http://ghcformacosx.github.io/) - A self-contained
+  relocatable GHC build for project-independent Haskell experimentation
+* [Stack](https://github.com/commercialhaskell/stack) - Use this for
+  project development
+
+For other operating systems, use your package manager of choice to install
+`ghc` and `stack`.
+
+**Educational resources:**
+
+* [Haskell wiki - Windows](https://wiki.haskell.org/Windows) - Windows startup
+  guide for Haskell
 
 ## Databases and data stores
 
