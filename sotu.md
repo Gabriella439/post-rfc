@@ -598,6 +598,7 @@ you then you should follow their blog:
 * [`Helm`](http://helm-engine.org/)
 * [`gl`](https://hackage.haskell.org/package/gl)
 * [`SDL`](https://hackage.haskell.org/package/SDL) / [`SDL-*`](https://hackage.haskell.org/packages/search?terms=SDL)
+* [`sdl2`](https://hackage.haskell.org/package/sdl2)
 * [`SFML`](https://hackage.haskell.org/package/SFML)
 * [`quine`](https://github.com/ekmett/quine) (Github-only project)
 
