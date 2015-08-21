@@ -509,12 +509,9 @@ The Haskell analog of `NumPy` is the `hmatrix` library, which provides Haskell
 bindings to BLAS, LAPACK.  `hmatrix`'s main limitation is that the API is a bit
 clunky, but all the tools are there.
 
-Haskell's charting story is "okay", but still not good.  All of the Haskell
-libraries for charting that I've tried have been heavyweight and poorly
-documented.  To pick on one library as an example, the `Chart` library does not
-have a single minimal end-to-end code example that I can find anywhere in the
-Hackage documentation.  I was eventually able to chart something once I figured
-out the right incantation but it should not have taken so long.
+Haskell's charting story is okay.  Probably my main criticism of most charting
+APIs is that their APIs tend to be large, the types are a bit complex, and they
+have a very large number of dependencies.
 
 Fortunately, Haskell does integrate into IPython so you can use Haskell within
 an IPython shell or an online notebook.  For example, there is an online
