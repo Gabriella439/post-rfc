@@ -659,31 +659,30 @@ this branch of the Haskell ecosystem.
 
 **Rating:** Immature / Early adopter 
 
-On hobbyist boards like the raspberry pi its possible to compile haskell code.  But some 
-libraries have problems on the arm platform, and working with old haskell compilers and 
-tools can be problematic.  
+On hobbyist boards like the raspberry pi its possible to compile haskell code with ghc.  But some 
+libraries have problems on the arm platform, ghci only works on newer compilers, and the newer 
+compilers are flaky.
 
-If haskell code builds, it runs with respectable performance.  
+If haskell code builds, it runs with respectable performance on these machines.    
 
-Raspian (raspberry pi, pi2, others)
-  - current version: ghc 7.4, cabal-install 1.14
-  - ghci doesn't work.
+**Raspian (raspberry pi, pi2, others)**
+* current version: ghc 7.4, cabal-install 1.14
+* ghci doesn't work.
   
-Raspberry Pi 2 
-  Debian Jesse
-    - current version: ghc 7.6
-    - can install the current ghc 7.10.2 binary and ghci starts.  However, fails
-    to build cabal, with 'illegal instruction'
-  Arch
-    - current version 7.8.2, but llvm is 3.6, which is too new.
-    - downgrade packages for llvm not officially available.
-    - with llvm downgrade to 3.4, ghc and ghci work, but problems compiling yesod, scotty.  
-    - compiler crashes, segfaults, etc.  
+**Debian Jesse (Raspberry Pi 2)**
+* current version: ghc 7.6
+* can install the current ghc 7.10.2 binary and ghci starts.  However, fails
+to build cabal, with 'illegal instruction'
 
-Banana Pi
-  Arch:
-    - similar to raspberry pi 2, ghc is 7.8.2, works with llvm downgrade
-    - have had success compiling a yesod project on this platform.
+**Arch (Raspberry Pi 2)**
+* current version 7.8.2, but llvm is 3.6, which is too new.
+* downgrade packages for llvm not officially available.
+* with llvm downgrade to 3.4, ghc and ghci work, but problems compiling yesod, scotty.  
+* compiler crashes, segfaults, etc.  
+
+**Arch (Banana Pi)**
+* similar to raspberry pi 2, ghc is 7.8.2, works with llvm downgrade
+* have had success compiling a yesod project on this platform.
 
 # Common Programming Needs
 
