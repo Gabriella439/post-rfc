@@ -1021,6 +1021,8 @@ love writing pretty-printing libraries in Haskell for some reason.
 * [`attoparsec`](https://hackage.haskell.org/package/attoparsec) - Extremely fast backtracking parser
 * [`trifecta`](https://hackage.haskell.org/package/trifecta) - Best error messages (`clang`-style)
 * [`alex`](https://hackage.haskell.org/package/alex) / [`happy`](https://hackage.haskell.org/package/happy) - Like `lexx` / `yacc` but with Haskell integration
+* [`Earley`](https://hackage.haskell.org/package/Earley) - Early parsing
+  embedded within the Haskell language
 * [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - Pretty-printing library
 * [`text-format`](https://hackage.haskell.org/package/text-format) - High-performance string formatting
 
