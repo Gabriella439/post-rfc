@@ -59,6 +59,7 @@ in my external link sections.  :)
   * [Game programming](#game-programming)
   * [Systems / embedded programming](#systems--embedded-programming)
   * [Mobile apps](#mobile-apps)
+  * [ARM processor support](#arm-support)
 * [Common Programming Needs](#common-programming-needs)
   * [Maintenance](#maintenance)
   * [Single-machine Concurrency](#single-machine-concurrency)
@@ -649,22 +650,40 @@ iPhone development using Haskell.
 I also can't really suggest improvements because I'm pretty out of touch with
 this branch of the Haskell ecosystem.
 
-From [/u/Bzzt](https://www.reddit.com/user/Bzzt) on
-[/r/haskell](https://www.reddit.com/r/haskell):
-
-> I'd throw out there that ARM support in ghc is 'immature' or maybe even
-> 'early adopter'. It works, but there are bugs and it can be difficult to get
-> complex projects to build. The only distro I've tried with a working ghci is
-> arch, and that requires downgrading llvm, and the packages for downgrading
-> aren't officially available. 
-
 **Educational resources:**
 
 * [Android development in Haskell](https://wiki.haskell.org/Android)
 * [iPhone development in Haskell](https://wiki.haskell.org/IPhone)
 
-<br>
-<br>
+## ARM processor support
+
+**Rating:** Immature / Early adopter 
+
+On hobbyist boards like the raspberry pi its possible to compile haskell code.  But some 
+libraries have problems on the arm platform, and working with old haskell compilers and 
+tools can be problematic.  
+
+If haskell code builds, it runs with respectable performance.  
+
+Raspian (raspberry pi, pi2, others)
+  - current version: ghc 7.4, cabal-install 1.14
+  - ghci doesn't work.
+  
+Raspberry Pi 2 
+  Debian Jesse
+    - current version: ghc 7.6
+    - can install the current ghc 7.10.2 binary and ghci starts.  However, fails
+    to build cabal, with 'illegal instruction'
+  Arch
+    - current version 7.8.2, but llvm is 3.6, which is too new.
+    - downgrade packages for llvm not officially available.
+    - with llvm downgrade to 3.4, ghc and ghci work, but problems compiling yesod, scotty.  
+    - compiler crashes, segfaults, etc.  
+
+Banana Pi
+  Arch:
+    - similar to raspberry pi 2, ghc is 7.8.2, works with llvm downgrade
+    - have had success compiling a yesod project on this platform.
 
 # Common Programming Needs
 
