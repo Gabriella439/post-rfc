@@ -75,6 +75,7 @@ in my external link sections.  :)
   * [Support for file formats](#support-for-file-formats)
   * [Package management](#package-management)
   * [Logging](#logging)
+  * [Education](#education)
   * [Cross-platform support](#cross-platform-support)
   * [Databases and data stores](#databases-and-data-stores)
   * [IDE support](#ide-support)
@@ -1150,6 +1151,45 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 * [`fast-logger`](https://hackage.haskell.org/package/fast-logger) - High-performance multicore logging system
 * [`hslogger`](https://hackage.haskell.org/package/hslogger) - Logging library analogous to Python's `ConfigParser` library
 * [`monad-logger`](https://hackage.haskell.org/package/monad-logger) - add logging with line numbers to your monad stack. Uses fast-logger under the hood.
+
+## Education
+
+**Rating:** Immature
+
+The primary reason for the "Immature" rating is two big deficiencies in Haskell
+learning materials:
+
+* Intermediate-level books
+* Beginner-level material targeted at people with no previous programming
+  experience
+
+Other than that the remaining learning resources are okay.  If the above holes
+were filled then I would give a "Mature" rating.
+
+The most important advice I can give to Haskell beginners is to learn by doing.
+I observe that many Haskell beginners dwell too long trying to learn by reading
+instead of trying to build something useful to hone their understanding.
+
+**Educational resources:** 
+
+* [Learn Haskell](https://github.com/bitemyapp/learnhaskell) - A curated
+  syllabus for new Haskell programmers
+* [How I Start - Haskell](https://howistart.org/posts/haskell/1) - Example
+  development environment and workflow
+* [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) - A
+  beginning Haskell book
+* [Real world Haskell](http://book.realworldhaskell.org/read/) - A book that
+  contains several practical cookbook-style examples.  Many code examples are
+  out of date, but the book is still useful
+* [Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929) - Exactly what the title says
+* [Thinking Functionally with Haskell](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/thinking-functionally-haskell) -
+  Book targeting people who are interested in Haskell in order to "think
+  differently"
+* [Haskell wiki](https://wiki.haskell.org/Haskell) - Grab bag of Haskell-related
+  information with wide variation in quality.  Biggest issue is that stale
+  resources are never updated or deleted
+* [The Haskell 2010 Report](https://www.haskell.org/onlinereport/haskell2010/) -
+  The Haskell language specification
 
 ## Cross-platform support
 
