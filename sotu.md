@@ -76,6 +76,7 @@ in my external link sections.  :)
   * [Package management](#package-management)
   * [Logging](#logging)
   * [Education](#education)
+  * [Debugging](#debugging)
   * [Cross-platform support](#cross-platform-support)
   * [Databases and data stores](#databases-and-data-stores)
   * [IDE support](#ide-support)
@@ -1186,10 +1187,49 @@ instead of trying to build something useful to hone their understanding.
   Book targeting people who are interested in Haskell in order to "think
   differently"
 * [Haskell wiki](https://wiki.haskell.org/Haskell) - Grab bag of Haskell-related
-  information with wide variation in quality.  Biggest issue is that stale
-  resources are never updated or deleted
+  information with wide variation in quality.  Excels at large lists of
+  resources or libraries if you don't mind sifting through stale or abandoned
+  entries
 * [The Haskell 2010 Report](https://www.haskell.org/onlinereport/haskell2010/) -
   The Haskell language specification
+
+## Debugging
+
+**Rating:** Immature
+
+The main Haskell debugging features are:
+
+* Memory and performance profiling
+* Stack traces
+* Source-located errors, using [the `assert` function](http://hackage.haskell.org/package/base-4.8.1.0/docs/Control-Exception-Base.html#v%3Aassert)
+* Breakpoints, single-stepping, and tracing within the GHCi REPL
+* Informal `printf`-style tracing using [`Debug.Trace`](https://hackage.haskell.org/package/base-4.8.1.0/docs/Debug-Trace.html)
+* ThreadScope
+
+The two reasons I still mark debugging "Immature" are:
+
+* GHC's stack traces require profiling to be enabled
+* There is only one IDE that I know of (`leksah`) that integrates support for
+  breakpoints and single-stepping and `leksah` still needs more polish
+
+`ghc-7.10` also added preliminary support for DWARF symbols which allow support
+for `gdb`-based debugging and `perf`-based profiling, but there is still more
+work that needs to be done.  See the following page for more details:
+
+* [GHC DWARF support](https://ghc.haskell.org/trac/ghc/wiki/DWARF)
+
+**Educational resources**:
+
+* [GHC Manual - Profiling chapter](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/profiling.html) - Read the whole thing; you will thank me
+  later
+* [Debugging runtime options](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/runtime-control.html#rts-options-debugging) - See the `+RTS -xc` flag which adds stack traces to all exceptions (requires profiling enabled)
+* [`GHC.Stack`](http://hackage.haskell.org/package/base-4.8.1.0/docs/GHC-Stack.html) - Programmatic access to the call stack
+* [Pinpointing space leaks in big programs](http://blog.ezyang.com/2011/06/pinpointing-space-leaks-in-big-programs/)
+* [Real World Haskell - Profiling and Optimization](http://book.realworldhaskell.org/read/profiling-and-optimization.html)
+* [The GHCi Debuggger](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci-debugger.html) - Manual for GHCi-based breakpoints and
+  single-stepping
+* [Parallel and Concurrent Programming in Haskell - Debugging, Tuning, and Interfacing with Foreign Code](http://chimera.labs.oreilly.com/books/1230000000929/ch15.html#_debugging_concurrent_programs) - Debugging concurrent programs
+* [Haskell wiki - ThreadScope](https://wiki.haskell.org/ThreadScope)
 
 ## Cross-platform support
 
