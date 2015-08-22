@@ -51,7 +51,7 @@ in my external link sections.  :)
   * [Server-side programming](#server-side-programming)
   * [Scripting / Command-line applications](#scripting--command-line-applications)
   * [Numerical programming](#numerical-programming)
-  * [Client-side web programming](#client-side-web-programming)
+  * [Front-end web programming](#front-end-web-programming)
   * [Distributed programming](#distributed-programming)
   * [Standalone GUI applications](#standalone-gui-applications)
   * [Machine learning](#machine-learning)
@@ -345,7 +345,7 @@ upward.
 
 <br>
 
-## Client-side web programming
+## Front-end web programming
 
 **Rating:** Immature
 
