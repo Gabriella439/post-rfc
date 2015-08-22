@@ -63,13 +63,13 @@ in my external link sections.  :)
 * [Common Programming Needs](#common-programming-needs)
   * [Maintenance](#maintenance)
   * [Single-machine Concurrency](#single-machine-concurrency)
-  * [Type system](#type-system)
+  * [Types / Type-driven development](#types-type-driven-development)
   * [Domain-specific languages (DSLs)](#domain-specific-languages-dsls)
   * [Testing](#testing)
   * [Data structures and algorithms](#data-structures-and-alogirthms)
   * [Benchmarking](#benchmarking)
   * [Unicode](#unicode)
-  * [Parsing / Pretty-printing](#parsing--pretty-printing)
+  * [Parsing / Pretty-printing](#parsing-pretty-printing)
   * [Stream programming](#stream-programming)
   * [Serialization / Deserialization](#serialization--deserialization)
   * [Support for file formats](#support-for-file-formats)
@@ -813,7 +813,7 @@ memory](http://chimera.labs.oreilly.com/books/1230000000929/ch10.html#sec_stm-as
 * [Performance numbers for primitive operations](https://github.com/jberryman/chan-benchmarks#some-analysis-of-primitive-operations) - Latency timings for
   various low-level operations
 
-## Type system
+## Types / Type-driven development
 
 **Rating:** Best in class
 
@@ -847,6 +847,47 @@ painlessly when you realize you are on the wrong track.  You can leave out all
 type signatures while prototyping but the types are still there even if you
 don't see them.  Then when you dramatically change course those strong and
 silent types step in and keep large refactors painless.
+
+Some Haskell programmers use a "type-driven development" programming style,
+analogous to "test-driven development":
+
+* they specify desired behavior as a type signature which initially fails to
+  type-check (analogous to adding a test which starts out "red")
+* they create a quick and dirty solution that satisfies the type-checker
+  (analogous to turning the test "green")
+* they improve on their initial solution while still satisfying the type-checker
+  (analogous to a "red/green refactor")
+
+"Type-driven development" supplements "test-driven development" and has
+different tradeoffs:
+
+* The biggest disadvantage of types is that test as many things as full-blown
+  tests, especially because Haskell is not dependently typed
+* The biggest advantage of types is that they can prove the complete absence of
+  programming errors for all possible cases, whereas tests cannot examine every
+  possibility
+* Type-checking is much faster than running tests
+* Type error messages are informative: they explain what went wrong and never
+  get stale
+* Type-checking never hangs and never gives flaky results
+
+Haskell also provides the "Typed Holes" extension, which lets you add an
+underscore (i.e. "`_`") anywhere in the code whenever you don't know what
+expression belongs there.  The compiler will then tell you the expected type of
+the hole and suggest terms in scope with related types that you can use to fill
+the hole.
+
+**Educational resources:**
+
+* [Learn you a Haskell - Types and type classes](http://learnyouahaskell.com/types-and-typeclasses)
+* [Learn you a Haskell - Making our own types and type classes](http://learnyouahaskell.com/making-our-own-types-and-typeclasses)
+* [Typed holes](https://mail.haskell.org/pipermail/ghc-devs/2014-March/004239.html)
+* [Partial type signatures proposal](https://mail.haskell.org/pipermail/ghc-devs/2014-March/004239.html)
+
+**Propaganda:**
+
+* [What exactly makes the Haskell type system so revered (vs say, Java)?](http://programmers.stackexchange.com/questions/279316/what-exactly-makes-the-haskell-type-system-so-revered-vs-say-java)
+* [Difference between OOP interfaces and FP type classes](http://stackoverflow.com/questions/8122109/difference-between-oop-interfaces-and-fp-type-classes)
 
 ## Domain-specific languages (DSLs)
 
