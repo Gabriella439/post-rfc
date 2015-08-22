@@ -774,6 +774,9 @@ give hard numbers:
   contention
 * Haskell channel overhead using the `unagi-chan` library is on the order of
   100 nanoseconds (even under contention)
+* Haskell's `MVar` (a low-level concurrency communication primitive) requires
+  10-20 ns to add or remove values (roughly on par with acquiring or releasing
+  a lock in other languages)
 
 Haskell also provides software-transactional memory, which allows programmers
 build composable and atomic memory transactions.  You can compose transactions
@@ -806,6 +809,8 @@ Educational resources:
 * [Parallel and Concurrent Programming in Haskell - Software transactional
 memory](http://chimera.labs.oreilly.com/books/1230000000929/ch10.html#sec_stm-async)
 * [Beautiful concurrency](https://www.fpcomplete.com/school/advanced-haskell/beautiful-concurrency) - a software-transactional memory tutorial
+* [Performance numbers for primitive operations](https://github.com/jberryman/chan-benchmarks#some-analysis-of-primitive-operations) - Latency timings for
+  various low-level operations
 
 ## Type system
 
