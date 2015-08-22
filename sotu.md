@@ -994,6 +994,9 @@ Haskell's Unicode support is excellent.  Just use the `text` and `text-icu`
 libraries, which provide a high-performance, space-efficient, and easy-to-use
 API for Unicode-aware text operations.
 
+Note that there is one big catch: the default `String` type in Haskell is
+inefficient.  You should always use `Text` whenever possible.
+
 **Notable libraries:**
 
 * [`text`](https://hackage.haskell.org/package/text)
