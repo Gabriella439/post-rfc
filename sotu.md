@@ -48,7 +48,7 @@ in my external link sections.  :)
 
 * [Application Domains](#application-domains)
   * [Compilers](#compilers)
-  * [Server-side web programming](#server-side-web-programming)
+  * [Server-side programming](#server-side-programming)
   * [Scripting / Command-line applications](#scripting--command-line-applications)
   * [Numerical programming](#numerical-programming)
   * [Client-side web programming](#client-side-web-programming)
@@ -141,7 +141,7 @@ languages which you can use to write compilers to or from these languages.
 
 <br>
 
-## Server-side web programming
+## Server-side programming
 
 **Rating:** Mature
 
@@ -198,6 +198,8 @@ of the Haskell runtime.
 **Some web sites and services powered by Haskell:**
 
 * Facebook's spam filter: Sigma
+* IMVU's REST API
+* Utrecht's bicycle parking guidance system
 * [elm-lang.org](http://elm-lang.org/)
 * [glot.io](http://glot.io/)
 * [The Perry Bible Fellowship](http://pbfcomics.com/)
@@ -208,6 +210,8 @@ of the Haskell runtime.
 **Propaganda:**
 
 * [Fighting spam with Haskell - Haskell in production, at scale, at Facebook](https://code.facebook.com/posts/745068642270222/fighting-spam-with-haskell/)
+* [IMVU Engineering - What it's like to use Haskell](http://engineering.imvu.com/2014/03/24/what-its-like-to-use-haskell/)
+* [Haskell-based Bicycle Parking Guidance System in Utrecht](https://www.reddit.com/r/haskell/comments/3959r0/haskellbased_bicycle_parking_guidance_system_in/)
 * [Mio: A High-Performance Multicore IO Manager for GHC](http://haskell.cs.yale.edu/wp-content/uploads/2013/08/hask035-voellmy.pdf)
 * [The Performance of Open Source Applications - Warp](http://www.aosabook.org/en/posa/warp.html)
 * [Optimising Garbage Collection Overhead in Sigma](https://simonmar.github.io/posts/2015-07-28-optimising-garbage-collection-overhead-in-sigma.html)
