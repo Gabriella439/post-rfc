@@ -638,6 +638,10 @@ approach championed by the company Galois.
 * [`copilot`](https://hackage.haskell.org/package/copilot) - Stream DSL that generates C code
 * [`improve`](https://hackage.haskell.org/package/improve) - High-assurance DSL for embedded code that generates C and Ada
 
+**Educational resources:**
+
+* [/r/haskell - Haskell compiled down to Embedded Hardware](https://www.reddit.com/r/haskell/comments/3gyol1/haskell_compiled_down_to_embedded_hardware/)
+
 <br>
 
 ## Mobile apps
