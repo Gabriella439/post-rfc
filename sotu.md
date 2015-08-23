@@ -535,7 +535,7 @@ The closest thing to Python's `pandas` is the `frames` library.  I haven't used
 it that much personally so I won't comment on it much other than to link to
 some tutorials in the Educational Resources section.
 
-I'm not aware of a Haskall analog to `SciPy` (the library) or `sympy`.  If
+I'm not aware of a Haskell analog to `SciPy` (the library) or `sympy`.  If
 you know of an equivalent Haskell library then let me know.
 
 One Haskell library that deserves honorable mention here is the `diagrams`
