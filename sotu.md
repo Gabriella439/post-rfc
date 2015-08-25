@@ -1147,7 +1147,7 @@ ongoing work to improve the serialization speed of existing libraries.
 
 **Educational resources:**
 
-* [Faster binary serialization](http://code.haskell.org/~duncan/binary-experiment/binary.pdf)
+* [Faster binary serialization](http://code.haskell.org/~duncan/binary-experiment/binary.pdf) / [Better, faster binary serialization](https://github.com/meiersi/HaskellerZ/blob/master/meetups/20150529-ZuriHac2015_Duncan_Coutts-Better_Faster_Binary_Serialization/binary.pdf) - Slides on serialization efficiency improvements
 
 ## Support for file formats
 
