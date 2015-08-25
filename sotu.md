@@ -79,6 +79,7 @@ in my external link sections.  :)
   * [Debugging](#debugging)
   * [Cross-platform support](#cross-platform-support)
   * [Databases and data stores](#databases-and-data-stores)
+  * [Hot code loadng](#hot-code-loading)
   * [IDE support](#ide-support)
 
 # Application Domains
@@ -1373,6 +1374,41 @@ store you use.
 * [`acid-state`](https://hackage.haskell.org/package/acid-state) - Simple ACID data store that saves Haskell data types natively
 * [`aws`](https://hackage.haskell.org/package/aws) - Bindings to Amazon DynamoDB 
 * [`hedis`](https://hackage.haskell.org/package/hedis) - Bindings to Redis
+
+## Hot code loading
+
+**Rating:** Immature
+
+Haskell does provide support for hot code loading, although nothing in the same
+ballpark as in languages like Clojure.
+
+There are two main approaches to hot code loading:
+
+* Compiling and linking object code at runtime (i.e. the `plugins` or `hint`
+  libraries)
+* Recompiling the entire program and then reinitializing the program with the
+  program's saved state (i.e. the `dyre` or `halive` libraries)
+
+You might wonder how Cloud Haskell sends code over the wire and my understanding
+is that it doesn't.  Any function you wish to send over the wire is instead
+compiled ahead of time on both sides and stored in a shared symbol table which
+each side references when encoding or decoding the function.
+
+Haskell does not let you edit a live program like Clojure does so Haskell will
+probably never be "Best in class" short of somebody releasing a completely new
+Haskell compiler built from the ground up to support this feature.  The existing
+Haskell tools for hot code swapping seem as good as they are reasonably going
+to get, but I'm waiting for commercial success stories of their use before
+rating this "Mature".
+
+The `halive` library has the best hot code swapping demo by far:
+
+![](https://camo.githubusercontent.com/6190c803f07b0c3380b4a2e3014a1e88c66c29ee/687474703a2f2f6c756b6578692e6769746875622e696f2f48616c69766544656d6f2e676966)
+
+**Notable libraries:**
+
+* `plugins` / `hint` - Runtime compilation and linking 
+* `dyre` / `halive` - Program reinitialization with saved state
 
 ## IDE support
 
