@@ -190,6 +190,7 @@ of the Haskell runtime.
 
 * [`warp`](https://hackage.haskell.org/package/warp) / [`wai`](https://hackage.haskell.org/package/wai) - the low-level server and API that all server libraries share, with the exception of `snap`
 * [`scotty`](https://hackage.haskell.org/package/scotty) - A beginner-friendly server framework analogous to Ruby's Sinatra
+* [`spock`](https://www.spock.li/) - Lighter than the "enterprise" frameworks, but more featureful than spock (type-safe routing, sessions, conn pooling, csrf protection, authentication, etc)
 * [`yesod`](https://hackage.haskell.org/package/yesod) / [`yesod-*`](https://hackage.haskell.org/packages/search?terms=yesod) / [`snap`](https://hackage.haskell.org/package/snap) / [`snap-*`](https://hackage.haskell.org/packages/search?terms=snap) / [`happstack-server`](https://hackage.haskell.org/package/happstack-server) / [`happstack-*`](https://hackage.haskell.org/packages/search?terms=happstack) - "Enterprise" server frameworks with all the bells and whistles
 * [`servant`](https://hackage.haskell.org/package/servant) / [`servant-*`](https://hackage.haskell.org/packages/search?terms=servant) - This server framework might blow your mind
 * [`authenticate`](https://hackage.haskell.org/package/authenticate) / [`authenticate-*`](https://hackage.haskell.org/packages/search?terms=authenticate) - Shared authentication libraries
