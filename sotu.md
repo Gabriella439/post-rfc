@@ -1315,7 +1315,7 @@ an outright dealbreaker; it's more like a thousand papercuts which turn people
 off of the language.
 
 If you're a Haskell developer using Windows, I highly recommend the following
-installs to get started as quickly as possible with as few issues:
+installs to get started quickly and with as few issues as possible:
 
 * [Git for Windows](https://git-for-windows.github.io/) - A Unix-like
   command-line environment bundled with `git` that you can use to follow along
