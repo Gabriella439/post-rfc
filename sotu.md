@@ -48,10 +48,10 @@ in my external link sections.  :)
 
 * [Application Domains](#application-domains)
   * [Compilers](#compilers)
-  * [Server-side web programming](#server-side-web-programming)
+  * [Web Server-side programming](#web-server-side-programming)
   * [Scripting / Command-line applications](#scripting--command-line-applications)
   * [Numerical programming](#numerical-programming)
-  * [Client-side web programming](#client-side-web-programming)
+  * [Front-end web programming](#front-end-web-programming)
   * [Distributed programming](#distributed-programming)
   * [Standalone GUI applications](#standalone-gui-applications)
   * [Machine learning](#machine-learning)
@@ -59,10 +59,11 @@ in my external link sections.  :)
   * [Game programming](#game-programming)
   * [Systems / embedded programming](#systems--embedded-programming)
   * [Mobile apps](#mobile-apps)
+  * [ARM processor support](#arm-processor-support)
 * [Common Programming Needs](#common-programming-needs)
   * [Maintenance](#maintenance)
   * [Single-machine Concurrency](#single-machine-concurrency)
-  * [Type system](#type-system)
+  * [Types / Type-driven development](#types--type-driven-development)
   * [Domain-specific languages (DSLs)](#domain-specific-languages-dsls)
   * [Testing](#testing)
   * [Data structures and algorithms](#data-structures-and-alogirthms)
@@ -74,8 +75,11 @@ in my external link sections.  :)
   * [Support for file formats](#support-for-file-formats)
   * [Package management](#package-management)
   * [Logging](#logging)
+  * [Education](#education)
+  * [Debugging](#debugging)
   * [Cross-platform support](#cross-platform-support)
   * [Databases and data stores](#databases-and-data-stores)
+  * [Hot code loadng](#hot-code-loading)
   * [IDE support](#ide-support)
 
 # Application Domains
@@ -117,7 +121,7 @@ languages which you can use to write compilers to or from these languages.
 * [`hoopl`](https://hackage.haskell.org/package/hoopl) - optimization
 * [`wl-pprint`](https://hackage.haskell.org/package/wl-pprint) / [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - pretty-printing
 * [`llvm-general`](https://hackage.haskell.org/package/llvm-general) - LLVM API
-* `language-`{[`javascript`](https://hackage.haskell.org/package/language-javascript)|[`python`](https://hackage.haskell.org/package/language-python)|[`c-quote`](https://hackage.haskell.org/package/language-c-quote)|[`lua`](https://hackage.haskell.org/package/language-lua)|[`java`](https://hackage.haskell.org/package/language-java)|[`objc`](https://hackage.haskell.org/package/language-objc)} - parsers and
+* `language-`{[`javascript`](https://hackage.haskell.org/package/language-javascript)|[`python`](https://hackage.haskell.org/package/language-python)|[`c-quote`](https://hackage.haskell.org/package/language-c-quote)|[`lua`](https://hackage.haskell.org/package/language-lua)|[`java`](https://hackage.haskell.org/package/language-java)|[`objc`](https://hackage.haskell.org/package/language-objc)|[`cil`](https://hackage.haskell.org/package/language-cil)} - parsers and
    pretty-printers for other languages
 
 **Some compilers written in Haskell:**
@@ -138,7 +142,7 @@ languages which you can use to write compilers to or from these languages.
 
 <br>
 
-## Server-side web programming
+## Web Server-side programming
 
 **Rating:** Mature
 
@@ -186,7 +190,8 @@ of the Haskell runtime.
 
 * [`warp`](https://hackage.haskell.org/package/warp) / [`wai`](https://hackage.haskell.org/package/wai) - the low-level server and API that all server libraries share, with the exception of `snap`
 * [`scotty`](https://hackage.haskell.org/package/scotty) - A beginner-friendly server framework analogous to Ruby's Sinatra
-* [`yesod`](https://hackage.haskell.org/package/yesod) / [`yesod-*`](https://hackage.haskell.org/packages/search?terms=yesod) / [`snap`](https://hackage.haskell.org/package/snap) / [`snap-*`](https://hackage.haskell.org/packages/search?terms=snap) - "Enterprise" server frameworks with all the bells and whistles
+* [`spock`](https://www.spock.li/) - Lighter than the "enterprise" frameworks, but more featureful than scotty (type-safe routing, sessions, conn pooling, csrf protection, authentication, etc)
+* [`yesod`](https://hackage.haskell.org/package/yesod) / [`yesod-*`](https://hackage.haskell.org/packages/search?terms=yesod) / [`snap`](https://hackage.haskell.org/package/snap) / [`snap-*`](https://hackage.haskell.org/packages/search?terms=snap) / [`happstack-server`](https://hackage.haskell.org/package/happstack-server) / [`happstack-*`](https://hackage.haskell.org/packages/search?terms=happstack) - "Enterprise" server frameworks with all the bells and whistles
 * [`servant`](https://hackage.haskell.org/package/servant) / [`servant-*`](https://hackage.haskell.org/packages/search?terms=servant) - This server framework might blow your mind
 * [`authenticate`](https://hackage.haskell.org/package/authenticate) / [`authenticate-*`](https://hackage.haskell.org/packages/search?terms=authenticate) - Shared authentication libraries
 * [`ekg`](https://hackage.haskell.org/package/ekg) / [`ekg-*`](https://hackage.haskell.org/packages/search?terms=ekg) - Haskell service monitoring
@@ -195,6 +200,8 @@ of the Haskell runtime.
 **Some web sites and services powered by Haskell:**
 
 * Facebook's spam filter: Sigma
+* IMVU's REST API
+* Utrecht's bicycle parking guidance system
 * [elm-lang.org](http://elm-lang.org/)
 * [glot.io](http://glot.io/)
 * [The Perry Bible Fellowship](http://pbfcomics.com/)
@@ -205,6 +212,8 @@ of the Haskell runtime.
 **Propaganda:**
 
 * [Fighting spam with Haskell - Haskell in production, at scale, at Facebook](https://code.facebook.com/posts/745068642270222/fighting-spam-with-haskell/)
+* [IMVU Engineering - What it's like to use Haskell](http://engineering.imvu.com/2014/03/24/what-its-like-to-use-haskell/)
+* [Haskell-based Bicycle Parking Guidance System in Utrecht](https://www.reddit.com/r/haskell/comments/3959r0/haskellbased_bicycle_parking_guidance_system_in/)
 * [Mio: A High-Performance Multicore IO Manager for GHC](http://haskell.cs.yale.edu/wp-content/uploads/2013/08/hask035-voellmy.pdf)
 * [The Performance of Open Source Applications - Warp](http://www.aosabook.org/en/posa/warp.html)
 * [Optimising Garbage Collection Overhead in Sigma](https://simonmar.github.io/posts/2015-07-28-optimising-garbage-collection-overhead-in-sigma.html)
@@ -217,6 +226,7 @@ of the Haskell runtime.
 * [Beautiful concurrency](https://www.fpcomplete.com/school/advanced-haskell/beautiful-concurrency) - a software-transactional memory tutorial
 * [The Yesod book](http://www.yesodweb.com/book)
 * [The Servant tutorial](http://haskell-servant.github.io/tutorial/)
+* [Overview of Happstack](http://www.happstack.com)
 
 <br>
 
@@ -337,7 +347,7 @@ upward.
 
 <br>
 
-## Client-side web programming
+## Front-end web programming
 
 **Rating:** Immature
 
@@ -508,12 +518,9 @@ The Haskell analog of `NumPy` is the `hmatrix` library, which provides Haskell
 bindings to BLAS, LAPACK.  `hmatrix`'s main limitation is that the API is a bit
 clunky, but all the tools are there.
 
-Haskell's charting story is "okay", but still not good.  All of the Haskell
-libraries for charting that I've tried have been heavyweight and poorly
-documented.  To pick on one library as an example, the `Chart` library does not
-have a single minimal end-to-end code example that I can find anywhere in the
-Hackage documentation.  I was eventually able to chart something once I figured
-out the right incantation but it should not have taken so long.
+Haskell's charting story is okay.  Probably my main criticism of most charting
+APIs is that their APIs tend to be large, the types are a bit complex, and they
+have a very large number of dependencies.
 
 Fortunately, Haskell does integrate into IPython so you can use Haskell within
 an IPython shell or an online notebook.  For example, there is an online
@@ -530,7 +537,7 @@ The closest thing to Python's `pandas` is the `frames` library.  I haven't used
 it that much personally so I won't comment on it much other than to link to
 some tutorials in the Educational Resources section.
 
-I'm not aware of a Haskall analog to `SciPy` (the library) or `sympy`.  If
+I'm not aware of a Haskell analog to `SciPy` (the library) or `sympy`.  If
 you know of an equivalent Haskell library then let me know.
 
 One Haskell library that deserves honorable mention here is the `diagrams`
@@ -634,6 +641,10 @@ approach championed by the company Galois.
 * [`copilot`](https://hackage.haskell.org/package/copilot) - Stream DSL that generates C code
 * [`improve`](https://hackage.haskell.org/package/improve) - High-assurance DSL for embedded code that generates C and Ada
 
+**Educational resources:**
+
+* [/r/haskell - Haskell compiled down to Embedded Hardware](https://www.reddit.com/r/haskell/comments/3gyol1/haskell_compiled_down_to_embedded_hardware/)
+
 <br>
 
 ## Mobile apps
@@ -650,22 +661,39 @@ iPhone development using Haskell.
 I also can't really suggest improvements because I'm pretty out of touch with
 this branch of the Haskell ecosystem.
 
-From [/u/Bzzt](https://www.reddit.com/user/Bzzt) on
-[/r/haskell](https://www.reddit.com/r/haskell):
-
-> I'd throw out there that ARM support in ghc is 'immature' or maybe even
-> 'early adopter'. It works, but there are bugs and it can be difficult to get
-> complex projects to build. The only distro I've tried with a working ghci is
-> arch, and that requires downgrading llvm, and the packages for downgrading
-> aren't officially available. 
-
 **Educational resources:**
 
 * [Android development in Haskell](https://wiki.haskell.org/Android)
 * [iPhone development in Haskell](https://wiki.haskell.org/IPhone)
 
-<br>
-<br>
+## ARM processor support
+
+**Rating:** Immature / Early adopter 
+
+On hobbyist boards like the raspberry pi its possible to compile haskell code with ghc.  But some 
+libraries have problems on the arm platform, ghci only works on newer compilers, and the newer 
+compilers are flaky.
+
+If haskell code builds, it runs with respectable performance on these machines.    
+
+**Raspian (raspberry pi, pi2, others)**
+* current version: ghc 7.4, cabal-install 1.14
+* ghci doesn't work.
+  
+**Debian Jesse (Raspberry Pi 2)**
+* current version: ghc 7.6
+* can install the current ghc 7.10.2 binary and ghci starts.  However, fails
+to build cabal, with 'illegal instruction'
+
+**Arch (Raspberry Pi 2)**
+* current version 7.8.2, but llvm is 3.6, which is too new.
+* downgrade packages for llvm not officially available.
+* with llvm downgrade to 3.4, ghc and ghci work, but problems compiling yesod, scotty.  
+* compiler crashes, segfaults, etc.  
+
+**Arch (Banana Pi)**
+* similar to raspberry pi 2, ghc is 7.8.2, works with llvm downgrade
+* have had success compiling a yesod project on this platform.
 
 # Common Programming Needs
 
@@ -758,6 +786,9 @@ give hard numbers:
   contention
 * Haskell channel overhead using the `unagi-chan` library is on the order of
   100 nanoseconds (even under contention)
+* Haskell's `MVar` (a low-level concurrency communication primitive) requires
+  10-20 ns to add or remove values (roughly on par with acquiring or releasing
+  a lock in other languages)
 
 Haskell also provides software-transactional memory, which allows programmers
 build composable and atomic memory transactions.  You can compose transactions
@@ -790,8 +821,10 @@ Educational resources:
 * [Parallel and Concurrent Programming in Haskell - Software transactional
 memory](http://chimera.labs.oreilly.com/books/1230000000929/ch10.html#sec_stm-async)
 * [Beautiful concurrency](https://www.fpcomplete.com/school/advanced-haskell/beautiful-concurrency) - a software-transactional memory tutorial
+* [Performance numbers for primitive operations](https://github.com/jberryman/chan-benchmarks#some-analysis-of-primitive-operations) - Latency timings for
+  various low-level operations
 
-## Type system
+## Types / Type-driven development
 
 **Rating:** Best in class
 
@@ -825,6 +858,47 @@ painlessly when you realize you are on the wrong track.  You can leave out all
 type signatures while prototyping but the types are still there even if you
 don't see them.  Then when you dramatically change course those strong and
 silent types step in and keep large refactors painless.
+
+Some Haskell programmers use a "type-driven development" programming style,
+analogous to "test-driven development":
+
+* they specify desired behavior as a type signature which initially fails to
+  type-check (analogous to adding a test which starts out "red")
+* they create a quick and dirty solution that satisfies the type-checker
+  (analogous to turning the test "green")
+* they improve on their initial solution while still satisfying the type-checker
+  (analogous to a "red/green refactor")
+
+"Type-driven development" supplements "test-driven development" and has
+different tradeoffs:
+
+* The biggest disadvantage of types is that test as many things as full-blown
+  tests, especially because Haskell is not dependently typed
+* The biggest advantage of types is that they can prove the complete absence of
+  programming errors for all possible cases, whereas tests cannot examine every
+  possibility
+* Type-checking is much faster than running tests
+* Type error messages are informative: they explain what went wrong and never
+  get stale
+* Type-checking never hangs and never gives flaky results
+
+Haskell also provides the "Typed Holes" extension, which lets you add an
+underscore (i.e. "`_`") anywhere in the code whenever you don't know what
+expression belongs there.  The compiler will then tell you the expected type of
+the hole and suggest terms in scope with related types that you can use to fill
+the hole.
+
+**Educational resources:**
+
+* [Learn you a Haskell - Types and type classes](http://learnyouahaskell.com/types-and-typeclasses)
+* [Learn you a Haskell - Making our own types and type classes](http://learnyouahaskell.com/making-our-own-types-and-typeclasses)
+* [Typed holes](https://mail.haskell.org/pipermail/ghc-devs/2014-March/004239.html)
+* [Partial type signatures proposal](https://mail.haskell.org/pipermail/ghc-devs/2014-March/004239.html)
+
+**Propaganda:**
+
+* [What exactly makes the Haskell type system so revered (vs say, Java)?](http://programmers.stackexchange.com/questions/279316/what-exactly-makes-the-haskell-type-system-so-revered-vs-say-java)
+* [Difference between OOP interfaces and FP type classes](http://stackoverflow.com/questions/8122109/difference-between-oop-interfaces-and-fp-type-classes)
 
 ## Domain-specific languages (DSLs)
 
@@ -973,6 +1047,9 @@ Haskell's Unicode support is excellent.  Just use the `text` and `text-icu`
 libraries, which provide a high-performance, space-efficient, and easy-to-use
 API for Unicode-aware text operations.
 
+Note that there is one big catch: the default `String` type in Haskell is
+inefficient.  You should always use `Text` whenever possible.
+
 **Notable libraries:**
 
 * [`text`](https://hackage.haskell.org/package/text)
@@ -1007,6 +1084,8 @@ love writing pretty-printing libraries in Haskell for some reason.
 * [`attoparsec`](https://hackage.haskell.org/package/attoparsec) - Extremely fast backtracking parser
 * [`trifecta`](https://hackage.haskell.org/package/trifecta) - Best error messages (`clang`-style)
 * [`alex`](https://hackage.haskell.org/package/alex) / [`happy`](https://hackage.haskell.org/package/happy) - Like `lexx` / `yacc` but with Haskell integration
+* [`Earley`](https://hackage.haskell.org/package/Earley) - Early parsing
+  embedded within the Haskell language
 * [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - Pretty-printing library
 * [`text-format`](https://hackage.haskell.org/package/text-format) - High-performance string formatting
 
@@ -1071,7 +1150,7 @@ ongoing work to improve the serialization speed of existing libraries.
 
 **Educational resources:**
 
-* [Faster binary serialization](http://code.haskell.org/~duncan/binary-experiment/binary.pdf)
+* [Faster binary serialization](http://code.haskell.org/~duncan/binary-experiment/binary.pdf) / [Better, faster binary serialization](https://github.com/meiersi/HaskellerZ/blob/master/meetups/20150529-ZuriHac2015_Duncan_Coutts-Better_Faster_Binary_Serialization/binary.pdf) - Slides on serialization efficiency improvements
 
 ## Support for file formats
 
@@ -1135,6 +1214,84 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 * [`hslogger`](https://hackage.haskell.org/package/hslogger) - Logging library analogous to Python's `ConfigParser` library
 * [`monad-logger`](https://hackage.haskell.org/package/monad-logger) - add logging with line numbers to your monad stack. Uses fast-logger under the hood.
 
+## Education
+
+**Rating:** Immature
+
+The primary reason for the "Immature" rating is two big deficiencies in Haskell
+learning materials:
+
+* Intermediate-level books
+* Beginner-level material targeted at people with no previous programming
+  experience
+
+Other than that the remaining learning resources are okay.  If the above holes
+were filled then I would give a "Mature" rating.
+
+The most important advice I can give to Haskell beginners is to learn by doing.
+I observe that many Haskell beginners dwell too long trying to learn by reading
+instead of trying to build something useful to hone their understanding.
+
+**Educational resources:** 
+
+* [Learn Haskell](https://github.com/bitemyapp/learnhaskell) - A curated
+  syllabus for new Haskell programmers
+* [How I Start - Haskell](https://howistart.org/posts/haskell/1) - Example
+  development environment and workflow
+* [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) - A
+  beginning Haskell book
+* [Real world Haskell](http://book.realworldhaskell.org/read/) - A book that
+  contains several practical cookbook-style examples.  Many code examples are
+  out of date, but the book is still useful
+* [Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929) - Exactly what the title says
+* [Thinking Functionally with Haskell](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/thinking-functionally-haskell) -
+  Book targeting people who are interested in Haskell in order to "think
+  differently"
+* [Haskell wiki](https://wiki.haskell.org/Haskell) - Grab bag of Haskell-related
+  information with wide variation in quality.  Excels at large lists of
+  resources or libraries if you don't mind sifting through stale or abandoned
+  entries
+* [The Haskell 2010 Report](https://www.haskell.org/onlinereport/haskell2010/) -
+  The Haskell language specification
+
+## Debugging
+
+**Rating:** Immature
+
+The main Haskell debugging features are:
+
+* Memory and performance profiling
+* Stack traces
+* Source-located errors, using [the `assert` function](http://hackage.haskell.org/package/base-4.8.1.0/docs/Control-Exception-Base.html#v%3Aassert)
+* Breakpoints, single-stepping, and tracing within the GHCi REPL
+* Informal `printf`-style tracing using [`Debug.Trace`](https://hackage.haskell.org/package/base-4.8.1.0/docs/Debug-Trace.html)
+* ThreadScope
+
+The two reasons I still mark debugging "Immature" are:
+
+* GHC's stack traces require profiling to be enabled
+* There is only one IDE that I know of (`leksah`) that integrates support for
+  breakpoints and single-stepping and `leksah` still needs more polish
+
+`ghc-7.10` also added preliminary support for DWARF symbols which allow support
+for `gdb`-based debugging and `perf`-based profiling, but there is still more
+work that needs to be done.  See the following page for more details:
+
+* [GHC DWARF support](https://ghc.haskell.org/trac/ghc/wiki/DWARF)
+
+**Educational resources**:
+
+* [GHC Manual - Profiling chapter](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/profiling.html) - Read the whole thing; you will thank me
+  later
+* [Debugging runtime options](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/runtime-control.html#rts-options-debugging) - See the `+RTS -xc` flag which adds stack traces to all exceptions (requires profiling enabled)
+* [`GHC.Stack`](http://hackage.haskell.org/package/base-4.8.1.0/docs/GHC-Stack.html) - Programmatic access to the call stack
+* [Pinpointing space leaks in big programs](http://blog.ezyang.com/2011/06/pinpointing-space-leaks-in-big-programs/)
+* [Real World Haskell - Profiling and Optimization](http://book.realworldhaskell.org/read/profiling-and-optimization.html)
+* [The GHCi Debuggger](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci-debugger.html) - Manual for GHCi-based breakpoints and
+  single-stepping
+* [Parallel and Concurrent Programming in Haskell - Debugging, Tuning, and Interfacing with Foreign Code](http://chimera.labs.oreilly.com/books/1230000000929/ch15.html#_debugging_concurrent_programs) - Debugging concurrent programs
+* [Haskell wiki - ThreadScope](https://wiki.haskell.org/ThreadScope)
+
 ## Cross-platform support
 
 **Rating:** Immature
@@ -1159,7 +1316,7 @@ an outright dealbreaker; it's more like a thousand papercuts which turn people
 off of the language.
 
 If you're a Haskell developer using Windows, I highly recommend the following
-installs to get started as quickly as possible with as few issues:
+installs to get started quickly and with as few issues as possible:
 
 * [Git for Windows](https://git-for-windows.github.io/) - A Unix-like
   command-line environment bundled with `git` that you can use to follow along
@@ -1219,6 +1376,41 @@ store you use.
 * [`acid-state`](https://hackage.haskell.org/package/acid-state) - Simple ACID data store that saves Haskell data types natively
 * [`aws`](https://hackage.haskell.org/package/aws) - Bindings to Amazon DynamoDB 
 * [`hedis`](https://hackage.haskell.org/package/hedis) - Bindings to Redis
+
+## Hot code loading
+
+**Rating:** Immature
+
+Haskell does provide support for hot code loading, although nothing in the same
+ballpark as in languages like Clojure.
+
+There are two main approaches to hot code loading:
+
+* Compiling and linking object code at runtime (i.e. the `plugins` or `hint`
+  libraries)
+* Recompiling the entire program and then reinitializing the program with the
+  program's saved state (i.e. the `dyre` or `halive` libraries)
+
+You might wonder how Cloud Haskell sends code over the wire and my understanding
+is that it doesn't.  Any function you wish to send over the wire is instead
+compiled ahead of time on both sides and stored in a shared symbol table which
+each side references when encoding or decoding the function.
+
+Haskell does not let you edit a live program like Clojure does so Haskell will
+probably never be "Best in class" short of somebody releasing a completely new
+Haskell compiler built from the ground up to support this feature.  The existing
+Haskell tools for hot code swapping seem as good as they are reasonably going
+to get, but I'm waiting for commercial success stories of their use before
+rating this "Mature".
+
+The `halive` library has the best hot code swapping demo by far:
+
+![](https://camo.githubusercontent.com/6190c803f07b0c3380b4a2e3014a1e88c66c29ee/687474703a2f2f6c756b6578692e6769746875622e696f2f48616c69766544656d6f2e676966)
+
+**Notable libraries:**
+
+* `plugins` / `hint` - Runtime compilation and linking 
+* `dyre` / `halive` - Program reinitialization with saved state
 
 ## IDE support
 
