@@ -1503,9 +1503,35 @@ worth checking out which is reasonably polished but cannot be used offline.
 # Contributors
 
 * Aaron Levin
+* Alois Cochard
 * Ben Kovach
+* Benno Fünfstück
+* Carlo Hamalainen
+* Chris Allen
+* Curtis Gagliardi
+* Deech
+* David Howlett
+* David Johnson
 * Edward Cho
+* Greg Weber
+* Gregor Uhlenheuer
+* Juan Pedro Villa Isaza
+* Kazu Yamamoto
+* Kirill Zaborsky
 * Liam O'Connor-Davis
+* Luke Randall
+* Marcio Klepacz
+* Mitchell Rosen
+* Nicolas Kaiser
 * Oliver Charles
+* Pierre Radermecker
+* Rodrigo B. de Oliveira
 * Stephen Diehl
+* Tim Docker
 * Tran Ma
+* Yuriy Syrovetskiy
+* @bburdette
+* @co-dan
+* @ExternalReality
+* @GetContented
+* @psibi
