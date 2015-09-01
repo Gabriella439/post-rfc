@@ -83,7 +83,6 @@ in my external link sections.  :)
   * [IDE support](#ide-support)
 
 # Application Domains
-<br>
 
 ## Compilers
 
@@ -666,6 +665,8 @@ this branch of the Haskell ecosystem.
 * [Android development in Haskell](https://wiki.haskell.org/Android)
 * [iPhone development in Haskell](https://wiki.haskell.org/IPhone)
 
+<br>
+
 ## ARM processor support
 
 **Rating:** Immature / Early adopter 
@@ -694,6 +695,8 @@ to build cabal, with 'illegal instruction'
 **Arch (Banana Pi)**
 * similar to raspberry pi 2, ghc is 7.8.2, works with llvm downgrade
 * have had success compiling a yesod project on this platform.
+
+<br>
 
 # Common Programming Needs
 
@@ -759,6 +762,8 @@ you don't need to reorder or delete those data structures.  They will just
 sit around patiently waiting until they are actually needed, if ever, before
 they are evaluated.
 
+<br>
+
 ## Single-machine Concurrency
 
 **Rating:** Best in class
@@ -823,6 +828,8 @@ memory](http://chimera.labs.oreilly.com/books/1230000000929/ch10.html#sec_stm-as
 * [Beautiful concurrency](https://www.fpcomplete.com/school/advanced-haskell/beautiful-concurrency) - a software-transactional memory tutorial
 * [Performance numbers for primitive operations](https://github.com/jberryman/chan-benchmarks#some-analysis-of-primitive-operations) - Latency timings for
   various low-level operations
+
+<br>
 
 ## Types / Type-driven development
 
@@ -900,6 +907,8 @@ the hole.
 * [What exactly makes the Haskell type system so revered (vs say, Java)?](http://programmers.stackexchange.com/questions/279316/what-exactly-makes-the-haskell-type-system-so-revered-vs-say-java)
 * [Difference between OOP interfaces and FP type classes](http://stackoverflow.com/questions/8122109/difference-between-oop-interfaces-and-fp-type-classes)
 
+<br>
+
 ## Domain-specific languages (DSLs)
 
 **Rating:** Mature
@@ -927,6 +936,8 @@ overload, such as:
 * [Rebindable syntax](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html#rebindable-syntax)
 * [Monad comprehensions](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html#monad-comprehensions)
 * [Overloaded strings](https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions#overloadedstrings)
+
+<br>
 
 ## Testing
 
@@ -990,6 +1001,8 @@ languages, including:
 * [Purify code using free monads](http://www.haskellforall.com/2012/07/purify-code-using-free-monads.html)
 * [Up-front Unit Testing in Haskell](https://github.com/kazu-yamamoto/unit-test-example/blob/master/markdown/en/tutorial.md)
 
+<br>
+
 ## Data structures and algorithms
 
 **Rating:** Mature
@@ -1017,6 +1030,8 @@ pretty good and diverse enough to cover the majority of use cases.
 * [`accelerate`](https://hackage.haskell.org/package/accelerate) / [`accelerate-*`](https://hackage.haskell.org/packages/search?terms=accelerate) - GPU programming
 * [`repa`](https://hackage.haskell.org/package/repa) / [`repa-*`](https://hackage.haskell.org/packages/search?terms=repa) - parallel shape-polymorphic arrays
 
+<br>
+
 ## Benchmarking
 
 **Rating:** Mature
@@ -1039,6 +1054,8 @@ features include:
 
 * [The `criterion` tutorial](http://www.serpentine.com/criterion/tutorial.html)
 
+<br>
+
 ## Unicode
 
 **Rating:** Mature
@@ -1054,6 +1071,8 @@ inefficient.  You should always use `Text` whenever possible.
 
 * [`text`](https://hackage.haskell.org/package/text)
 * [`text-icu`](https://hackage.haskell.org/package/text-icu)
+
+<br>
 
 ## Parsing / Pretty-printing
 
@@ -1097,6 +1116,8 @@ love writing pretty-printing libraries in Haskell for some reason.
 
 * [A major upgrade to attoparsec: more speed, more power](http://www.serpentine.com/blog/2014/05/31/attoparsec/)
 
+<br>
+
 ## Stream programming
 
 **Rating:** Mature
@@ -1123,6 +1144,8 @@ rich ecosystem including common streaming tasks like:
 * [The official `conduit` tutorial](https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/conduit-overview)
 * [The official `pipes` tutorial](http://hackage.haskell.org/package/pipes-4.1.6/docs/Pipes-Tutorial.html)
 * [The official `io-streams` tutorial](http://hackage.haskell.org/package/io-streams-1.3.2.0/docs/System-IO-Streams-Tutorial.html)
+
+<br>
 
 ## Serialization / Deserialization
 
@@ -1152,6 +1175,8 @@ ongoing work to improve the serialization speed of existing libraries.
 
 * [Faster binary serialization](http://code.haskell.org/~duncan/binary-experiment/binary.pdf) / [Better, faster binary serialization](https://github.com/meiersi/HaskellerZ/blob/master/meetups/20150529-ZuriHac2015_Duncan_Coutts-Better_Faster_Binary_Serialization/binary.pdf) - Slides on serialization efficiency improvements
 
+<br>
+
 ## Support for file formats
 
 **Rating:** Mature
@@ -1168,6 +1193,8 @@ not much of an issue.
 * [`cassava`](https://hackage.haskell.org/package/cassava) - CSV encoding/decoding
 * [`yaml`](https://hackage.haskell.org/package/yaml) - YAML encoding/decoding
 * [`xml`](https://hackage.haskell.org/package/xml) - XML encoding/decoding
+
+<br>
 
 ## Package management
 
@@ -1204,6 +1231,8 @@ benefit heavily from the shared global cache.
 
 * [`stack` announcement](https://www.fpcomplete.com/blog/2015/06/stack-0-1-release)
 
+<br>
+
 ## Logging
 
 Haskell has decent logging support.  That's pretty much all there is to say.
@@ -1213,6 +1242,8 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 * [`fast-logger`](https://hackage.haskell.org/package/fast-logger) - High-performance multicore logging system
 * [`hslogger`](https://hackage.haskell.org/package/hslogger) - Logging library analogous to Python's `ConfigParser` library
 * [`monad-logger`](https://hackage.haskell.org/package/monad-logger) - add logging with line numbers to your monad stack. Uses fast-logger under the hood.
+
+<br>
 
 ## Education
 
@@ -1254,6 +1285,8 @@ instead of trying to build something useful to hone their understanding.
 * [The Haskell 2010 Report](https://www.haskell.org/onlinereport/haskell2010/) -
   The Haskell language specification
 
+<br>
+
 ## Debugging
 
 **Rating:** Immature
@@ -1291,6 +1324,8 @@ work that needs to be done.  See the following page for more details:
   single-stepping
 * [Parallel and Concurrent Programming in Haskell - Debugging, Tuning, and Interfacing with Foreign Code](http://chimera.labs.oreilly.com/books/1230000000929/ch15.html#_debugging_concurrent_programs) - Debugging concurrent programs
 * [Haskell wiki - ThreadScope](https://wiki.haskell.org/ThreadScope)
+
+<br>
 
 ## Cross-platform support
 
@@ -1345,6 +1380,8 @@ For other operating systems, use your package manager of choice to install
 * [Haskell wiki - Windows](https://wiki.haskell.org/Windows) - Windows startup
   guide for Haskell
 
+<br>
+
 ## Databases and data stores
 
 **Rating:** Immature
@@ -1376,6 +1413,8 @@ store you use.
 * [`acid-state`](https://hackage.haskell.org/package/acid-state) - Simple ACID data store that saves Haskell data types natively
 * [`aws`](https://hackage.haskell.org/package/aws) - Bindings to Amazon DynamoDB 
 * [`hedis`](https://hackage.haskell.org/package/hedis) - Bindings to Redis
+
+<br>
 
 ## Hot code loading
 
@@ -1411,6 +1450,8 @@ The `halive` library has the best hot code swapping demo by far:
 
 * `plugins` / `hint` - Runtime compilation and linking 
 * `dyre` / `halive` - Program reinitialization with saved state
+
+<br>
 
 ## IDE support
 
