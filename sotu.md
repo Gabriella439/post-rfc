@@ -1253,7 +1253,7 @@ The primary reason for the "Immature" rating is two big deficiencies in Haskell
 learning materials:
 
 * Intermediate-level books
-* Beginner-level material targeted at people with no previous programming
+* Not enough beginner-level material targeted at people with no previous programming
   experience
 
 Other than that the remaining learning resources are okay.  If the above holes
@@ -1265,24 +1265,25 @@ instead of trying to build something useful to hone their understanding.
 
 **Educational resources:** 
 
-* [Learn Haskell](https://github.com/bitemyapp/learnhaskell) - A curated
+* [Haskell Wikibook](https://en.wikibooks.org/wiki/Haskell) — One of the few highlighted, highest quality among Wikimedia's Wikibooks, starts from zero, with no assumption of previous programming experience
+* [Learn Haskell](https://github.com/bitemyapp/learnhaskell) — A curated
   syllabus for new Haskell programmers
-* [How I Start - Haskell](https://howistart.org/posts/haskell/1) - Example
+* [How I Start - Haskell](https://howistart.org/posts/haskell/1) — Example
   development environment and workflow
-* [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) - A
+* [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) — A
   beginning Haskell book
-* [Real world Haskell](http://book.realworldhaskell.org/read/) - A book that
+* [Real world Haskell](http://book.realworldhaskell.org/read/) — A book that
   contains several practical cookbook-style examples.  Many code examples are
   out of date, but the book is still useful
-* [Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929) - Exactly what the title says
-* [Thinking Functionally with Haskell](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/thinking-functionally-haskell) -
+* [Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929) — Exactly what the title says
+* [Thinking Functionally with Haskell](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/thinking-functionally-haskell) —
   Book targeting people who are interested in Haskell in order to "think
   differently"
-* [Haskell wiki](https://wiki.haskell.org/Haskell) - Grab bag of Haskell-related
+* [Haskell wiki](https://wiki.haskell.org/Haskell) — Grab bag of Haskell-related
   information with wide variation in quality.  Excels at large lists of
   resources or libraries if you don't mind sifting through stale or abandoned
   entries
-* [The Haskell 2010 Report](https://www.haskell.org/onlinereport/haskell2010/) -
+* [The Haskell 2010 Report](https://www.haskell.org/onlinereport/haskell2010/) —
   The Haskell language specification
 
 <br>
