@@ -1,4 +1,4 @@
-# State of the Haskell ecosystem - August 2015
+# State of the Haskell ecosystem
 
 In this post I will describe the current state of the Haskell ecosystem to the
 best of my knowledge and its suitability for various programming domains and
