@@ -48,7 +48,7 @@ in my external link sections.  :)
 
 * [Application Domains](#application-domains)
   * [Compilers](#compilers)
-  * [Web Server-side programming](#web-server-side-programming)
+  * [Server-side programming](#server-side-programming)
   * [Scripting / Command-line applications](#scripting--command-line-applications)
   * [Numerical programming](#numerical-programming)
   * [Front-end web programming](#front-end-web-programming)
@@ -142,7 +142,7 @@ languages which you can use to write compilers to or from these languages.
 
 <br>
 
-## Web Server-side programming
+## Server-side programming
 
 **Rating:** Mature
 
