@@ -173,12 +173,14 @@ although for different reasons.
 Where Haskell shines in usability is the runtime support for the following
 three features:
 
-* lightweight threads enhanced (which differentiate Haskell from the JVM)
 * software transactional memory (which differentiate Haskell from Go)
-* garbage collection (which differentiate Haskell from Rust)
+* lightweight threads and garbage collection (which differentiate Haskell from
+  Rust)
 
-Many languages support two of the above three features, but Haskell is the only
-one that I know of that supports all three.
+The closest other languages in terms of server-related runtime features are Java
+and Scala, which provide lightweight threads (through Quasar), a
+high-performance garbage collector and software transactional memory (through
+Scala STM, which Java can also use).
 
 If you have never tried out Haskell's software transactional memory you should
 really, really, really give it a try, since it eliminates a large number of
