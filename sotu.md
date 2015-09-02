@@ -1245,8 +1245,6 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 
 <br>
 
-## Education
-
 **Rating:** Immature
 
 The primary reason for the "Immature" rating is two big deficiencies in Haskell
@@ -1257,16 +1255,19 @@ learning materials:
   experience
 
 Other than that the remaining learning resources are okay.  If the above holes
-were filled then I would give a "Mature" rating.
+were filled then I would give a "Mature" rating. Once [Haskell Programming from
+first principals](http://haskellbook.com/) is published this rating will probably
+change.
 
 The most important advice I can give to Haskell beginners is to learn by doing.
 I observe that many Haskell beginners dwell too long trying to learn by reading
 instead of trying to build something useful to hone their understanding.
 
 **Educational resources:** 
-
+* [Functional Education](http://bitemyapp.com/posts/2014-12-31-functional-education.html) - A
+  thorough and up-to-date analysis of the state of educational materials in the Haskell Community.
 * [Learn Haskell](https://github.com/bitemyapp/learnhaskell) - A curated
-  syllabus for new Haskell programmers
+  syllabus for new Haskell programmers (by the same author as the article above).
 * [How I Start - Haskell](https://howistart.org/posts/haskell/1) - Example
   development environment and workflow
 * [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) - A
