@@ -197,6 +197,9 @@ of the Haskell runtime.
 * [`authenticate`](https://hackage.haskell.org/package/authenticate) / [`authenticate-*`](https://hackage.haskell.org/packages/search?terms=authenticate) - Shared authentication libraries
 * [`ekg`](https://hackage.haskell.org/package/ekg) / [`ekg-*`](https://hackage.haskell.org/packages/search?terms=ekg) - Haskell service monitoring
 * [`stm`](https://hackage.haskell.org/package/stm) - Software-transactional memory
+* [`lucid`](https://hackage.haskell.org/package/lucid) - Haskell DSL for
+  building HTML
+* [`hastache`](https://hackage.haskell.org/package/hastache) / [`karver`](https://hackage.haskell.org/package/karver) - Templating libraries
 
 **Some web sites and services powered by Haskell:**
 
@@ -1521,6 +1524,7 @@ worth checking out which is reasonably polished but cannot be used offline.
 * Gregor Uhlenheuer
 * Juan Pedro Villa Isaza
 * Kazu Yamamoto
+* Kevin Cantu
 * Kirill Zaborsky
 * Liam O'Connor-Davis
 * Luke Randall
