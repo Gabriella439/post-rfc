@@ -915,8 +915,8 @@ analogous to "test-driven development":
 "Type-driven development" supplements "test-driven development" and has
 different tradeoffs:
 
-* The biggest disadvantage of types is that test as many things as full-blown
-  tests, especially because Haskell is not dependently typed
+* The biggest disadvantage of types is that they don't test as many things as full-blown
+  tests, because Haskell is not (yet) dependently typed
 * The biggest advantage of types is that they can prove the complete absence of
   programming errors for all possible cases, whereas tests cannot examine every
   possibility
