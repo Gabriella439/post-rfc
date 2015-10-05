@@ -1146,7 +1146,7 @@ love writing pretty-printing libraries in Haskell for some reason.
 
 **Educational resources:**
 
-* [Monadic Parsing in Haskell](https://www.cs.nott.ac.uk/~gmh/pearl.pdf)
+* [Monadic Parsing in Haskell](http://www.cs.nott.ac.uk/~gmh/pearl.pdf)
 
 **Propaganda:**
 
