@@ -225,6 +225,7 @@ of the Haskell runtime.
 * [Optimising Garbage Collection Overhead in Sigma](https://simonmar.github.io/posts/2015-07-28-optimising-garbage-collection-overhead-in-sigma.html)
 * instantwatcher.com author comments on rewrite from Ruby to Haskell - [\[1\]](http://www.reddit.com/r/haskell/comments/3am3qu/should_i_put_a_powered_by_haskell_tag_w_haskell/csef8eq)
 [\[2\]](http://www.reddit.com/r/haskell/comments/3e10ea/til_instantwatcher_is_made_with_haskell/ctavz2m)
+* [A lot of websockets in Haskell](https://blog.wearewizards.io/a-lot-of-websockets-in-haskell) - A load test showing that a Haskell server can handle 500K connections in 10 GB of memory.  The load tester requires more resources than the server
 
 **Educational resources:**
 
