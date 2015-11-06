@@ -294,6 +294,7 @@ features such as:
 
 * [`pandoc`](https://hackage.haskell.org/package/pandoc)
 * [`git-annex`](https://hackage.haskell.org/package/git-annex)
+* [`hledger`](http://hledger.org/)
 
 **Educational resources:**
 
