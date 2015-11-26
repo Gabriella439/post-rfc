@@ -387,7 +387,7 @@ communities of their own.
 **Notable Haskell-to-Javascript compilers:**
 
 * [`ghcjs`](https://github.com/ghcjs/ghcjs)
-* [`haste`](https://hackage.haskell.org/package/haste)
+* [`haste`](https://hackage.haskell.org/package/haste-compiler)
 
 **Notable libraries:**
 
