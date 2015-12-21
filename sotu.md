@@ -678,10 +678,10 @@ this branch of the Haskell ecosystem.
 
 ## ARM processor support
 
-**Rating:** Immature / Early adopter 
+**Rating:** Immature / Early adopter
 
-On hobbyist boards like the raspberry pi its possible to compile haskell code with ghc.  But some 
-libraries have problems on the arm platform, ghci only works on newer compilers, and the newer 
+On hobbyist boards like the raspberry pi its possible to compile haskell code with ghc.  But some
+libraries have problems on the arm platform, ghci only works on newer compilers, and the newer
 compilers are flaky.
 
 If haskell code builds, it runs with respectable performance on these machines.    
@@ -689,7 +689,7 @@ If haskell code builds, it runs with respectable performance on these machines.
 **Raspian (raspberry pi, pi2, others)**
 * current version: ghc 7.4, cabal-install 1.14
 * ghci doesn't work.
-  
+
 **Debian Jesse (Raspberry Pi 2)**
 * current version: ghc 7.6
 * can install the current ghc 7.10.2 binary and ghci starts.  However, fails
@@ -1292,26 +1292,26 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 The primary reason for the "Immature" rating is two big deficiencies in Haskell
 learning materials:
 
-* Intermediate-level books
-* Not enough beginner-level material targeted at people with no previous programming
+1. Intermediate-level books
+1. Not enough beginner-level material targeted at people with no previous programming
   experience
 
 Other than that the remaining learning resources are okay.  If the above holes
-were filled then I would give a "Mature" rating.
+were filled then I would give a "Mature" rating. Once [Haskell Programming from
+first principals](http://haskellbook.com) is published the second point above
+should be resolved.
 
 The most important advice I can give to Haskell beginners is to learn by doing.
 I observe that many Haskell beginners dwell too long trying to learn by reading
 instead of trying to build something useful to hone their understanding.
 
-**Educational resources:** 
+**Educational resources:**
 
 * [Haskell Wikibook](https://en.wikibooks.org/wiki/Haskell) — One of the few highlighted, highest quality among Wikimedia's Wikibooks, starts from zero, with no assumption of previous programming experience
-* [Learn Haskell](https://github.com/bitemyapp/learnhaskell) — A curated
-  syllabus for new Haskell programmers
-* [How I Start - Haskell](https://howistart.org/posts/haskell/1) — Example
-  development environment and workflow
-* [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) — A
-  beginning Haskell book
+* [Functional Education](http://bitemyapp.com/posts/2014-12-31-functional-education.html) - A thorough and up-to-date analysis of the state of educational materials in the Haskell Community.
+* [Learn Haskell](https://github.com/bitemyapp/learnhaskell) — A curated syllabus for new Haskell programmers (by the same author as the article above).
+* [How I Start - Haskell](https://howistart.org/posts/haskell/1) — Example development environment and workflow
+* [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) — A beginning Haskell book
 * [Real world Haskell](http://book.realworldhaskell.org/read/) — A book that
   contains several practical cookbook-style examples.  Many code examples are
   out of date, but the book is still useful
@@ -1452,7 +1452,7 @@ store you use.
 * [`persistent`](https://hackage.haskell.org/package/persistent) - Database-agnostic ORM that supports automatic migrations
 * [`esqueleto`](https://hackage.haskell.org/package/esqueleto) / [`relational-record`](https://hackage.haskell.org/package/relational-record) / [`opaleye`](https://hackage.haskell.org/package/opaleye) - type-safe APIs for building well-formed SQL queries
 * [`acid-state`](https://hackage.haskell.org/package/acid-state) - Simple ACID data store that saves Haskell data types natively
-* [`aws`](https://hackage.haskell.org/package/aws) - Bindings to Amazon DynamoDB 
+* [`aws`](https://hackage.haskell.org/package/aws) - Bindings to Amazon DynamoDB
 * [`hedis`](https://hackage.haskell.org/package/hedis) - Bindings to Redis
 
 <br>
@@ -1489,7 +1489,7 @@ The `halive` library has the best hot code swapping demo by far:
 
 **Notable libraries:**
 
-* `plugins` / `hint` - Runtime compilation and linking 
+* `plugins` / `hint` - Runtime compilation and linking
 * `dyre` / `halive` - Program reinitialization with saved state
 
 <br>
