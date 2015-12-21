@@ -1292,14 +1292,14 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 The primary reason for the "Immature" rating is two big deficiencies in Haskell
 learning materials:
 
-* Intermediate-level books
-* Not enough beginner-level material targeted at people with no previous programming
+1. Intermediate-level books
+1. Not enough beginner-level material targeted at people with no previous programming
   experience
 
 Other than that the remaining learning resources are okay.  If the above holes
 were filled then I would give a "Mature" rating. Once [Haskell Programming from
-first principals](http://haskellbook.com) is published this rating will probably
-change.
+first principals](http://haskellbook.com) is published the second point above
+should be resolved.
 
 The most important advice I can give to Haskell beginners is to learn by doing.
 I observe that many Haskell beginners dwell too long trying to learn by reading
