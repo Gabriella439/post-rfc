@@ -60,6 +60,7 @@ in my external link sections.  :)
   * [Systems / embedded programming](#systems--embedded-programming)
   * [Mobile apps](#mobile-apps)
   * [ARM processor support](#arm-processor-support)
+  * [Computer Vision](#computer-vision)
 * [Common Programming Needs](#common-programming-needs)
   * [Maintenance](#maintenance)
   * [Single-machine Concurrency](#single-machine-concurrency)
@@ -120,7 +121,7 @@ languages which you can use to write compilers to or from these languages.
 * [`hoopl`](https://hackage.haskell.org/package/hoopl) - optimization
 * [`wl-pprint`](https://hackage.haskell.org/package/wl-pprint) / [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - pretty-printing
 * [`llvm-general`](https://hackage.haskell.org/package/llvm-general) - LLVM API
-* `language-`{[`javascript`](https://hackage.haskell.org/package/language-javascript)|[`python`](https://hackage.haskell.org/package/language-python)|[`c-quote`](https://hackage.haskell.org/package/language-c-quote)|[`lua`](https://hackage.haskell.org/package/language-lua)|[`java`](https://hackage.haskell.org/package/language-java)|[`objc`](https://hackage.haskell.org/package/language-objc)|[`cil`](https://hackage.haskell.org/package/language-cil)} - parsers and
+* `language-`{[`ecmascript`](https://hackage.haskell.org/package/language-ecmascript)|[`python`](https://hackage.haskell.org/package/language-python)|[`c-quote`](https://hackage.haskell.org/package/language-c-quote)|[`lua`](https://hackage.haskell.org/package/language-lua)|[`java`](https://hackage.haskell.org/package/language-java)|[`objc`](https://hackage.haskell.org/package/language-objc)|[`cil`](https://hackage.haskell.org/package/language-cil)} - parsers and
    pretty-printers for other languages
 
 **Some compilers written in Haskell:**
@@ -173,12 +174,14 @@ although for different reasons.
 Where Haskell shines in usability is the runtime support for the following
 three features:
 
-* lightweight threads enhanced (which differentiate Haskell from the JVM)
 * software transactional memory (which differentiate Haskell from Go)
-* garbage collection (which differentiate Haskell from Rust)
+* lightweight threads and garbage collection (which differentiate Haskell from
+  Rust)
 
-Many languages support two of the above three features, but Haskell is the only
-one that I know of that supports all three.
+The closest other languages in terms of server-related runtime features are Java
+and Scala, which provide lightweight threads (through Quasar), a
+high-performance garbage collector and software transactional memory (through
+Scala STM, which Java can also use).
 
 If you have never tried out Haskell's software transactional memory you should
 really, really, really give it a try, since it eliminates a large number of
@@ -195,6 +198,9 @@ of the Haskell runtime.
 * [`authenticate`](https://hackage.haskell.org/package/authenticate) / [`authenticate-*`](https://hackage.haskell.org/packages/search?terms=authenticate) - Shared authentication libraries
 * [`ekg`](https://hackage.haskell.org/package/ekg) / [`ekg-*`](https://hackage.haskell.org/packages/search?terms=ekg) - Haskell service monitoring
 * [`stm`](https://hackage.haskell.org/package/stm) - Software-transactional memory
+* [`lucid`](https://hackage.haskell.org/package/lucid) - Haskell DSL for
+  building HTML
+* [`hastache`](https://hackage.haskell.org/package/hastache) / [`karver`](https://hackage.haskell.org/package/karver) - Templating libraries
 
 **Some web sites and services powered by Haskell:**
 
@@ -207,6 +213,7 @@ of the Haskell runtime.
 * [Silk](https://www.silk.co)
 * [Shellcheck](http://www.shellcheck.net/)
 * [instantwatcher.com](http://instantwatcher.com/)
+* [markup.rocks](http://markup.rocks/)
 
 **Propaganda:**
 
@@ -218,6 +225,7 @@ of the Haskell runtime.
 * [Optimising Garbage Collection Overhead in Sigma](https://simonmar.github.io/posts/2015-07-28-optimising-garbage-collection-overhead-in-sigma.html)
 * instantwatcher.com author comments on rewrite from Ruby to Haskell - [\[1\]](http://www.reddit.com/r/haskell/comments/3am3qu/should_i_put_a_powered_by_haskell_tag_w_haskell/csef8eq)
 [\[2\]](http://www.reddit.com/r/haskell/comments/3e10ea/til_instantwatcher_is_made_with_haskell/ctavz2m)
+* [A lot of websockets in Haskell](https://blog.wearewizards.io/a-lot-of-websockets-in-haskell) - A load test showing that a Haskell server can handle 500K connections in 10 GB of memory.  The load tester requires more resources than the server
 
 **Educational resources:**
 
@@ -286,6 +294,7 @@ features such as:
 
 * [`pandoc`](https://hackage.haskell.org/package/pandoc)
 * [`git-annex`](https://hackage.haskell.org/package/git-annex)
+* [`hledger`](http://hledger.org/)
 
 **Educational resources:**
 
@@ -378,7 +387,7 @@ communities of their own.
 **Notable Haskell-to-Javascript compilers:**
 
 * [`ghcjs`](https://github.com/ghcjs/ghcjs)
-* [`haste`](https://hackage.haskell.org/package/haste)
+* [`haste`](https://hackage.haskell.org/package/haste-compiler)
 
 **Notable libraries:**
 
@@ -669,10 +678,10 @@ this branch of the Haskell ecosystem.
 
 ## ARM processor support
 
-**Rating:** Immature / Early adopter 
+**Rating:** Immature / Early adopter
 
-On hobbyist boards like the raspberry pi its possible to compile haskell code with ghc.  But some 
-libraries have problems on the arm platform, ghci only works on newer compilers, and the newer 
+On hobbyist boards like the raspberry pi its possible to compile haskell code with ghc.  But some
+libraries have problems on the arm platform, ghci only works on newer compilers, and the newer
 compilers are flaky.
 
 If haskell code builds, it runs with respectable performance on these machines.    
@@ -680,7 +689,7 @@ If haskell code builds, it runs with respectable performance on these machines.
 **Raspian (raspberry pi, pi2, others)**
 * current version: ghc 7.4, cabal-install 1.14
 * ghci doesn't work.
-  
+
 **Debian Jesse (Raspberry Pi 2)**
 * current version: ghc 7.6
 * can install the current ghc 7.10.2 binary and ghci starts.  However, fails
@@ -697,6 +706,36 @@ to build cabal, with 'illegal instruction'
 * have had success compiling a yesod project on this platform.
 
 <br>
+
+## Computer Vision
+
+**Rating:** Immature? (Uncertain)
+
+There are Haskell bindings for OpenCV available via `HOpenCV` which has bindings
+for versions upto `OpenCV 2.0`. A fork maintained by Anthony Cowley has bindings
+available for versions upto `OpenCV 2.4`, but it pretty much stops there. Currently,
+`OpenCV 3.0` has been released, and there are no Haskell bindings covering it.
+
+There are some interesting projects which try to tackle computer vision in a purely
+functional manner. `cv-combinators`, `easyVision`, and `Zef` are some examples.
+
+As for real world usage, Anthony Cowley has a success story in using Haskell for
+Robots, which likely used quite a bit of Computer Vision.
+
+To be fair, `OpenCV` is very complex and has many APIs, and the OpenCV bindings
+so far are pretty extensive. Libraries like `easyVision` can't compete with OpenCV
+in terms of features, but they are very much feature rich. However, there is still
+a lot of scope for improvement.
+
+**Notable libraries:**
+* [`HOpenCV`](https://github.com/sinelaw/HOpenCV)
+* [`HOpenCV` fork](https://github.com/acowley/HOpenCV)
+* [`easyVision`](https://github.com/albertoruiz/easyVision)
+* [`cv-combinators`](https://github.com/sinelaw/cv-combinators)
+* [`Zef`](https://github.com/ethereon/Zef)
+
+<br>
+
 
 # Common Programming Needs
 
@@ -879,8 +918,8 @@ analogous to "test-driven development":
 "Type-driven development" supplements "test-driven development" and has
 different tradeoffs:
 
-* The biggest disadvantage of types is that test as many things as full-blown
-  tests, especially because Haskell is not dependently typed
+* The biggest disadvantage of types is that they don't test as many things as full-blown
+  tests, because Haskell is not (yet) dependently typed
 * The biggest advantage of types is that they can prove the complete absence of
   programming errors for all possible cases, whereas tests cannot examine every
   possibility
@@ -1102,6 +1141,7 @@ love writing pretty-printing libraries in Haskell for some reason.
 * [`parsec`](https://hackage.haskell.org/package/parsec) - best overall "value"
 * [`attoparsec`](https://hackage.haskell.org/package/attoparsec) - Extremely fast backtracking parser
 * [`trifecta`](https://hackage.haskell.org/package/trifecta) - Best error messages (`clang`-style)
+* [`parsers`](https://hackage.haskell.org/package/parsers) - Interface compatible with all of the above libraries which lets you easily switch between them.  People commonly use this library to begin with `trifecta` or `parsec` (for better error messages) then switch to `attoparsec` when done for performance
 * [`alex`](https://hackage.haskell.org/package/alex) / [`happy`](https://hackage.haskell.org/package/happy) - Like `lexx` / `yacc` but with Haskell integration
 * [`Earley`](https://hackage.haskell.org/package/Earley) - Early parsing
   embedded within the Haskell language
@@ -1110,7 +1150,7 @@ love writing pretty-printing libraries in Haskell for some reason.
 
 **Educational resources:**
 
-* [Monadic Parsing in Haskell](https://www.cs.nott.ac.uk/~gmh/pearl.pdf)
+* [Monadic Parsing in Haskell](http://www.cs.nott.ac.uk/~gmh/pearl.pdf)
 
 **Propaganda:**
 
@@ -1245,45 +1285,45 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 
 <br>
 
+## Education
+
 **Rating:** Immature
 
 The primary reason for the "Immature" rating is two big deficiencies in Haskell
 learning materials:
 
 * Intermediate-level books
-* Beginner-level material targeted at people with no previous programming
+* Not enough beginner-level material targeted at people with no previous programming
   experience
 
 Other than that the remaining learning resources are okay.  If the above holes
 were filled then I would give a "Mature" rating. Once [Haskell Programming from
-first principals](http://haskellbook.com/) is published this rating will probably
+first principals](http://haskellbook.com) is published this rating will probably
 change.
 
 The most important advice I can give to Haskell beginners is to learn by doing.
 I observe that many Haskell beginners dwell too long trying to learn by reading
 instead of trying to build something useful to hone their understanding.
 
-**Educational resources:** 
-* [Functional Education](http://bitemyapp.com/posts/2014-12-31-functional-education.html) - A
-  thorough and up-to-date analysis of the state of educational materials in the Haskell Community.
-* [Learn Haskell](https://github.com/bitemyapp/learnhaskell) - A curated
-  syllabus for new Haskell programmers (by the same author as the article above).
-* [How I Start - Haskell](https://howistart.org/posts/haskell/1) - Example
-  development environment and workflow
-* [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) - A
-  beginning Haskell book
-* [Real world Haskell](http://book.realworldhaskell.org/read/) - A book that
+**Educational resources:**
+
+* [Haskell Wikibook](https://en.wikibooks.org/wiki/Haskell) — One of the few highlighted, highest quality among Wikimedia's Wikibooks, starts from zero, with no assumption of previous programming experience
+* [Functional Education](http://bitemyapp.com/posts/2014-12-31-functional-education.html) - A thorough and up-to-date analysis of the state of educational materials in the Haskell Community.
+* [Learn Haskell](https://github.com/bitemyapp/learnhaskell) — A curated syllabus for new Haskell programmers (by the same author as the article above).
+* [How I Start - Haskell](https://howistart.org/posts/haskell/1) — Example development environment and workflow
+* [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) — A beginning Haskell book
+* [Real world Haskell](http://book.realworldhaskell.org/read/) — A book that
   contains several practical cookbook-style examples.  Many code examples are
   out of date, but the book is still useful
-* [Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929) - Exactly what the title says
-* [Thinking Functionally with Haskell](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/thinking-functionally-haskell) -
+* [Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929) — Exactly what the title says
+* [Thinking Functionally with Haskell](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/thinking-functionally-haskell) —
   Book targeting people who are interested in Haskell in order to "think
   differently"
-* [Haskell wiki](https://wiki.haskell.org/Haskell) - Grab bag of Haskell-related
+* [Haskell wiki](https://wiki.haskell.org/Haskell) — Grab bag of Haskell-related
   information with wide variation in quality.  Excels at large lists of
   resources or libraries if you don't mind sifting through stale or abandoned
   entries
-* [The Haskell 2010 Report](https://www.haskell.org/onlinereport/haskell2010/) -
+* [The Haskell 2010 Report](https://www.haskell.org/onlinereport/haskell2010/) —
   The Haskell language specification
 
 <br>
@@ -1412,7 +1452,7 @@ store you use.
 * [`persistent`](https://hackage.haskell.org/package/persistent) - Database-agnostic ORM that supports automatic migrations
 * [`esqueleto`](https://hackage.haskell.org/package/esqueleto) / [`relational-record`](https://hackage.haskell.org/package/relational-record) / [`opaleye`](https://hackage.haskell.org/package/opaleye) - type-safe APIs for building well-formed SQL queries
 * [`acid-state`](https://hackage.haskell.org/package/acid-state) - Simple ACID data store that saves Haskell data types natively
-* [`aws`](https://hackage.haskell.org/package/aws) - Bindings to Amazon DynamoDB 
+* [`aws`](https://hackage.haskell.org/package/aws) - Bindings to Amazon DynamoDB
 * [`hedis`](https://hackage.haskell.org/package/hedis) - Bindings to Redis
 
 <br>
@@ -1449,7 +1489,7 @@ The `halive` library has the best hot code swapping demo by far:
 
 **Notable libraries:**
 
-* `plugins` / `hint` - Runtime compilation and linking 
+* `plugins` / `hint` - Runtime compilation and linking
 * `dyre` / `halive` - Program reinitialization with saved state
 
 <br>
@@ -1519,6 +1559,7 @@ worth checking out which is reasonably polished but cannot be used offline.
 * Gregor Uhlenheuer
 * Juan Pedro Villa Isaza
 * Kazu Yamamoto
+* Kevin Cantu
 * Kirill Zaborsky
 * Liam O'Connor-Davis
 * Luke Randall
