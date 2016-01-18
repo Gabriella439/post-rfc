@@ -116,7 +116,7 @@ languages which you can use to write compilers to or from these languages.
 
 **Notable libraries:**
 
-* [`parsec`](https://hackage.haskell.org/package/parsec) / [`attoparsec`](https://hackage.haskell.org/package/attoparsec) / [`trifecta`](https://hackage.haskell.org/package/trifecta) / [`alex`](https://hackage.haskell.org/package/alex)+[`happy`](https://hackage.haskell.org/package/happy) - parsing libraries
+* [`parsec`](https://hackage.haskell.org/package/parsec) / [`megaparsec`](https://hackage.haskell.org/package/megaparsec) / [`attoparsec`](https://hackage.haskell.org/package/attoparsec) / [`trifecta`](https://hackage.haskell.org/package/trifecta) / [`alex`](https://hackage.haskell.org/package/alex)+[`happy`](https://hackage.haskell.org/package/happy) - parsing libraries
 * [`bound`](https://hackage.haskell.org/package/bound) / [`unbound`](https://hackage.haskell.org/package/unbound) - manipulating bound variables
 * [`hoopl`](https://hackage.haskell.org/package/hoopl) - optimization
 * [`wl-pprint`](https://hackage.haskell.org/package/wl-pprint) / [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - pretty-printing
@@ -1127,7 +1127,8 @@ the Haskell landscape.
 If you're not sure what library to pick, I generally recommend the `parsec`
 library as a default well-rounded choice because it strikes a decent balance
 between ease-of-use, performance, good error messages, and small dependencies
-(since it ships with GHC).
+(since it ships with GHC).  There is also `megaparsec` library, which is
+modern and improved version of `parsec`.
 
 `attoparsec` deserves special mention as an extremely fast backtracking parsing
 library.  The speed and simplicity of this library will blow you away.  The
@@ -1138,7 +1139,8 @@ love writing pretty-printing libraries in Haskell for some reason.
 
 **Notable libraries:**
 
-* [`parsec`](https://hackage.haskell.org/package/parsec) - best overall "value"
+* [`parsec`](https://hackage.haskell.org/package/parsec) - Best overall "value"
+* [`megaparsec`](https://hackage.haskell.org/package/megaparsec) - Modern, actively maintained fork of `parsec`
 * [`attoparsec`](https://hackage.haskell.org/package/attoparsec) - Extremely fast backtracking parser
 * [`trifecta`](https://hackage.haskell.org/package/trifecta) - Best error messages (`clang`-style)
 * [`parsers`](https://hackage.haskell.org/package/parsers) - Interface compatible with all of the above libraries which lets you easily switch between them.  People commonly use this library to begin with `trifecta` or `parsec` (for better error messages) then switch to `attoparsec` when done for performance
