@@ -1291,29 +1291,26 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 
 **Rating:** Immature
 
-The primary reason for the "Immature" rating is two big deficiencies in Haskell
-learning materials:
+This rating will switch to "Mature" once the "Haskell Programming from first
+principles" book is published.  I highly recommend this book, even though it is
+still in Early Access form, for the following reasons:
 
-1. Intermediate-level books
-1. Not enough beginner-level material targeted at people with no previous programming
-  experience
-
-Other than that the remaining learning resources are okay.  If the above holes
-were filled then I would give a "Mature" rating. Once [Haskell Programming from
-first principals](http://haskellbook.com) is published the second point above
-should be resolved.
-
-The most important advice I can give to Haskell beginners is to learn by doing.
-I observe that many Haskell beginners dwell too long trying to learn by reading
-instead of trying to build something useful to hone their understanding.
+* The book does not assume any prior programming experience
+* The book does not have any conceptual gaps or out-of-order dependencies
+* The book is extremely comprehensive
 
 **Educational resources:**
 
-* [Haskell Wikibook](https://en.wikibooks.org/wiki/Haskell) — One of the few highlighted, highest quality among Wikimedia's Wikibooks, starts from zero, with no assumption of previous programming experience
-* [Functional Education](http://bitemyapp.com/posts/2014-12-31-functional-education.html) - A thorough and up-to-date analysis of the state of educational materials in the Haskell Community.
-* [Learn Haskell](https://github.com/bitemyapp/learnhaskell) — A curated syllabus for new Haskell programmers (by the same author as the article above).
-* [How I Start - Haskell](https://howistart.org/posts/haskell/1) — Example development environment and workflow
-* [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) — A beginning Haskell book
+* [Haskell Programming from first principles](http://haskellbook.com/) - The
+  best Haskell resource learn from. The book costs $60, but it's worth the
+  price.
+* [Haskell Wikibook](https://en.wikibooks.org/wiki/Haskell) — One of the highest
+  quality among Wikimedia's Wikibooks, which starts from zero, with no
+  assumption of previous programming experience
+* [How I Start - Haskell](https://howistart.org/posts/haskell/1) — Example
+  development environment and workflow
+* [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) — A
+  beginning Haskell book
 * [Real world Haskell](http://book.realworldhaskell.org/read/) — A book that
   contains several practical cookbook-style examples.  Many code examples are
   out of date, but the book is still useful
