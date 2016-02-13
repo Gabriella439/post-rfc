@@ -577,30 +577,40 @@ project if you have time:
 
 ## Game programming
 
-**Rating:** Immature? / Bad?
+**Rating:** Immature
+
+Haskell is a garbage collected language, so Haskell is more appropriate for the
+scripting / logic layer of a game but not suitable manipulating a large object
+graph or for implementing a high-performance game engine due to the risk of
+introducing perceptible pauses due to GC pauses.  Also, for simple games you can
+realistically use Haskell for the entire stack.
+
+Examples of games that could be fully implemented in Haskell:
+
+* Casual games
+* Turn-based strategy games
+* Adventure games
+* Platform / side-scrolling games
+* First-person shooter
+
+Examples of games that are difficult to implement at all in Haskell:
+
+* Real-time strategy games
+* MMORPGs
 
 Haskell has SDL and OpenGL bindings, which are actually quite good, but that's
 about it.  You're on your own from that point onward.  There is not a rich
 ecosystem of higher-level libraries built on top of those bindings.  There is
-some work in this area, but I'm not aware of anything production quality.
+some work in this area, but I'm not aware of anything production quality or
+easy to use.
 
-There is also one really fundamental issue with the language, which is garbage
-collection, which runs the risk of introducing perceptible pauses in gameplay
-if your heap grows too large.
-
-For this reason I don't see Haskell ever being used for AAA game programming.
-I suppose you could use Haskell for simpler games that don't require keeping a
-lot of resources in memory.
-
-Haskell could maybe be used for the scripting layer of a game or to power
-the backend for an online game, but for rendering or updating an extremely
-large graph of objects you should probably stick to another language.
-
-The company that has been doing the most to push the envelope for game
-programming in Haskell is Keera Studios, so if this is an area that interests
-you then you should follow their blog:
-
-* [Keera Studios Blog](http://keera.co.uk/blog/)
+The primary reason for the immature rating is the difficulty of integrating
+Haskell with existing game platforms, which often are biased towards a
+particular language or toolchain.  The only game platform where Haskell has no
+issues is native binaries for desktop games.  For the web, you must compile to
+Javascript, which is doable.  For mobile games on Android you have to cross
+compile and interface the Haskell logic with Android through JNI + Haskell's
+foreign function interface.  For console games, you have no hope.
 
 **Areas for improvement:**
 
@@ -610,12 +620,18 @@ you then you should follow their blog:
 
 **Notable libraries:**
 
-* [`Helm`](http://helm-engine.org/)
-* [`gl`](https://hackage.haskell.org/package/gl)
-* [`SDL`](https://hackage.haskell.org/package/SDL) / [`SDL-*`](https://hackage.haskell.org/packages/search?terms=SDL)
-* [`sdl2`](https://hackage.haskell.org/package/sdl2)
-* [`SFML`](https://hackage.haskell.org/package/SFML)
-* [`quine`](https://github.com/ekmett/quine) (Github-only project)
+* [`gloss`](https://hackage.haskell.org/package/gloss) - Simple graphics and
+  game programming for beginners
+* [Code World](https://code.world/haskell) - Similar to `gloss`, but you can try
+  it in your browser
+* [`gl`](https://hackage.haskell.org/package/gl) - Comprehensive OpenGL bindings
+* [`SDL`](https://hackage.haskell.org/package/SDL) / [`SDL-*`](https://hackage.haskell.org/packages/search?terms=SDL) / [`sdl2`](https://hackage.haskell.org/package/sdl2) - Bindings to the SDL library
+* [`SFML`](https://hackage.haskell.org/package/SFML) - Bindings to the SFML library
+* [`quine`](https://github.com/ekmett/quine) - Github project with cool 3D demos
+* [`GPipe`](https://hackage.haskell.org/package/GPipe) - Type-safe OpenGL API
+  that also lets you embed shader code directly within Haskell.  See the
+  [GPipe wiki](https://wiki.haskell.org/GPipe) to learn more
+  
 
 <br>
 
