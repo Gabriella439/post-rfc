@@ -133,6 +133,7 @@ languages which you can use to write compilers to or from these languages.
 * [`Pugs`](http://www.perlfoundation.org/perl6/index.cgi?pugs) (the first Perl 6 implementation)
 * [`ghc`](https://www.haskell.org/ghc/) (self-hosting)
 * [`frege`](https://github.com/Frege/frege) (very similar to Haskell, also self-hosting)
+* [`hython`](https://github.com/mattgreen/hython) (a Python3 interpreter written in Haskell)
 
 **Educational resources:**
 
