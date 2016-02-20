@@ -65,22 +65,22 @@ in my external link sections.  :)
   * [Maintenance](#maintenance)
   * [Single-machine Concurrency](#single-machine-concurrency)
   * [Types / Type-driven development](#types-type-driven-development)
+  * [Parsing / Pretty-printing](#parsing-pretty-printing)
   * [Domain-specific languages (DSLs)](#domain-specific-languages-dsls)
   * [Testing](#testing)
   * [Data structures and algorithms](#data-structures-and-alogirthms)
   * [Benchmarking](#benchmarking)
   * [Unicode](#unicode)
-  * [Parsing / Pretty-printing](#parsing-pretty-printing)
   * [Stream programming](#stream-programming)
   * [Serialization / Deserialization](#serialization-deserialization)
   * [Support for file formats](#support-for-file-formats)
   * [Package management](#package-management)
   * [Logging](#logging)
   * [Education](#education)
+  * [Databases and data stores](#databases-and-data-stores)
   * [Debugging](#debugging)
   * [Cross-platform support](#cross-platform-support)
-  * [Databases and data stores](#databases-and-data-stores)
-  * [Hot code loadng](#hot-code-loading)
+  * [Hot code loading](#hot-code-loading)
   * [IDE support](#ide-support)
 
 # Application Domains
@@ -175,14 +175,9 @@ although for different reasons.
 Where Haskell shines in usability is the runtime support for the following
 three features:
 
-* software transactional memory (which differentiate Haskell from Go)
-* lightweight threads and garbage collection (which differentiate Haskell from
-  Rust)
-
-The closest other languages in terms of server-related runtime features are Java
-and Scala, which provide lightweight threads (through Quasar), a
-high-performance garbage collector and software transactional memory (through
-Scala STM, which Java can also use).
+* software transactional memory (which differentiates Haskell from Go)
+* lightweight threads that permit blocking I/O (which differentiates Haskell from the JVM)
+* garbage collection (which differentiates Haskell from Rust)
 
 If you have never tried out Haskell's software transactional memory you should
 really, really, really give it a try, since it eliminates a large number of
@@ -195,7 +190,8 @@ of the Haskell runtime.
 * [`scotty`](https://hackage.haskell.org/package/scotty) - A beginner-friendly server framework analogous to Ruby's Sinatra
 * [`spock`](https://www.spock.li/) - Lighter than the "enterprise" frameworks, but more featureful than scotty (type-safe routing, sessions, conn pooling, csrf protection, authentication, etc)
 * [`yesod`](https://hackage.haskell.org/package/yesod) / [`yesod-*`](https://hackage.haskell.org/packages/search?terms=yesod) / [`snap`](https://hackage.haskell.org/package/snap) / [`snap-*`](https://hackage.haskell.org/packages/search?terms=snap) / [`happstack-server`](https://hackage.haskell.org/package/happstack-server) / [`happstack-*`](https://hackage.haskell.org/packages/search?terms=happstack) - "Enterprise" server frameworks with all the bells and whistles
-* [`servant`](https://hackage.haskell.org/package/servant) / [`servant-*`](https://hackage.haskell.org/packages/search?terms=servant) - This server framework might blow your mind
+* [`servant`](https://hackage.haskell.org/package/servant) / [`servant-*`](https://hackage.haskell.org/packages/search?terms=servant) - Library for type-safe
+  REST servers and clients that might blow your mind
 * [`authenticate`](https://hackage.haskell.org/package/authenticate) / [`authenticate-*`](https://hackage.haskell.org/packages/search?terms=authenticate) - Shared authentication libraries
 * [`ekg`](https://hackage.haskell.org/package/ekg) / [`ekg-*`](https://hackage.haskell.org/packages/search?terms=ekg) - Haskell service monitoring
 * [`stm`](https://hackage.haskell.org/package/stm) - Software-transactional memory
@@ -243,7 +239,7 @@ of the Haskell runtime.
 **Rating:** Mature
 
 Haskell's biggest advantage as a scripting language is that Haskell is the
-most widely adopted language that support global type inference.  Many
+most widely adopted language that supports global type inference.  Many
 languages support local type inference (such as Rust, Go, Java, C#), which
 means that function argument types and interfaces must be declared but
 everything else can be inferred.  In Haskell, you can omit everything: all
@@ -306,7 +302,7 @@ features such as:
 
 ## Numerical programming
 
-**Rating:** Immature? (Uncertain)
+**Rating:** Immature
 
 Haskell's numerical programming story is not ready, but steadily improving.
 
@@ -361,20 +357,22 @@ upward.
 **Rating:** Immature
 
 This boils down to Haskell's ability to compile to Javascript.  `ghcjs` is the
-front-runner, but for a while setting up `ghcjs` was non-trivial.  However,
-`ghcjs` appears to be very close to having a polished setup story now that
-`ghc-7.10.2` is out
-([Source](https://github.com/commercialhaskell/stack/issues/337#issuecomment-114876426)).
+front-runner, but for a while setting up `ghcjs` was non-trivial.  Now that
+the `stack` build tool supports `ghcjs` you can very easily set up a new `ghcjs`
+project by following these instructions:
+
+* [Stack + GHCJS support](http://docs.haskellstack.org/en/stable/ghcjs/)
 
 One of the distinctive features of `ghcjs` compared to other competing
 Haskell-to-Javascript compilers is that a huge number of Haskell libraries work
-out of the box with `ghcjs` because it supports most Haskell primitive
+out of the box with `ghcjs` because it supports most of `ghc`'s primitive
 operations.
 
 I would also like to mention that there are two Haskell-like languages that
 you should also try out for front-end programming: `elm` and `purescript`.
 These are both used in production today and have equally active maintainers and
-communities of their own.
+communities of their own.  `purescript` in particular is extremely similar to
+Haskell.
 
 **Areas for improvement:**
 
@@ -384,6 +382,8 @@ communities of their own.
   explaining how to translate existing front-end programming idioms to Haskell
 * There need to be several well-maintained and polished Haskell libraries for
   front-end programming
+* The whole `ghcjs` ecosystem needs much more documentation.  There's not even
+  a basic tutorial on how to actually use `ghcjs`
 
 **Notable Haskell-to-Javascript compilers:**
 
@@ -392,7 +392,8 @@ communities of their own.
 
 **Notable libraries:**
 
-* [reflex-dom](https://hackage.haskell.org/package/reflex-dom) - Functional reactive programming library for DOM manipulation
+* [reflex](https://hackage.haskell.org/package/reflex) / [reflex-dom](https://hackage.haskell.org/package/reflex-dom) - Functional reactive programming library
+  for the front end
 
 <br>
 
@@ -402,17 +403,16 @@ communities of their own.
 
 This is sort of a broad area since I'm using this topic to refer to both
 distributed computation (for analytics) and distributed service architectures.
-However, in both regards Haskell is lagging behind its peers.
-
-The JVM, Go, and Erlang have much better support for this sort of things,
-particularly in terms of libraries.
+For distributed service architectures Haskell is catching up to its peers with
+service toolkit libraries, but for distributed computation Haskell still lags
+behind.
 
 There has been a lot of work in replicating Erlang-like functionality in
 Haskell through the Cloud Haskell project, not just in creating the low-level
 primitives for code distribution / networking / transport, but also in
-assembling a Haskell analog of Erlang's OTP.  I'm not that familiar with how
-far progress is in this area, but people who love Erlang should check out
-Cloud Haskell.
+assembling a Haskell analog of Erlang's OTP.  Work on the higher-level libraries
+seems to have stopped, but the low-level libraries are still good for
+distributing computation.
 
 **Areas for improvement:**
 
@@ -423,9 +423,16 @@ Cloud Haskell.
 
 **Notable libraries:**
 
+* [`glue-core`](https://hackage.haskell.org/package/glue-core) / 
+  [`glue-ekg`](https://hackage.haskell.org/package/glue-ekg) /
+  [`glue-example`](https://hackage.haskell.org/package/glue-example) - Service
+  toolkit supporting 
+* [`haxl`](https://hackage.haskell.org/package/haxl) - Facebook library for
+  efficient batching and scheduling of concurrent data access
 * [`distributed-process`](https://hackage.haskell.org/package/distributed-process) / [`distributed-process-*`](https://hackage.haskell.org/packages/search?terms=distributed-process) - Haskell analog to Erlang
 * [`hadron`](https://github.com/Soostone/hadron) - Haskell wrapper around `hadoop`
-* [`aws`](https://hackage.haskell.org/package/aws) / [`aws-*`](https://hackage.haskell.org/packages/search?terms=aws) - Amazon web services libraries
+* [`amazonka`](https://hackage.haskell.org/package/amazonka) / [`amazonka-*`](https://hackage.haskell.org/packages/search?terms=amazonka) - Auto-generated
+  bindings to the entire Amazon Web Services SDK
 
 <br>
 
@@ -433,15 +440,13 @@ Cloud Haskell.
 
 **Rating:** Immature
 
-Haskell really lags behind the C# and F# ecosystem in this area.
-
-My experience on this is based on several private GUI projects I wrote several
-years back.  Things may have improved since then so if you think my assessment
-is too negative just let me know.
-
 All Haskell GUI libraries are wrappers around toolkits written in other
 languages (such as GTK+ or Qt).  The last time I checked the `gtk` bindings
 were the most comprehensive, best maintained, and had the best documentation.
+
+The reason for the "Immature" rating is that there still isn't a Haskell
+binding to a widget toolkit that doesn't have some sort of setup issues with the
+toolkit.
 
 However, the Haskell bindings to GTK+ have a strongly imperative feel to them.
 The way you do everything is communicating between callbacks by mutating
@@ -474,15 +479,19 @@ by Keera Studios:
   interface
 * [`hsqml`](http://hackage.haskell.org/package/hsqml) - A Haskell binding for Qt Quick, a cross-platform framework for creating graphical user interfaces.
 * [`fltkhs`](http://hackage.haskell.org/package/fltkhs) - A Haskell binding to FLTK. Easy install/use, cross-platform, self-contained executables.
+* [`typed-spreadsheet`](http://hackage.haskell.org/package/typed-spreadsheet) -
+  Library for building composable interactive forms
 
 **Some example applications:**
 
 * [`xmonad`](http://xmonad.org)
+* [`leksah`](http://leksah.org/index.html)
 
 **Educational resources:**
 
 * [Haskell port of the GTK tutorial](http://code.haskell.org/gtk2hs/docs/tutorial/Tutorial_Port/)
 * [Building pragmatic user interfaces in Haskell with HsQML](https://www.youtube.com/watch?v=JCSxWfUvi6o)
+* [FLTK GUIs, including support for the Fluid visual interface builder](https://github.com/deech/fltkhs-compose-conference-2016-talk/blob/master/Talk.pdf)
 
 <br>
 
@@ -638,7 +647,7 @@ foreign function interface.  For console games, you have no hope.
 
 ## Systems / embedded programming
 
-**Rating:** Bad / Immature (?) (See description)
+**Rating:** Bad / Immature (See description)
 
 Since systems programming is an abused word, I will clarify that I mean
 programs where speed, memory layout, and latency really matter.
@@ -695,15 +704,15 @@ this branch of the Haskell ecosystem.
 
 ## ARM processor support
 
-**Rating:** Immature / Early adopter
+**Rating:** Immature
 
-On hobbyist boards like the raspberry pi its possible to compile haskell code with ghc.  But some
-libraries have problems on the arm platform, ghci only works on newer compilers, and the newer
-compilers are flaky.
+On hobbyist boards like the Raspberry Pi its possible to compile haskell code
+with ghc.  But some libraries have problems on the arm platform, ghci only works
+on newer compilers, and the newer compilers are flaky.
 
-If haskell code builds, it runs with respectable performance on these machines.    
+If haskell code builds, it runs with respectable performance on these machines.
 
-**Raspian (raspberry pi, pi2, others)**
+**Raspian (Raspberry Pi, pi2, others)**
 * current version: ghc 7.4, cabal-install 1.14
 * ghci doesn't work.
 
@@ -715,36 +724,40 @@ to build cabal, with 'illegal instruction'
 **Arch (Raspberry Pi 2)**
 * current version 7.8.2, but llvm is 3.6, which is too new.
 * downgrade packages for llvm not officially available.
-* with llvm downgrade to 3.4, ghc and ghci work, but problems compiling yesod, scotty.  
+* with llvm downgrade to 3.4, ghc and ghci work, but problems compiling yesod,
+  scotty.  
 * compiler crashes, segfaults, etc.  
 
 **Arch (Banana Pi)**
-* similar to raspberry pi 2, ghc is 7.8.2, works with llvm downgrade
+* similar to Raspberry Pi 2, ghc is 7.8.2, works with llvm downgrade
 * have had success compiling a yesod project on this platform.
 
 <br>
 
 ## Computer Vision
 
-**Rating:** Immature? (Uncertain)
+**Rating:** Immature
 
 There are Haskell bindings for OpenCV available via `HOpenCV` which has bindings
 for versions upto `OpenCV 2.0`. A fork maintained by Anthony Cowley has bindings
-available for versions upto `OpenCV 2.4`, but it pretty much stops there. Currently,
-`OpenCV 3.0` has been released, and there are no Haskell bindings covering it.
+available for versions upto `OpenCV 2.4`, but it pretty much stops there.
+Currently, `OpenCV 3.0` has been released, and there are no Haskell bindings
+covering it.
 
-There are some interesting projects which try to tackle computer vision in a purely
-functional manner. `cv-combinators`, `easyVision`, and `Zef` are some examples.
+There are some interesting projects which try to tackle computer vision in a
+purely functional manner. `cv-combinators`, `easyVision`, and `Zef` are some
+examples.
 
 As for real world usage, Anthony Cowley has a success story in using Haskell for
 Robots, which likely used quite a bit of Computer Vision.
 
 To be fair, `OpenCV` is very complex and has many APIs, and the OpenCV bindings
-so far are pretty extensive. Libraries like `easyVision` can't compete with OpenCV
-in terms of features, but they are very much feature rich. However, there is still
-a lot of scope for improvement.
+so far are pretty extensive. Libraries like `easyVision` can't compete with
+OpenCV in terms of features, but they are very much feature rich. However, there
+is still a lot of scope for improvement.
 
 **Notable libraries:**
+
 * [`HOpenCV`](https://github.com/sinelaw/HOpenCV)
 * [`HOpenCV` fork](https://github.com/acowley/HOpenCV)
 * [`easyVision`](https://github.com/albertoruiz/easyVision)
@@ -752,7 +765,6 @@ a lot of scope for improvement.
 * [`Zef`](https://github.com/ethereon/Zef)
 
 <br>
-
 
 # Common Programming Needs
 
@@ -780,7 +792,7 @@ own level for the following reasons:
 * Type classes
 * Laziness
 
-The latter two features are what differentiate Haskell from other statically
+The latter three features are what differentiate Haskell from other statically
 typed languages.
 
 If you've ever maintained code in other languages you know that usually your
@@ -836,6 +848,11 @@ The best explanation of Haskell's threading module is the documentation in
 > is done internally in the Haskell runtime system, and doesn't make use of any
 > operating system-supplied thread packages.
 
+In Haskell, all I/O is non-blocking by default, so for example a web server
+will just spawn one lightweight thread per connection and each thread can be
+written in an ordinary synchronous style instead of nested callbacks like in
+Node.js.
+
 The best way to explain the performance of Haskell's threaded runtime is to
 give hard numbers:
 
@@ -870,13 +887,16 @@ implementation has two main advantages over other implementations:
 * Haskell's STM runtime takes advantage of enforced purity to improve the
   efficiency of transactions, retries, and alternation.
 
-Notable libraries:
+Haskell is also the only language that supports both software transactional
+memory and non-blocking I/O.
+
+**Notable libraries:**
 
 * [`stm`](https://hackage.haskell.org/package/stm) - Software transactional memory
 * [`unagi-chan`](https://hackage.haskell.org/package/unagi-chan) - High performance channels
 * [`async`](https://hackage.haskell.org/package/async) - Futures library
 
-Educational resources:
+**Educational resources:**
 
 * [Parallel and Concurrent Programming in Haskell](http://chimera.labs.oreilly.com/books/1230000000929)
 * [Parallel and Concurrent Programming in Haskell - Software transactional
@@ -884,6 +904,11 @@ memory](http://chimera.labs.oreilly.com/books/1230000000929/ch10.html#sec_stm-as
 * [Beautiful concurrency](https://www.fpcomplete.com/school/advanced-haskell/beautiful-concurrency) - a software-transactional memory tutorial
 * [Performance numbers for primitive operations](https://github.com/jberryman/chan-benchmarks#some-analysis-of-primitive-operations) - Latency timings for
   various low-level operations
+
+**Propaganda:**
+
+* [What is the Haskell response to Node.js?](http://stackoverflow.com/questions/3847108/what-is-the-haskell-response-to-node-js)
+* [Haskell and non-blocking asynchronous IO](http://blog.lahteenmaki.net/2013/01/haskell-and-non-blocking-asynchronous-io.html)
 
 <br>
 
@@ -916,6 +941,15 @@ interfaces of all function arguments are inferred, too.  Type signatures are
 optional (with some minor caveats) and are primarily for the benefit of the
 programmer.
 
+Here is an example of writing a function without any types or interfaces at all
+and asking the compiler to infer them for you:
+
+```haskell
+>>> let addAndShow x y = show (x + y)
+>>> :type addAndShow 
+addAndShow :: (Num a, Show a) => a -> a -> String
+```
+
 This really benefits projects where you need to prototype quickly but refactor
 painlessly when you realize you are on the wrong track.  You can leave out all
 type signatures while prototyping but the types are still there even if you
@@ -941,8 +975,7 @@ different tradeoffs:
   programming errors for all possible cases, whereas tests cannot examine every
   possibility
 * Type-checking is much faster than running tests
-* Type error messages are informative: they explain what went wrong and never
-  get stale
+* Type error messages are informative: they explain what went wrong
 * Type-checking never hangs and never gives flaky results
 
 Haskell also provides the "Typed Holes" extension, which lets you add an
@@ -951,17 +984,74 @@ expression belongs there.  The compiler will then tell you the expected type of
 the hole and suggest terms in scope with related types that you can use to fill
 the hole.
 
+There is also a newly added "Liquid Haskell" extension under development which
+you can use to program with "refinement types".  These types enrich Haskell's
+type system with the ability to decorate type signatures with logical predicates
+and arithmetic, and increases the number of invariants that you can encode at
+the type level.
+
 **Educational resources:**
 
 * [Learn you a Haskell - Types and type classes](http://learnyouahaskell.com/types-and-typeclasses)
 * [Learn you a Haskell - Making our own types and type classes](http://learnyouahaskell.com/making-our-own-types-and-typeclasses)
 * [Typed holes](https://mail.haskell.org/pipermail/ghc-devs/2014-March/004239.html)
 * [Partial type signatures proposal](https://mail.haskell.org/pipermail/ghc-devs/2014-March/004239.html)
+* [Programming with refinement types](https://ucsd-progsys.github.io/liquidhaskell-tutorial/01-intro.html) - Very extensive tutorial on how to use Liquid
+  Haskell with interactive examples you can run in your browser
 
 **Propaganda:**
 
 * [What exactly makes the Haskell type system so revered (vs say, Java)?](http://programmers.stackexchange.com/questions/279316/what-exactly-makes-the-haskell-type-system-so-revered-vs-say-java)
 * [Difference between OOP interfaces and FP type classes](http://stackoverflow.com/questions/8122109/difference-between-oop-interfaces-and-fp-type-classes)
+* [Compile-time memory safety using Liquid Haskell](http://www.haskellforall.com/2015/12/compile-time-memory-safety-using-liquid.html) - post illustrating an
+  example use case for refinement types
+
+<br>
+
+## Parsing / Pretty-printing
+
+**Rating:** Best in class
+
+Haskell parsing is sooooooooooo slick.  Recursive descent parser combinators are
+far-and-away the most popular parsing paradigm within the Haskell ecosystem, so
+much so that people use them even in place of regular expressions.  I strongly
+recommend reading the "Monadic Parsing in Haskell" functional pearl linked
+below if you want to get a feel for why parser combinators are so dominant in
+the Haskell landscape.
+
+If you're not sure what library to pick, I generally recommend the `parsec`
+library as a default well-rounded choice because it strikes a decent balance
+between ease-of-use, performance, good error messages, and small dependencies
+(since it ships with GHC).  There is also the `megaparsec` library, which is
+modern and improved version of `parsec`.
+
+`attoparsec` deserves special mention as an extremely fast backtracking parsing
+library.  The speed and simplicity of this library will blow you away.  The
+main deficiency of `attoparsec` is the poor error messages.
+
+The pretty-printing front is also excellent.  Academic researchers just really
+love writing pretty-printing libraries in Haskell for some reason.
+
+**Notable libraries:**
+
+* [`parsec`](https://hackage.haskell.org/package/parsec) - Best overall "value"
+* [`megaparsec`](https://hackage.haskell.org/package/megaparsec) - Modern, actively maintained fork of `parsec`
+* [`attoparsec`](https://hackage.haskell.org/package/attoparsec) - Extremely fast backtracking parser
+* [`Earley`](https://hackage.haskell.org/package/Earley) - Early parsing
+  embedded within the Haskell language
+* [`trifecta`](https://hackage.haskell.org/package/trifecta) - Best error messages (`clang`-style)
+* [`parsers`](https://hackage.haskell.org/package/parsers) - Interface compatible with all of the above libraries which lets you easily switch between them.  People commonly use this library to begin with `trifecta` or `parsec` (for better error messages) then switch to `attoparsec` when done for performance
+* [`alex`](https://hackage.haskell.org/package/alex) / [`happy`](https://hackage.haskell.org/package/happy) - Like `lexx` / `yacc` but with Haskell integration
+* [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - Pretty-printing library
+* [`text-format`](https://hackage.haskell.org/package/text-format) - High-performance string formatting
+
+**Educational resources:**
+
+* [Monadic Parsing in Haskell](http://www.cs.nott.ac.uk/~gmh/pearl.pdf)
+
+**Propaganda:**
+
+* [A major upgrade to attoparsec: more speed, more power](http://www.serpentine.com/blog/2014/05/31/attoparsec/)
 
 <br>
 
@@ -1130,53 +1220,6 @@ inefficient.  You should always use `Text` whenever possible.
 
 <br>
 
-## Parsing / Pretty-printing
-
-**Rating:** Mature
-
-Haskell is amazing at parsing.  Recursive descent parser combinators are
-far-and-away the most popular parsing paradigm within the Haskell ecosystem, so
-much so that people use them even in place of regular expressions.  I strongly
-recommend reading the "Monadic Parsing in Haskell" functional pearl linked
-below if you want to get a feel for why parser combinators are so dominant in
-the Haskell landscape.
-
-If you're not sure what library to pick, I generally recommend the `parsec`
-library as a default well-rounded choice because it strikes a decent balance
-between ease-of-use, performance, good error messages, and small dependencies
-(since it ships with GHC).  There is also `megaparsec` library, which is
-modern and improved version of `parsec`.
-
-`attoparsec` deserves special mention as an extremely fast backtracking parsing
-library.  The speed and simplicity of this library will blow you away.  The
-main deficiency of `attoparsec` is the poor error messages.
-
-The pretty-printing front is also excellent.  Academic researchers just really
-love writing pretty-printing libraries in Haskell for some reason.
-
-**Notable libraries:**
-
-* [`parsec`](https://hackage.haskell.org/package/parsec) - Best overall "value"
-* [`megaparsec`](https://hackage.haskell.org/package/megaparsec) - Modern, actively maintained fork of `parsec`
-* [`attoparsec`](https://hackage.haskell.org/package/attoparsec) - Extremely fast backtracking parser
-* [`trifecta`](https://hackage.haskell.org/package/trifecta) - Best error messages (`clang`-style)
-* [`parsers`](https://hackage.haskell.org/package/parsers) - Interface compatible with all of the above libraries which lets you easily switch between them.  People commonly use this library to begin with `trifecta` or `parsec` (for better error messages) then switch to `attoparsec` when done for performance
-* [`alex`](https://hackage.haskell.org/package/alex) / [`happy`](https://hackage.haskell.org/package/happy) - Like `lexx` / `yacc` but with Haskell integration
-* [`Earley`](https://hackage.haskell.org/package/Earley) - Early parsing
-  embedded within the Haskell language
-* [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - Pretty-printing library
-* [`text-format`](https://hackage.haskell.org/package/text-format) - High-performance string formatting
-
-**Educational resources:**
-
-* [Monadic Parsing in Haskell](http://www.cs.nott.ac.uk/~gmh/pearl.pdf)
-
-**Propaganda:**
-
-* [A major upgrade to attoparsec: more speed, more power](http://www.serpentine.com/blog/2014/05/31/attoparsec/)
-
-<br>
-
 ## Stream programming
 
 **Rating:** Mature
@@ -1201,8 +1244,8 @@ rich ecosystem including common streaming tasks like:
 **Educational resources:**
 
 * [The official `conduit` tutorial](https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/conduit-overview)
-* [The official `pipes` tutorial](http://hackage.haskell.org/package/pipes-4.1.6/docs/Pipes-Tutorial.html)
-* [The official `io-streams` tutorial](http://hackage.haskell.org/package/io-streams-1.3.2.0/docs/System-IO-Streams-Tutorial.html)
+* [The official `pipes` tutorial](http://hackage.haskell.org/package/pipes/docs/Pipes-Tutorial.html)
+* [The official `io-streams` tutorial](http://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Tutorial.html)
 
 <br>
 
@@ -1259,12 +1302,11 @@ not much of an issue.
 
 **Rating:** Mature
 
-If you had asked me a few months back I would have rated Haskell immature in
-this area.  This rating is based entirely on the recent release of the `stack`
-package tool by FPComplete which greatly simplifies package installation and
-dependency management.  This tool was created in response to a broad survey of
-existing Haskell users and potential users where `cabal-install` was identified
-as the single greatest issue for professional Haskell development.
+This rating is based entirely on the recent release of the `stack` package tool
+by FPComplete which greatly simplifies package installation and dependency
+management.  This tool was created in response to a broad survey of existing
+Haskell users and potential users where `cabal-install` was identified as the
+single greatest issue for professional Haskell development.
 
 The `stack` tool is not just good by Haskell standards but excellent even
 compared to other language package managers.  Key features include:
@@ -1341,6 +1383,34 @@ still in Early Access form, for the following reasons:
   entries
 * [The Haskell 2010 Report](https://www.haskell.org/onlinereport/haskell2010/) —
   The Haskell language specification
+
+<br>
+
+## Databases and data stores
+
+**Rating:** Immature
+
+This is is not one of my areas of expertise, but what I do know is that Haskell
+has bindings to most of the open source databases and datastores such as MySQL,
+Postgres, SQLite, Cassandra, Redis, DynamoDB and MongoDB.  However, I haven't really
+evaluated the quality of these bindings other than the `postgresql-simple`
+library, which is the only one I've personally used and was decent as far as I
+could tell.
+
+The "Immature" ranking is based on the lack of bindings to commercial databases
+like Microsoft SQL server and Oracle.  So whether or not Haskell is right for
+you probably depends heavily on whether there are bindings to the specific data
+store you use.
+
+**Notable libraries:**
+
+* [`mysql-simple`](https://hackage.haskell.org/package/mysql-simple) - MySQL bindings
+* [`postgresql-simple`](https://hackage.haskell.org/package/postgresql-simple) - Postgres bindings
+* [`persistent`](https://hackage.haskell.org/package/persistent) - Database-agnostic ORM that supports automatic migrations
+* [`esqueleto`](https://hackage.haskell.org/package/esqueleto) / [`relational-record`](https://hackage.haskell.org/package/relational-record) / [`opaleye`](https://hackage.haskell.org/package/opaleye) - type-safe APIs for building well-formed SQL queries
+* [`acid-state`](https://hackage.haskell.org/package/acid-state) - Simple ACID data store that saves Haskell data types natively
+* [`aws`](https://hackage.haskell.org/package/aws) - Bindings to Amazon DynamoDB
+* [`hedis`](https://hackage.haskell.org/package/hedis) - Bindings to Redis
 
 <br>
 
@@ -1439,40 +1509,6 @@ For other operating systems, use your package manager of choice to install
 
 <br>
 
-## Databases and data stores
-
-**Rating:** Immature
-
-This is is not one of my areas of expertise, but what I do know is that Haskell
-has bindings to most of the open source databases and datastores such as MySQL,
-Postgres, SQLite, Cassandra, Redis, DynamoDB and MongoDB.  However, I haven't really
-evaluated the quality of these bindings other than the `postgresql-simple`
-library, which is the only one I've personally used and was decent as far as I
-could tell.
-
-The "Immature" ranking is based on the recommendation of Stephen Diehl who
-notes:
-
-> Raw bindings are mature, but the higher level ORM tooling is a lot less mature
-> than its Java, Scala, Python counterparts [Source](https://twitter.com/smdiehl/status/633262465938157569)
-
-However, Haskell appears to be deficient in bindings to commercial databases
-like Microsoft SQL server and Oracle.  So whether or not Haskell is right for
-you probably depends heavily on whether there are bindings to the specific data
-store you use.
-
-**Notable libraries:**
-
-* [`mysql-simple`](https://hackage.haskell.org/package/mysql-simple) - MySQL bindings
-* [`postgresql-simple`](https://hackage.haskell.org/package/postgresql-simple) - Postgres bindings
-* [`persistent`](https://hackage.haskell.org/package/persistent) - Database-agnostic ORM that supports automatic migrations
-* [`esqueleto`](https://hackage.haskell.org/package/esqueleto) / [`relational-record`](https://hackage.haskell.org/package/relational-record) / [`opaleye`](https://hackage.haskell.org/package/opaleye) - type-safe APIs for building well-formed SQL queries
-* [`acid-state`](https://hackage.haskell.org/package/acid-state) - Simple ACID data store that saves Haskell data types natively
-* [`aws`](https://hackage.haskell.org/package/aws) - Bindings to Amazon DynamoDB
-* [`hedis`](https://hackage.haskell.org/package/hedis) - Bindings to Redis
-
-<br>
-
 ## Hot code loading
 
 **Rating:** Immature
@@ -1514,16 +1550,22 @@ The `halive` library has the best hot code swapping demo by far:
 
 **Rating:** Immature
 
-I am not the best person to review this area since I do not use an IDE myself.
-I'm basing this "Immature" rating purely on what I have heard from others.
+The best supported editors at the moment appear to be:
 
-The impression I get is that the biggest pain point is that Haskell IDEs,
-IDE plugins, and low-level IDE tools keep breaking with every new GHC release.
+* Emacs/Spacemacs (via `haskell-mode`)
+* Vim (via `haskell-vim-now`)
+* Atom (via `ide-haskell`)
+
+I am not the best person to review this area since I do not use an IDE myself.
+I'm basing this "Immature" rating purely on what I have heard from others.  The
+impression I get is that the biggest pain point is that Haskell IDEs, IDE
+plugins, and low-level IDE tools keep breaking.  The above three editors are the
+ones that have historically had the fewest setup issues.
 
 Most of the Haskell early adopters have been `vi`/`vim` or `emacs` users so
 those editors have gotten the most love.  Support for more traditional IDEs
-has improved recently with Haskell plugins for IntelliJ and Eclipse and also
-the Haskell-native `leksah` IDE.
+has improved recently with Haskell plugins for Atom, IntelliJ and Eclipse and
+also the Haskell-native `leksah` IDE.
 
 FPComplete has also released a web IDE for Haskell programming that is also
 worth checking out which is reasonably polished but cannot be used offline.
@@ -1535,6 +1577,8 @@ worth checking out which is reasonably polished but cannot be used offline.
 * [`hlint`](https://hackage.haskell.org/package/hlint) — Code linter
 * [`ghc-mod`](https://hackage.haskell.org/package/ghc-mod) — editor agnostic tool that powers many IDE-like features
 * [`ghcid`](https://hackage.haskell.org/package/ghcid) — lightweight background type-checker that triggers on code changes
+* [`haskell-vim-now`](https://github.com/begriffs/haskell-vim-now) - streamlined
+  Haskell setup for `vim`
 * [`haskell-mode`](https://github.com/haskell/haskell-mode) — Umbrella project for Haskell `emacs` support
 * [`structured-haskell-mode`](https://github.com/chrisdone/structured-haskell-mode) - structural editing based on Haskell syntax for `emacs`
 * [`codex`](https://hackage.haskell.org/package/codex) — Tags file generator for cabal project dependencies.
@@ -1554,6 +1598,7 @@ worth checking out which is reasonably polished but cannot be used offline.
 
 **Educational resources:**
 
+* [A Vim + Haskell Workflow](http://www.stephendiehl.com/posts/vim_haskell.html)
 * [Survey: Which Haskell development tools are you using that make you a more
    productive Haskell programmer?](https://www.reddit.com/r/haskell/comments/3bqy5h/survey_which_haskell_development_tools_are_you/)
 * [FPComplete Center](https://www.fpcomplete.com/business/haskell-center/overview/) - A web-based Haskell IDE
