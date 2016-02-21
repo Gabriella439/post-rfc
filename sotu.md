@@ -1570,6 +1570,10 @@ also the Haskell-native `leksah` IDE.
 FPComplete has also released a web IDE for Haskell programming that is also
 worth checking out which is reasonably polished but cannot be used offline.
 
+Also, if you have a Mac then the "Haskel for Mac" development environment is
+supposed to work really well for learning since it provides an interactive and
+visual playground for exploring the code.
+
 **Notable tools:**
 
 * [`hoogle`](https://www.haskell.org/hoogle/) — Type-based function search
@@ -1587,12 +1591,13 @@ worth checking out which is reasonably polished but cannot be used offline.
 
 **IDE plugins**:
 
+* Atom (the `ide-haskell` plugin)
 * IntelliJ (the official plugin or Haskforce)
 * Eclipse (the EclipseFP plugin)
-* Atom (the IDE-Haskell plugin)
 
 **IDEs**:
 
+* [Haskell for Mac](http://haskellformac.com/)
 * FPComplete Center
 * [`leksah`](https://hackage.haskell.org/package/leksah)
 
