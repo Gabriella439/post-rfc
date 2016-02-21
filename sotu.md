@@ -1037,8 +1037,10 @@ love writing pretty-printing libraries in Haskell for some reason.
 * [`parsec`](https://hackage.haskell.org/package/parsec) - Best overall "value"
 * [`megaparsec`](https://hackage.haskell.org/package/megaparsec) - Modern, actively maintained fork of `parsec`
 * [`attoparsec`](https://hackage.haskell.org/package/attoparsec) - Extremely fast backtracking parser
-* [`Earley`](https://hackage.haskell.org/package/Earley) - Early parsing
-  embedded within the Haskell language
+* [`Earley`](https://hackage.haskell.org/package/Earley) - Earley parsing
+  embedded within the Haskell language.  Parses all context-free
+  grammars, even ambiguous ones, with no need to left factor.
+  Returns all valid parses.
 * [`trifecta`](https://hackage.haskell.org/package/trifecta) - Best error messages (`clang`-style)
 * [`parsers`](https://hackage.haskell.org/package/parsers) - Interface compatible with `attoparsec`, `parsec` and `trifecta` which lets you easily switch between them.  People commonly use this library to begin with `trifecta` or `parsec` (for better error messages) then switch to `attoparsec` when done for performance
 * [`alex`](https://hackage.haskell.org/package/alex) / [`happy`](https://hackage.haskell.org/package/happy) - Like `lexx` / `yacc` but with Haskell integration
