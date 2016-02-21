@@ -1494,7 +1494,7 @@ experienced programmer.
 
 For Mac, the recommended installation is:
 
-* [Haskell for Mac OS X](http://ghcformacosx.github.io/) - A self-contained
+* [Haskell for Mac](http://haskellformac.com/) - A self-contained
   relocatable GHC build for project-independent Haskell experimentation
 * [Stack](https://github.com/commercialhaskell/stack) - Use this for
   project development
