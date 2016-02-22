@@ -176,7 +176,7 @@ Where Haskell shines in usability is the runtime support for the following
 three features:
 
 * software transactional memory (which differentiates Haskell from Go)
-* lightweight threads that permit blocking I/O (which differentiates Haskell from the JVM)
+* lightweight threads that use non-blocking I/O (which differentiates Haskell from the JVM)
 * garbage collection (which differentiates Haskell from Rust)
 
 If you have never tried out Haskell's software transactional memory you should
