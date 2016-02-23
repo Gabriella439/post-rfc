@@ -488,6 +488,8 @@ by Keera Studios:
   interface
 * [`hsqml`](http://hackage.haskell.org/package/hsqml) - A Haskell binding for Qt Quick, a cross-platform framework for creating graphical user interfaces.
 * [`fltkhs`](http://hackage.haskell.org/package/fltkhs) - A Haskell binding to FLTK. Easy install/use, cross-platform, self-contained executables.
+* [`FregeFX`](https://github.com/Frege/FregeFX) - Frege bindings to Java FX
+  (Frege is essentially the Haskell for the JVM)
 * [`typed-spreadsheet`](http://hackage.haskell.org/package/typed-spreadsheet) -
   Library for building composable interactive forms
 
