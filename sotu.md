@@ -718,10 +718,18 @@ this branch of the Haskell ecosystem.
 **Rating:** Immature
 
 On hobbyist boards like the Raspberry Pi its possible to compile haskell code
-with ghc.  But some libraries have problems on the arm platform, ghci only works
-on newer compilers, and the newer compilers are flaky.
+with ghc.  There are limitations; some libraries have problems on the arm platform, 
+and ghci only works on newer compilers.  Cross compiling doesn't work with 
+template haskell.  Stack and other large projects can take more than 1g of memory 
+to compile.
 
-If haskell code builds, it runs with respectable performance on these machines.
+However, if the haskell code builds, it runs with respectable performance on these machines.
+
+**Arch (Banana Pi) **
+update 2016-02-25:
+* installed today from pacman, current versions are ghc 7.10.3 and cabal-install 1.22.6.0 
+* a compatable version of llvm also installed automatically.
+* ghci passes hello world test; cabal/ghc compiled a modest project normally. 
 
 **Raspian (Raspberry Pi, pi2, others)**
 * current version: ghc 7.4, cabal-install 1.14
@@ -730,7 +738,7 @@ If haskell code builds, it runs with respectable performance on these machines.
 **Debian Jesse (Raspberry Pi 2)**
 * current version: ghc 7.6
 * can install the current ghc 7.10.2 binary and ghci starts.  However, fails
-to build cabal, with 'illegal instruction'
+to build cabal, with 'illegal instruction' (probably bad llvm version).
 
 **Arch (Raspberry Pi 2)**
 * current version 7.8.2, but llvm is 3.6, which is too new.
@@ -738,10 +746,6 @@ to build cabal, with 'illegal instruction'
 * with llvm downgrade to 3.4, ghc and ghci work, but problems compiling yesod,
   scotty.  
 * compiler crashes, segfaults, etc.  
-
-**Arch (Banana Pi)**
-* similar to Raspberry Pi 2, ghc is 7.8.2, works with llvm downgrade
-* have had success compiling a yesod project on this platform.
 
 <br>
 
