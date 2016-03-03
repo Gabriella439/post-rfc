@@ -737,8 +737,7 @@ update 2016-02-25:
 
 **Debian Jesse (Raspberry Pi 2)**
 * current version: ghc 7.6
-* can install the current ghc 7.10.2 binary and ghci starts.  However, fails
-to build cabal, with 'illegal instruction' (probably bad llvm version).
+* Requires `llvm` version 3.5.2 or higher.  Do not use the `llvm-3.5` provided by default in the Jessie package distribution
 
 **Arch (Raspberry Pi 2)**
 * current version 7.8.2, but llvm is 3.6, which is too new.
