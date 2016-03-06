@@ -510,21 +510,20 @@ by Keera Studios:
 
 **Rating:** Immature? (Uncertain)
 
-This area has been pioneered almost single-handedly by one person: Mike
-Izbicki.  He maintains the `HLearn` suite of libraries for machine learning
-in Haskell.
-
-I have essentially no experience in this area, so I can't really rate it that
-well.  However, I'm pretty certain that I would not rate it mature because I'm
-not aware of any company successfully using machine learning in Haskell.
-
-For the same reason, I can't really offer constructive advice for areas for
-improvement.
+Native Haskell implementations in this area have been pioneered almost single-handedly
+by one person: Mike Izbicki.  He maintains the `HLearn` suite of libraries for machine
+learning in Haskell.
 
 If you would like to learn more about this area the best place to begin is the
 Github page for the `HLearn` project:
 
 * [Github repository for `HLearn`](https://github.com/mikeizbicki/HLearn)
+
+Tweag.io has released `Sparkle`, a Haskell integration with Spark.  This 
+enables the use of MLib from Haskell.  MLib is widely used in the industry
+for machine learning. Sparkle itself is fairly new.
+
+* [Github repository for `Sparkle`](https://github.com/tweag/sparkle)
 
 **Notable libraries:**
 * [`HLearn-*`](https://hackage.haskell.org/packages/search?terms=HLearn)
