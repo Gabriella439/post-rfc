@@ -206,7 +206,7 @@ of the Haskell runtime.
 * [`stm`](https://hackage.haskell.org/package/stm) - Software-transactional memory
 * [`lucid`](https://hackage.haskell.org/package/lucid) - Haskell DSL for
   building HTML
-* [`hastache`](https://hackage.haskell.org/package/hastache) / [`karver`](https://hackage.haskell.org/package/karver) - Templating libraries
+* [`mustache`](https://hackage.haskell.org/package/mustache) / [`karver`](https://hackage.haskell.org/package/karver) - Templating libraries
 
 **Some web sites and services powered by Haskell:**
 
