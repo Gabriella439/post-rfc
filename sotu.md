@@ -140,6 +140,7 @@ languages which you can use to write compilers to or from these languages.
 * [`Idris`](http://www.idris-lang.org)
 * [`Agda`](http://wiki.portal.chalmers.se/agda/pmwiki.php)
 * [`Pugs`](http://www.perlfoundation.org/perl6/index.cgi?pugs) (the first Perl 6 implementation)
+* [`oden`](https://github.com/oden-lang/oden)
 * [`ghc`](https://www.haskell.org/ghc/) (self-hosting)
 * [`frege`](https://github.com/Frege/frege) (very similar to Haskell, also self-hosting)
 * [`hython`](https://github.com/mattgreen/hython) (a Python3 interpreter written in Haskell)
@@ -150,6 +151,9 @@ languages which you can use to write compilers to or from these languages.
 * [A Tutorial Implementation of a Dependently Typed Lambda Calculus](http://www.andres-loeh.de/LambdaPi/)
 * [Binders Unbound](http://ozark.hendrix.edu/~yorgey/pub/unbound.pdf)
 
+**Propaganda:**
+
+* [Oden restrospective on rewrite from Racket to Haskell](http://oden-lang.org/blog/compiler/2016/01/18/the-haskell-rewrite.html)
 <br>
 
 ## Server-side programming
