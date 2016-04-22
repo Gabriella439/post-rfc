@@ -1380,7 +1380,7 @@ still in Early Access form, for the following reasons:
 **Educational resources:**
 
 * [Haskell Programming from first principles](http://haskellbook.com/) - The
-  best Haskell resource learn from. The book costs $60, but it's worth the
+  best Haskell resource to learn from. The book costs $60, but it's worth the
   price.
 * [Haskell Wikibook](https://en.wikibooks.org/wiki/Haskell) — One of the highest
   quality among Wikimedia's Wikibooks, which starts from zero, with no
