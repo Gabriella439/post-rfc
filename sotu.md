@@ -1387,7 +1387,7 @@ still in Early Access form, for the following reasons:
   assumption of previous programming experience
 * [How I Start - Haskell](https://howistart.org/posts/haskell/1) — Example
   development environment and workflow
-* [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) — A
+* [Learn You a Haskell for Great Good](http://learnyouahaskell.com/chapters) — A
   beginning Haskell book
 * [Real world Haskell](http://book.realworldhaskell.org/read/) — A book that
   contains several practical cookbook-style examples.  Many code examples are
