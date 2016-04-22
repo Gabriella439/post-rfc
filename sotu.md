@@ -1387,6 +1387,8 @@ still in Early Access form, for the following reasons:
   assumption of previous programming experience
 * [How I Start - Haskell](https://howistart.org/posts/haskell/1) — Example
   development environment and workflow
+* [Happy Learn Haskell Tutorial](http://www.happylearnhaskelltutorial.com) - An
+  example-driven book for complete beginners, with interesting cartoons
 * [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) — A
   beginning Haskell book
 * [Real world Haskell](http://book.realworldhaskell.org/read/) — A book that
