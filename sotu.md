@@ -1389,7 +1389,7 @@ still in Early Access form, for the following reasons:
   development environment and workflow
 * [Happy Learn Haskell Tutorial](http://www.happylearnhaskelltutorial.com) - An
   example-driven book for complete beginners, with interesting cartoons
-* [Learn a Haskell for Great Good](http://learnyouahaskell.com/chapters) — A
+* [Learn You a Haskell for Great Good](http://learnyouahaskell.com/chapters) — A
   beginning Haskell book
 * [Real world Haskell](http://book.realworldhaskell.org/read/) — A book that
   contains several practical cookbook-style examples.  Many code examples are
