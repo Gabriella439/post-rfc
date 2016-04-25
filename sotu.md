@@ -989,8 +989,8 @@ different tradeoffs:
 * The biggest disadvantage of types is that they don't test as many things as full-blown
   tests, because Haskell is not (yet) dependently typed
 * The biggest advantage of types is that they can prove the complete absence of
-  programming errors for all possible cases, whereas tests cannot examine every
-  possibility
+  programming errors that you can encode in the type system, whereas tests
+  do not typically exercise every possible code path
 * Type-checking is much faster than running tests
 * Type error messages are informative: they explain what went wrong
 * Type-checking never hangs and never gives flaky results
