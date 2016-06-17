@@ -1360,7 +1360,7 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 **Rating:** Mature
 
 * [`fast-logger`](https://hackage.haskell.org/package/fast-logger) - High-performance multicore logging system
-* [`hslogger`](https://hackage.haskell.org/package/hslogger) - Logging library analogous to Python's `ConfigParser` library
+* [`hslogger`](https://hackage.haskell.org/package/hslogger) - Logging library analogous to Python's `logging` library
 * [`monad-logger`](https://hackage.haskell.org/package/monad-logger) - add logging with line numbers to your monad stack. Uses fast-logger under the hood.
 
 <br>
