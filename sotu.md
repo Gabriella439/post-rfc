@@ -54,7 +54,8 @@ of the Haskell community you can challenge my decision by opening an issue and I
 either defend my decision or change my mind.
 
 ## Table of Contents
-
+* [Learning](#human-learning)
+  * [Interactive learning](#interactive-learning)
 * [Application Domains](#application-domains)
   * [Compilers](#compilers)
   * [Server-side programming](#server-side-programming)
@@ -65,6 +66,7 @@ either defend my decision or change my mind.
   * [Standalone GUI applications](#standalone-gui-applications)
   * [Machine learning](#machine-learning)
   * [Data science](#data-science)
+  * [Music](#music)
   * [Game programming](#game-programming)
   * [Systems / embedded programming](#systems--embedded-programming)
   * [Mobile apps](#mobile-apps)
@@ -91,6 +93,13 @@ either defend my decision or change my mind.
   * [Cross-platform support](#cross-platform-support)
   * [Hot code loading](#hot-code-loading)
   * [IDE support](#ide-support)
+
+# Learning
+## Interactive Learning
+<br>
+**Rating:** Mature
+
+FPComplete has a very sofisticated system for writing tutorials with runable code. However, I believe that we lack the structure of Khan Academy. In fact, I believe that many videos of Khan Academy could be redone using Haskell as the language instead of handwriting.
 
 # Application Domains
 
@@ -635,6 +644,8 @@ issues is native binaries for desktop games.  For the web, you must compile to
 Javascript, which is doable.  For mobile games on Android you have to cross
 compile and interface the Haskell logic with Android through JNI + Haskell's
 foreign function interface.  For console games, you have no hope.
+
+Another project about game programming with Haskell and functional reactive programming is [Helm](http://helm-engine.org). It seems to be [active](https://groups.google.com/forum/#!forum/helm-dev).
 
 **Areas for improvement:**
 
@@ -1406,6 +1417,13 @@ still in Early Access form, for the following reasons:
   The Haskell language specification
 
 <br>
+
+## Music
+**Rating:** Immature
+
+There is [Euterpea] (http://haskell.cs.yale.edu/euterpea/), created by Paul Hudak.
+
+I believe there is potential for implementing this [The Topos Of Music](http://www.springer.com/us/book/9783764357313)
 
 ## Databases and data stores
 
