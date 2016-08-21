@@ -1586,11 +1586,8 @@ ones that have historically had the fewest setup issues.
 
 Most of the Haskell early adopters have been `vi`/`vim` or `emacs` users so
 those editors have gotten the most love.  Support for more traditional IDEs
-has improved recently with Haskell plugins for Atom, IntelliJ and Eclipse and
-also the Haskell-native `leksah` IDE.
-
-FPComplete has also released a web IDE for Haskell programming that is also
-worth checking out which is reasonably polished but cannot be used offline.
+has improved recently with Haskell plugins for Atom, IntelliJ, and also the
+Haskell-native `leksah` IDE.
 
 Also, if you have a Mac then the "Haskel for Mac" development environment is
 supposed to work really well for learning since it provides an interactive and
@@ -1615,12 +1612,10 @@ visual playground for exploring the code.
 
 * Atom (the `ide-haskell` plugin)
 * IntelliJ (the official plugin or Haskforce)
-* Eclipse (the EclipseFP plugin)
 
 **IDEs**:
 
 * [Haskell for Mac](http://haskellformac.com/)
-* FPComplete Center
 * [`leksah`](https://hackage.haskell.org/package/leksah)
 
 **Educational resources:**
@@ -1628,7 +1623,6 @@ visual playground for exploring the code.
 * [A Vim + Haskell Workflow](http://www.stephendiehl.com/posts/vim_haskell.html)
 * [Survey: Which Haskell development tools are you using that make you a more
    productive Haskell programmer?](https://www.reddit.com/r/haskell/comments/3bqy5h/survey_which_haskell_development_tools_are_you/)
-* [FPComplete Center](https://www.fpcomplete.com/business/haskell-center/overview/) - A web-based Haskell IDE
 
 # Contributors
 
