@@ -59,12 +59,12 @@ either defend my decision or change my mind.
   * [Compilers](#compilers)
   * [Server-side programming](#server-side-programming)
   * [Scripting / Command-line applications](#scripting--command-line-applications)
+  * [Data science](#data-science)
   * [Numerical programming](#numerical-programming)
   * [Front-end web programming](#front-end-web-programming)
   * [Distributed programming](#distributed-programming)
   * [Standalone GUI applications](#standalone-gui-applications)
   * [Machine learning](#machine-learning)
-  * [Data science](#data-science)
   * [Game programming](#game-programming)
   * [Systems / embedded programming](#systems--embedded-programming)
   * [Mobile apps](#mobile-apps)
@@ -313,6 +313,78 @@ features such as:
 
 <br>
 
+## Data science
+
+**Rating:** Mature
+
+The Mature rating is almost entirely due to
+[`HaskellR`](http://tweag.github.io/HaskellR/) and
+[`Sparkle`](https://github.com/tweag/sparkle). `HaskellR` is a Haskell-to-R
+bridge with Jupyter notebook integration, which lets you take advantage of the
+broad R ecosystem while benefiting from the speed and type safety of Haskell.
+`Sparkle` is a Haskell-to-Spark bridge which lets you interface with the Spark
+subset of the Java/Scala data science ecosystem.
+
+If you restrict yourself to just the Haskell ecosystem then choices are more
+limited.  I'll primarily compare Haskell to Python since that's the data science
+ecosystem that I'm more familiar with.  Specifically, I'll compare to the
+`scipy` suite of libraries:
+
+The Haskell analog of `NumPy` is the `hmatrix` library, which provides Haskell
+bindings to BLAS, LAPACK.  `hmatrix`'s main limitation is that the API is a bit
+clunky, but all the tools are there.
+
+Haskell's charting story is okay.  Probably my main criticism of most charting
+APIs is that their APIs tend to be large, the types are a bit complex, and they
+have a very large number of dependencies.
+
+Fortunately, Haskell does integrate into IPython so you can use Haskell within
+an IPython shell or an online notebook.  For example, there is an online
+"IHaskell" notebook that you can use right now located here:
+
+* [IHaskell notebook](https://try.jupyter.org/) - Click on "Welcome to Haskell.ipynb"
+
+If you want to learn more about how to setup your own IHaskell notebook, visit
+this project:
+
+* [IHaskell Github repository](https://github.com/gibiansky/IHaskell)
+
+The closest thing to Python's `pandas` is the `frames` library.  I haven't used
+it that much personally so I won't comment on it much other than to link to
+some tutorials in the Educational Resources section.
+
+I'm not aware of a Haskell analog to `SciPy` (the library) or `sympy`.  If
+you know of an equivalent Haskell library then let me know.
+
+One Haskell library that deserves honorable mention here is the `diagrams`
+library which lets you produce complex data visualizations very easily if
+you want something a little bit fancier than a chart.  Check out the `diagrams`
+project if you have time:
+
+* [The Diagrams project](http://projects.haskell.org/diagrams/)
+* [Gallery of example diagrams](http://projects.haskell.org/diagrams/gallery.html)
+
+**Areas for improvement:**
+
+* Smooth user experience and integration across all of these libraries
+* Simple types and APIs.  The data science programmers I know dislike overly
+  complex or verbose APIs
+* Beautiful data visualizations with very little investment
+
+**Notable libraries:**
+
+* [`HaskellR`](http://tweag.github.io/HaskellR/) - Mix Haskell and R code in Jupyter notebooks
+* [`Sparkle`](https://github.com/tweag/sparkle) - Haskell-to-Spark bridge
+* [`cassava`](https://hackage.haskell.org/package/cassava) - CSV encoding and decoding
+* [`hmatrix`](https://hackage.haskell.org/package/hmatrix) - BLAS / LAPACK wrapper
+* [`Frames`](https://hackage.haskell.org/package/Frames) - Haskell data analysis tool analogous to Python's `pandas`
+* [`statistics`](https://hackage.haskell.org/package/statistics) - Statistics (duh!)
+* [`Chart`](https://hackage.haskell.org/package/Chart) / [`Chart-*`](https://hackage.haskell.org/packages/search?terms=Chart) - Charting library
+* [`diagrams`](https://hackage.haskell.org/package/diagrams) / [`diagrams-*`](https://hackage.haskell.org/packages/search?terms=diagrams) - Vector graphics library
+* [`ihaskell`](https://hackage.haskell.org/package/ihaskell) - Haskell backend to IPython
+
+<br>
+
 ## Numerical programming
 
 **Rating:** Immature
@@ -531,71 +603,6 @@ for machine learning. Sparkle itself is fairly new.
 
 **Notable libraries:**
 * [`HLearn-*`](https://hackage.haskell.org/packages/search?terms=HLearn)
-
-<br>
-
-## Data science
-
-**Rating:** Immature
-
-Haskell really lags behind Python and R in this area.  Haskell is somewhat
-usable for data science, but probably not ready for expert use under deadline
-pressure.
-
-I'll primarily compare Haskell to Python since that's the data science
-ecosystem that I'm more familiar with.  Specifically, I'll compare to the
-`scipy` suite of libraries:
-
-The Haskell analog of `NumPy` is the `hmatrix` library, which provides Haskell
-bindings to BLAS, LAPACK.  `hmatrix`'s main limitation is that the API is a bit
-clunky, but all the tools are there.
-
-Haskell's charting story is okay.  Probably my main criticism of most charting
-APIs is that their APIs tend to be large, the types are a bit complex, and they
-have a very large number of dependencies.
-
-Fortunately, Haskell does integrate into IPython so you can use Haskell within
-an IPython shell or an online notebook.  For example, there is an online
-"IHaskell" notebook that you can use right now located here:
-
-* [IHaskell notebook](https://try.jupyter.org/) - Click on "Welcome to Haskell.ipynb"
-
-If you want to learn more about how to setup your own IHaskell notebook, visit
-this project:
-
-* [IHaskell Github repository](https://github.com/gibiansky/IHaskell)
-
-The closest thing to Python's `pandas` is the `frames` library.  I haven't used
-it that much personally so I won't comment on it much other than to link to
-some tutorials in the Educational Resources section.
-
-I'm not aware of a Haskell analog to `SciPy` (the library) or `sympy`.  If
-you know of an equivalent Haskell library then let me know.
-
-One Haskell library that deserves honorable mention here is the `diagrams`
-library which lets you produce complex data visualizations very easily if
-you want something a little bit fancier than a chart.  Check out the `diagrams`
-project if you have time:
-
-* [The Diagrams project](http://projects.haskell.org/diagrams/)
-* [Gallery of example diagrams](http://projects.haskell.org/diagrams/gallery.html)
-
-**Areas for improvement:**
-
-* Smooth user experience and integration across all of these libraries
-* Simple types and APIs.  The data science programmers I know dislike overly
-  complex or verbose APIs
-* Beautiful data visualizations with very little investment
-
-**Notable libraries:**
-
-* [`cassava`](https://hackage.haskell.org/package/cassava) - CSV encoding and decoding
-* [`hmatrix`](https://hackage.haskell.org/package/hmatrix) - BLAS / LAPACK wrapper
-* [`Frames`](https://hackage.haskell.org/package/Frames) - Haskell data analysis tool analogous to Python's `pandas`
-* [`statistics`](https://hackage.haskell.org/package/statistics) - Statistics (duh!)
-* [`Chart`](https://hackage.haskell.org/package/Chart) / [`Chart-*`](https://hackage.haskell.org/packages/search?terms=Chart) - Charting library
-* [`diagrams`](https://hackage.haskell.org/package/diagrams) / [`diagrams-*`](https://hackage.haskell.org/packages/search?terms=diagrams) - Vector graphics library
-* [`ihaskell`](https://hackage.haskell.org/package/ihaskell) - Haskell backend to IPython
 
 <br>
 
