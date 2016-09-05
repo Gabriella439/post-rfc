@@ -59,8 +59,8 @@ either defend my decision or change my mind.
   * [Compilers](#compilers)
   * [Server-side programming](#server-side-programming)
   * [Scripting / Command-line applications](#scripting--command-line-applications)
-  * [Data science](#data-science)
   * [Numerical programming](#numerical-programming)
+  * [Data science](#data-science)
   * [Front-end web programming](#front-end-web-programming)
   * [Distributed programming](#distributed-programming)
   * [Standalone GUI applications](#standalone-gui-applications)
@@ -315,15 +315,17 @@ features such as:
 
 ## Data science
 
-**Rating:** Mature
+**Rating:** Immature
 
-The Mature rating is almost entirely due to
+Haskell data science can take advantage of other data science ecosystems via the
 [`HaskellR`](http://tweag.github.io/HaskellR/) and
-[`Sparkle`](https://github.com/tweag/sparkle). `HaskellR` is a Haskell-to-R
-bridge with Jupyter notebook integration, which lets you take advantage of the
-broad R ecosystem while benefiting from the speed and type safety of Haskell.
-`Sparkle` is a Haskell-to-Spark bridge which lets you interface with the Spark
-subset of the Java/Scala data science ecosystem.
+[`Sparkle`](https://github.com/tweag/sparkle) projects. `HaskellR` is a
+Haskell-to-R bridge with Jupyter notebook integration, which lets you take
+advantage of the broad R ecosystem while benefiting from the speed and type
+safety of Haskell.  `Sparkle` is a Haskell-to-Spark bridge which lets you
+interface with the Spark subset of the Java/Scala data science ecosystem.
+However, to get a Mature rating Haskell data science needs to be able to
+stand alone without depending on other programming language ecosystems.
 
 If you restrict yourself to just the Haskell ecosystem then choices are more
 limited.  I'll primarily compare Haskell to Python since that's the data science
