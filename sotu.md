@@ -738,20 +738,25 @@ to compile.
 However, if the haskell code builds, it runs with respectable performance on these machines.
 
 **Arch (Banana Pi) **
+
 update 2016-02-25:
+
 * installed today from pacman, current versions are ghc 7.10.3 and cabal-install 1.22.6.0 
 * a compatable version of llvm also installed automatically.
 * ghci passes hello world test; cabal/ghc compiled a modest project normally. 
 
 **Raspian (Raspberry Pi, pi2, others)**
+
 * current version: ghc 7.4, cabal-install 1.14
 * ghci doesn't work.
 
-**Debian Jesse (Raspberry Pi 2)**
-* current version: ghc 7.6
+**Debian Jesse (Raspberry Pi 3)**
+
+* works with: `ghc-7.10.3` and `stack-1.1.2`
 * Requires `llvm` version 3.5.2 or higher.  Do not use the `llvm-3.5` provided by default in the Jessie package distribution
 
 **Arch (Raspberry Pi 2)**
+
 * current version 7.8.2, but llvm is 3.6, which is too new.
 * downgrade packages for llvm not officially available.
 * with llvm downgrade to 3.4, ghc and ghci work, but problems compiling yesod,
