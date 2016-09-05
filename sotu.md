@@ -45,7 +45,7 @@ blinding me!  I've also clearly marked Haskell sales pitches as "Propaganda"
 in my external link sections.  :)
 
 **Disclaimer #4:** I've contributed the majority of these recommendations and I
-also play en editorial role.  This means that although some contributions have been
+also play an editorial role.  This means that although some contributions have been
 crowd-sourced I reserve the right to decline a pull request or edit/delete content
 if I feel that a resource is abandoned or if I feel there are better alternatives
 already listed.  I try to be as fair as possible and if you disagree with any
