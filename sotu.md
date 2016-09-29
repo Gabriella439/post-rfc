@@ -769,31 +769,32 @@ update 2016-02-25:
 
 **Rating:** Immature
 
+The largest real world Haskell usage of computer vision is LumiGuide, which
+powers municipal bicycle detection and guidance systems in Amsterdam.  They
+maintain `OpenCV` bindings in their `haskell-opencv` library.
+
+There are some interesting projects which try to tackle computer vision in a
+purely functional manner. `cv-combinators`, `easyVision`, and `Zef` are some
+examples.
+
 There are Haskell bindings for OpenCV available via `HOpenCV` which has bindings
 for versions upto `OpenCV 2.0`. A fork maintained by Anthony Cowley has bindings
 available for versions upto `OpenCV 2.4`, but it pretty much stops there.
 Currently, `OpenCV 3.0` has been released, and there are no Haskell bindings
 covering it.
 
-There are some interesting projects which try to tackle computer vision in a
-purely functional manner. `cv-combinators`, `easyVision`, and `Zef` are some
-examples.
-
-As for real world usage, Anthony Cowley has a success story in using Haskell for
-Robots, which likely used quite a bit of Computer Vision.
-
-To be fair, `OpenCV` is very complex and has many APIs, and the OpenCV bindings
-so far are pretty extensive. Libraries like `easyVision` can't compete with
-OpenCV in terms of features, but they are very much feature rich. However, there
-is still a lot of scope for improvement.
-
 **Notable libraries:**
 
+* [`haskell-opencv`](https://github.com/LumiGuide/haskell-opencv)
 * [`HOpenCV`](https://github.com/sinelaw/HOpenCV)
 * [`HOpenCV` fork](https://github.com/acowley/HOpenCV)
 * [`easyVision`](https://github.com/albertoruiz/easyVision)
 * [`cv-combinators`](https://github.com/sinelaw/cv-combinators)
 * [`Zef`](https://github.com/ethereon/Zef)
+
+**Propaganda:**
+
+* [Google TechTalk on LumiGuide](https://www.youtube.com/watch?v=IKznN_TYjZk)
 
 <br>
 
