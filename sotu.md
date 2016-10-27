@@ -77,7 +77,7 @@ either defend my decision or change my mind.
   * [Parsing / Pretty-printing](#parsing--pretty-printing)
   * [Domain-specific languages (DSLs)](#domain-specific-languages-dsls)
   * [Testing](#testing)
-  * [Data structures and algorithms](#data-structures-and-alogirthms)
+  * [Data structures and algorithms](#data-structures-and-algorithms)
   * [Benchmarking](#benchmarking)
   * [Unicode](#unicode)
   * [Stream programming](#stream-programming)
