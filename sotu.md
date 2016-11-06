@@ -737,7 +737,7 @@ to compile.
 
 However, if the haskell code builds, it runs with respectable performance on these machines.
 
-**Arch (Banana Pi) **
+**Arch (Banana Pi)**
 
 update 2016-02-25:
 
