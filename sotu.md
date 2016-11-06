@@ -1174,6 +1174,7 @@ languages, including:
 * [`hspec`](https://hackage.haskell.org/package/hspec) - Testing library analogous to Ruby's RSpec
 * [`HUnit`](https://hackage.haskell.org/package/HUnit) - Testing library analogous to Java's JUnit
 * [`tasty`](https://hackage.haskell.org/package/tasty) - Combination unit / regression / property testing library
+- [`HTF`](https://hackage.haskell.org/package/HTF) - Preprocessor based unit testing with various output formats
 
 **Educational resources:**
 
