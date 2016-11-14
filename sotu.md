@@ -1619,6 +1619,7 @@ visual playground for exploring the code.
 * [`haskell-vim-now`](https://github.com/begriffs/haskell-vim-now) - streamlined
   Haskell setup for `vim`
 * [`haskell-mode`](https://github.com/haskell/haskell-mode) — Umbrella project for Haskell `emacs` support
+* [`intero`](https://commercialhaskell.github.io/intero/) - Intero, a complete interactive development program for Haskell (another all-in-the-one solution for `emacs`)
 * [`structured-haskell-mode`](https://github.com/chrisdone/structured-haskell-mode) - structural editing based on Haskell syntax for `emacs`
 * [`codex`](https://hackage.haskell.org/package/codex) — Tags file generator for cabal project dependencies.
 * [`hdevtools`](https://hackage.haskell.org/package/hdevtools) — Persistent GHC-powered background server for development tools
