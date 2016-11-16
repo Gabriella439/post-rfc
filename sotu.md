@@ -1629,11 +1629,13 @@ visual playground for exploring the code.
 
 * Atom (the `ide-haskell` plugin)
 * IntelliJ (the official plugin or Haskforce)
+* Visual Studio Code(the `Haskell Syntax Highlighting` extension)
 
 **IDEs**:
 
 * [Haskell for Mac](http://haskellformac.com/)
 * [`leksah`](https://hackage.haskell.org/package/leksah)
+* [Visual Studio Code](https://code.visualstudio.com)
 
 **Educational resources:**
 
