@@ -1113,8 +1113,8 @@ overload, such as:
 **Educational resources:**
 
 * [You could have invented monads](http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html)
-* [Rebindable syntax](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html#rebindable-syntax)
-* [Monad comprehensions](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/syntax-extns.html#monad-comprehensions)
+* [Rebindable syntax](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#ghc-flag--XRebindableSyntax)
+* [Monad comprehensions](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#ghc-flag--XMonadComprehensions)
 * [Overloaded strings](https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions#overloadedstrings)
 
 <br>
