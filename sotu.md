@@ -153,7 +153,7 @@ languages which you can use to write compilers to or from these languages.
 
 **Propaganda:**
 
-* [Oden restrospective on rewrite from Racket to Haskell](http://oden-lang.org/blog/compiler/2016/01/18/the-haskell-rewrite.html)
+* [Oden restrospective on rewrite from Racket to Haskell](https://github.com/oden-lang/oden-lang.github.io/blob/master/blog/_posts/2016-01-17-the-haskell-rewrite.md)
 <br>
 
 ## Server-side programming
