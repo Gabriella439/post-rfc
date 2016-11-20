@@ -820,6 +820,7 @@ Most statically typed languages are easy to maintain, but Haskell is on its
 own level for the following reasons:
 
 * Strong types
+* Purity
 * Global type inference
 * Type classes
 * Laziness
