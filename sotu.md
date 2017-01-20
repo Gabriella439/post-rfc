@@ -1450,6 +1450,7 @@ store you use.
 * [`aws`](https://hackage.haskell.org/package/aws) - Bindings to Amazon DynamoDB
 * [`hedis`](https://hackage.haskell.org/package/hedis) - Bindings to Redis
 * [`groundhog`](https://hackage.haskell.org/package/groundhog) - A nice datatype to relational mapping library, similar to ORMs
+* [`hasql`](https://hackage.haskell.org/package/hasql) - An efficient PostgreSQL driver and a flexible mapping API based on the binary protocol
 
 <br>
 
