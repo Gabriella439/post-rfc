@@ -586,25 +586,44 @@ by Keera Studios:
 
 ## Machine learning
 
-**Rating:** Immature? (Uncertain)
+**Rating:** Immature
 
-Native Haskell implementations in this area have been pioneered almost single-handedly
-by one person: Mike Izbicki.  He maintains the `HLearn` suite of libraries for machine
-learning in Haskell.
+There are two approaches to using machine learning in Haskell:
 
-If you would like to learn more about this area the best place to begin is the
-Github page for the `HLearn` project:
+* Use a Haskell binding to an implementation in another language
+* Use a machine learning library implemented in Haskell
 
-* [Github repository for `HLearn`](https://github.com/mikeizbicki/HLearn)
+You will most likely want to check out Haskell bindings to the `tensorflow`
+library if you are interested in the first approach:
 
-Tweag.io has released `Sparkle`, a Haskell integration with Spark.  This 
+* [`tensorflow` Haskell bindings](https://github.com/tensorflow/haskell)
+
+Also, Tweag.io has released `Sparkle`, a Haskell integration with Spark.  This 
 enables the use of MLib from Haskell.  MLib is widely used in the industry
 for machine learning. Sparkle itself is fairly new.
 
 * [Github repository for `Sparkle`](https://github.com/tweag/sparkle)
 
+If you are interested in Haskell implementations of machine learning libraries
+then the most promising ones are the `HLearn` project:
+
+* [Github repository for `HLearn`](https://github.com/mikeizbicki/HLearn)
+
+... and the `grenade` project:
+
+* [Github repository for `grenade`](https://github.com/HuwCampbell/grenade)
+
 **Notable libraries:**
-* [`HLearn-*`](https://hackage.haskell.org/packages/search?terms=HLearn)
+
+* [`HLearn-*`](https://hackage.haskell.org/packages/search?terms=HLearn) -
+  Advanced implementations of a subset of machine learning algorithms
+* [`grenade`](https://github.com/HuwCampbell/grenade) - Machine learning
+  library implemented in Haskell with a BLAS/LAPACK backend and a high-level
+  type-based API
+* [`tensorflow`](https://github.com/tensorflow/haskell) - Haskell bindings to
+  Google's `tensorflow` project
+* [`ad`](https://hackage.haskell.org/package/ad) - Automatic differentiation,
+  used as a substrate for many Haskell machine learning projects
 
 <br>
 
