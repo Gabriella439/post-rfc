@@ -1611,9 +1611,11 @@ The `halive` library has the best hot code swapping demo by far:
 
 The best supported editors at the moment appear to be:
 
-* Emacs/Spacemacs (via `haskell-mode`)
+* Emacs (via `haskell-mode` + `intero`)
+* Spacemacs (via haskell-layer)
 * Vim (via `haskell-vim-now`)
 * Atom (via `ide-haskell`)
+* IntelliJ (http://rikvdkleij.github.io/intellij-haskell/)
 
 I am not the best person to review this area since I do not use an IDE myself.
 I'm basing this "Immature" rating purely on what I have heard from others.  The
@@ -1649,7 +1651,7 @@ visual playground for exploring the code.
 **IDE plugins**:
 
 * Atom (the `ide-haskell` plugin)
-* IntelliJ (the official plugin or Haskforce)
+* IntelliJ (Intellij-Haskell http://rikvdkleij.github.io/intellij-haskell/ or Haskforce http://haskforce.com/)
 * Visual Studio Code(the `Haskell Syntax Highlighting` extension)
 
 **IDEs**:
