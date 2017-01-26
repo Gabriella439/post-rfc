@@ -570,6 +570,7 @@ by Keera Studios:
   (Frege is essentially the Haskell for the JVM)
 * [`typed-spreadsheet`](http://hackage.haskell.org/package/typed-spreadsheet) -
   Library for building composable interactive forms
+* [`brick`](https://github.com/jtdaugherty/brick) - Terminal UI based on vty package
 
 **Some example applications:**
 
@@ -1647,6 +1648,8 @@ visual playground for exploring the code.
 * [`codex`](https://hackage.haskell.org/package/codex) — Tags file generator for cabal project dependencies.
 * [`hdevtools`](https://hackage.haskell.org/package/hdevtools) — Persistent GHC-powered background server for development tools
 * [`ghc-imported-from`](https://hackage.haskell.org/package/ghc-imported-from) — editor agnostic tool that finds Haddock documentation page for a symbol
+* [`haskell-tools`](http://haskelltools.org/) - Refactoring tool + library
+* [`hindent`](https://github.com/chrisdone/hindent) - Haskell source indentation tool
 
 **IDE plugins**:
 
