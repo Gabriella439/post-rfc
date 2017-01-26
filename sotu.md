@@ -570,6 +570,7 @@ by Keera Studios:
   (Frege is essentially the Haskell for the JVM)
 * [`typed-spreadsheet`](http://hackage.haskell.org/package/typed-spreadsheet) -
   Library for building composable interactive forms
+* [`brick`](https://github.com/jtdaugherty/brick) - Terminal UI based on vty package
 
 **Some example applications:**
 
@@ -1611,9 +1612,11 @@ The `halive` library has the best hot code swapping demo by far:
 
 The best supported editors at the moment appear to be:
 
-* Emacs/Spacemacs (via `haskell-mode`)
+* Emacs (via `haskell-mode` + `intero`)
+* Spacemacs (via haskell-layer)
 * Vim (via `haskell-vim-now`)
 * Atom (via `ide-haskell`)
+* IntelliJ (http://rikvdkleij.github.io/intellij-haskell/)
 
 I am not the best person to review this area since I do not use an IDE myself.
 I'm basing this "Immature" rating purely on what I have heard from others.  The
@@ -1645,11 +1648,13 @@ visual playground for exploring the code.
 * [`codex`](https://hackage.haskell.org/package/codex) — Tags file generator for cabal project dependencies.
 * [`hdevtools`](https://hackage.haskell.org/package/hdevtools) — Persistent GHC-powered background server for development tools
 * [`ghc-imported-from`](https://hackage.haskell.org/package/ghc-imported-from) — editor agnostic tool that finds Haddock documentation page for a symbol
+* [`haskell-tools`](http://haskelltools.org/) - Refactoring tool + library
+* [`hindent`](https://github.com/chrisdone/hindent) - Haskell source indentation tool
 
 **IDE plugins**:
 
 * Atom (the `ide-haskell` plugin)
-* IntelliJ (the official plugin or Haskforce)
+* IntelliJ (Intellij-Haskell http://rikvdkleij.github.io/intellij-haskell/ or Haskforce http://haskforce.com/)
 * Visual Studio Code(the `Haskell Syntax Highlighting` extension)
 
 **IDEs**:
