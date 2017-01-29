@@ -85,6 +85,7 @@ either defend my decision or change my mind.
   * [Support for file formats](#support-for-file-formats)
   * [Package management](#package-management)
   * [Logging](#logging)
+  * [Code formatting](#code-formatting)
   * [Education](#education)
   * [Databases and data stores](#databases-and-data-stores)
   * [Debugging](#debugging)
@@ -1399,6 +1400,19 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 * [`fast-logger`](https://hackage.haskell.org/package/fast-logger) - High-performance multicore logging system
 * [`hslogger`](https://hackage.haskell.org/package/hslogger) - Logging library analogous to Python's `logging` library
 * [`monad-logger`](https://hackage.haskell.org/package/monad-logger) - add logging with line numbers to your monad stack. Uses fast-logger under the hood.
+
+<br>
+
+## Code formatting
+
+**Rating:** Mature
+
+Haskell provides two tools for automatic code formatting:
+
+* `stylish-haskell` - Less opinionated code formatting tool that mostly
+  formats imports, language extensions, and data type definitions
+* `hindent` - Strict formatting tool that formats everything in the file in a
+  canonical form (analogous to `gofmt`)
 
 <br>
 
