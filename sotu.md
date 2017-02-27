@@ -225,6 +225,7 @@ of the Haskell runtime.
 * [Shellcheck](http://www.shellcheck.net/)
 * [instantwatcher.com](http://instantwatcher.com/)
 * [markup.rocks](http://markup.rocks/)
+* [ZoomHub](http://zoomhub.net/)
 
 **Propaganda:**
 
