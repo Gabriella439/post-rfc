@@ -931,7 +931,7 @@ together in multiple ways to build larger transactions:
 * You can sequence two transactions to build a larger atomic transaction
 * You can combine two transactions using alternation, falling back on the
   second transaction if the first one fails
-* Transactions can retry, rolling back their state and sleeping until one
+* Transactions can retry, roll back their state, and sleep until one
   of their dependencies changes in order to avoid wasteful polling
 
 A few other languages provide software-transactional memory, but Haskell's
