@@ -964,7 +964,7 @@ memory](http://chimera.labs.oreilly.com/books/1230000000929/ch10.html#sec_stm-as
 **Propaganda:**
 
 * [What is the Haskell response to Node.js?](http://stackoverflow.com/questions/3847108/what-is-the-haskell-response-to-node-js)
-* [Haskell and non-blocking asynchronous IO](http://blog.lahteenmaki.net/2013/01/haskell-and-non-blocking-asynchronous-io.html)
+* [Haskell and non-blocking asynchronous IO](https://blog.lahteenmaki.net/haskell-and-non-blocking-asynchronous-io.html)
 
 <br>
 
