@@ -213,7 +213,7 @@ of the Haskell runtime.
   building HTML
 * [`mustache`](https://hackage.haskell.org/package/mustache) / [`karver`](https://hackage.haskell.org/package/karver) - Templating libraries
 
-**Some web sites and services powered by Haskell:**
+**Some web sites,services, and projects powered by Haskell:**
 
 * Facebook's spam filter: Sigma
 * IMVU's REST API
@@ -226,6 +226,8 @@ of the Haskell runtime.
 * [instantwatcher.com](http://instantwatcher.com/)
 * [markup.rocks](http://markup.rocks/)
 * [ZoomHub](http://zoomhub.net/) ([Code](https://github.com/zoomhub/zoomhub))
+* [postgres](https://postgrest.com/en/v4.3/) - Generates a REST API for a
+  Postgres database
 
 **Propaganda:**
 
