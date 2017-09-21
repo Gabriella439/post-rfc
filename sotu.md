@@ -514,10 +514,10 @@ distributing computation.
 
 **Notable libraries:**
 
-* [`glue-core`](https://hackage.haskell.org/package/glue-core) / 
+* [`glue-core`](https://hackage.haskell.org/package/glue-core) /
   [`glue-ekg`](https://hackage.haskell.org/package/glue-ekg) /
   [`glue-example`](https://hackage.haskell.org/package/glue-example) - Service
-  toolkit supporting 
+  toolkit supporting
 * [`haxl`](https://hackage.haskell.org/package/haxl) - Facebook library for
   efficient batching and scheduling of concurrent data access
 * [`distributed-process`](https://hackage.haskell.org/package/distributed-process) / [`distributed-process-*`](https://hackage.haskell.org/packages/search?terms=distributed-process) - Haskell analog to Erlang
@@ -604,7 +604,7 @@ library if you are interested in the first approach:
 
 * [`tensorflow` Haskell bindings](https://github.com/tensorflow/haskell)
 
-Also, Tweag.io has released `Sparkle`, a Haskell integration with Spark.  This 
+Also, Tweag.io has released `Sparkle`, a Haskell integration with Spark.  This
 enables the use of MLib from Haskell.  MLib is widely used in the industry
 for machine learning. Sparkle itself is fairly new.
 
@@ -689,7 +689,7 @@ foreign function interface.  For console games, you have no hope.
 * [`GPipe`](https://hackage.haskell.org/package/GPipe) - Type-safe OpenGL API
   that also lets you embed shader code directly within Haskell.  See the
   [GPipe wiki](https://wiki.haskell.org/GPipe) to learn more
-  
+
 
 <br>
 
@@ -755,9 +755,9 @@ this branch of the Haskell ecosystem.
 **Rating:** Immature
 
 On hobbyist boards like the Raspberry Pi its possible to compile haskell code
-with ghc.  There are limitations; some libraries have problems on the arm platform, 
-and ghci only works on newer compilers.  Cross compiling doesn't work with 
-template haskell.  Stack and other large projects can take more than 1g of memory 
+with ghc.  There are limitations; some libraries have problems on the arm platform,
+and ghci only works on newer compilers.  Cross compiling doesn't work with
+template haskell.  Stack and other large projects can take more than 1g of memory
 to compile.
 
 However, if the haskell code builds, it runs with respectable performance on these machines.
@@ -766,9 +766,9 @@ However, if the haskell code builds, it runs with respectable performance on the
 
 update 2016-02-25:
 
-* installed today from pacman, current versions are ghc 7.10.3 and cabal-install 1.22.6.0 
+* installed today from pacman, current versions are ghc 7.10.3 and cabal-install 1.22.6.0
 * a compatable version of llvm also installed automatically.
-* ghci passes hello world test; cabal/ghc compiled a modest project normally. 
+* ghci passes hello world test; cabal/ghc compiled a modest project normally.
 
 **Raspian (Raspberry Pi, pi2, others)**
 
@@ -1004,7 +1004,7 @@ and asking the compiler to infer them for you:
 
 ```haskell
 >>> let addAndShow x y = show (x + y)
->>> :type addAndShow 
+>>> :type addAndShow
 addAndShow :: (Num a, Show a) => a -> a -> String
 ```
 
@@ -1459,6 +1459,8 @@ still in Early Access form, for the following reasons:
   entries
 * [The Haskell 2010 Report](https://www.haskell.org/onlinereport/haskell2010/) —
   The Haskell language specification
+* [Queensland FP Lab - FP Course](https://blog.qfpl.io/projects/courses/) - An "interactive" course
+  ran within GHCI; beginner-safe, smoothly ramps up introduction of content.
 
 <br>
 
@@ -1723,3 +1725,4 @@ visual playground for exploring the code.
 * @ExternalReality
 * @GetContented
 * @psibi
+* @newswim
