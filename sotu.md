@@ -485,6 +485,7 @@ Haskell.
 
 * [reflex](https://hackage.haskell.org/package/reflex) / [reflex-dom](https://hackage.haskell.org/package/reflex-dom) - Functional reactive programming library
   for the front end
+* [miso](https://haskell-miso.org/) a small "[isomorphic](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/)" front-end framework featuring a virtual-dom, inspired by [Elm](http://elm-lang.org/), [Redux](http://redux.js.org/) and [Bobril](http://github.com/bobris/bobril).
 
 <br>
 
