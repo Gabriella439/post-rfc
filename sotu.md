@@ -244,9 +244,9 @@ of the Haskell runtime.
 **Educational resources:**
 
 * [Making a Website With Haskell](http://adit.io/posts/2013-04-15-making-a-website-with-haskell.html)
-* [Beautiful concurrency](https://www.fpcomplete.com/school/advanced-haskell/beautiful-concurrency) - a software-transactional memory tutorial
+* [Beautiful concurrency](https://www.schoolofhaskell.com/school/advanced-haskell/beautiful-concurrency) - a software-transactional memory tutorial
 * [The Yesod book](http://www.yesodweb.com/book)
-* [The Servant tutorial](http://haskell-servant.github.io/tutorial/)
+* [The Servant tutorial](https://haskell-servant.readthedocs.io/en/stable/tutorial/index.html)
 * [Overview of Happstack](http://www.happstack.com)
 
 <br>
