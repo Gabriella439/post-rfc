@@ -226,7 +226,7 @@ of the Haskell runtime.
 * [instantwatcher.com](http://instantwatcher.com/)
 * [markup.rocks](http://markup.rocks/)
 * [ZoomHub](http://zoomhub.net/) ([Code](https://github.com/zoomhub/zoomhub))
-* [postgres](https://postgrest.com/en/v4.3/) - Generates a REST API for a
+* [PostgREST](https://postgrest.com/en/v4.3/) - Generates a REST API for a
   Postgres database
 
 **Propaganda:**
