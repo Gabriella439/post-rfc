@@ -130,7 +130,8 @@ languages which you can use to write compilers to or from these languages.
 * [`bound`](https://hackage.haskell.org/package/bound) / [`unbound`](https://hackage.haskell.org/package/unbound) - manipulating bound variables
 * [`hoopl`](https://hackage.haskell.org/package/hoopl) - optimization
 * [`wl-pprint`](https://hackage.haskell.org/package/wl-pprint) / [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - pretty-printing
-* [`llvm-general`](https://hackage.haskell.org/package/llvm-general) - LLVM API
+* [`llvm-general`](https://hackage.haskell.org/package/llvm-general) - LLVM 3.5 API
+* [`llvm-hs`](https://hackage.haskell.org/package/llvm-hs) - LLVM 5 API (actively maintained fork of llvm-general)
 * `language-`{[`ecmascript`](https://hackage.haskell.org/package/language-ecmascript)|[`python`](https://hackage.haskell.org/package/language-python)|[`c-quote`](https://hackage.haskell.org/package/language-c-quote)|[`lua`](https://hackage.haskell.org/package/language-lua)|[`java`](https://hackage.haskell.org/package/language-java)|[`objc`](https://hackage.haskell.org/package/language-objc)|[`cil`](https://hackage.haskell.org/package/language-cil)} - parsers and
    pretty-printers for other languages
 
@@ -145,6 +146,7 @@ languages which you can use to write compilers to or from these languages.
 * [`ghc`](https://www.haskell.org/ghc/) (self-hosting)
 * [`frege`](https://github.com/Frege/frege) (very similar to Haskell, also self-hosting)
 * [`hython`](https://github.com/mattgreen/hython) (a Python3 interpreter written in Haskell)
+* [`Lasca`](https://github.com/nau/lasca-lang) (a small Scala-like language with global type inference and optional dynamic mode on LLVM backend)
 
 **Educational resources:**
 
