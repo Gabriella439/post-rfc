@@ -527,6 +527,7 @@ distributing computation.
 * [`hadron`](https://github.com/Soostone/hadron) - Haskell wrapper around `hadoop`
 * [`amazonka`](https://hackage.haskell.org/package/amazonka) / [`amazonka-*`](https://hackage.haskell.org/packages/search?terms=amazonka) - Auto-generated
   bindings to the entire Amazon Web Services SDK
+* [`gogol`](http://hackage.haskell.org/package/gogol) / [`gogol-*`](https://hackage.haskell.org/packages/search?terms=gogol) - Auto-generated bindings to the entire Google Cloud Platform
 * [`transient`](https://github.com/transient-haskell/transient) - composable primitives for concurrency / parallelism / distributed computing
 
 <br>
