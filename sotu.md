@@ -142,11 +142,13 @@ languages which you can use to write compilers to or from these languages.
 * [`Idris`](http://www.idris-lang.org)
 * [`Agda`](http://wiki.portal.chalmers.se/agda/pmwiki.php)
 * [`Pugs`](http://www.perlfoundation.org/perl6/index.cgi?pugs) (the first Perl 6 implementation)
-* [`oden`](https://github.com/oden-lang/oden)
 * [`ghc`](https://www.haskell.org/ghc/) (self-hosting)
 * [`frege`](https://github.com/Frege/frege) (very similar to Haskell, also self-hosting)
 * [`hython`](https://github.com/mattgreen/hython) (a Python3 interpreter written in Haskell)
 * [`Lasca`](https://github.com/nau/lasca-lang) (a small Scala-like language with global type inference and optional dynamic mode on LLVM backend)
+* [`verve`](https://github.com/tadeuzagallo/verve-lang) - Functional language with object-oriented support
+* [`sixten`](https://github.com/ollef/sixten) - Haskell/Idris-style language with a focus on precise and efficient memory layout
+* [`oden`](https://github.com/oden-lang/oden) (no longer in active development)
 
 **Educational resources:**
 
