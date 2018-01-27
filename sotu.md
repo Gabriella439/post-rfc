@@ -1645,7 +1645,7 @@ The best supported editors at the moment appear to be:
 * Spacemacs (via haskell-layer)
 * Vim (via `haskell-vim-now`)
 * Atom (via `ide-haskell`)
-* IntelliJ (http://rikvdkleij.github.io/intellij-haskell/)
+* IntelliJ IDEA (http://rikvdkleij.github.io/intellij-haskell/)
 
 I am not the best person to review this area since I do not use an IDE myself.
 I'm basing this "Immature" rating purely on what I have heard from others.  The
@@ -1680,17 +1680,25 @@ visual playground for exploring the code.
 * [`haskell-tools`](http://haskelltools.org/) - Refactoring tool + library
 * [`hindent`](https://github.com/chrisdone/hindent) - Haskell source indentation tool
 
-**IDE plugins**:
+**Language Service Protocol**
+
+The recent movement is to migrate all the editor plugins for Haskell to the Microsoft's Language Protocol (LSP) which allows to support many different editors with one unified plugin. The server part of the protocol is in [`haskell-ide-engine`](https://github.com/haskell/haskell-ide-engine) (not yet on hackage). The client part is different for different editors:
+
+- Visual Studio Code / VSCode via [Haskell Language Server](https://marketplace.visualstudio.com/items?itemName=alanz.vscode-hie-server) plugin
+- neovim / vim7 via [`LanguageClient-neovim`](https://github.com/autozimu/LanguageClient-neovim)) plugin
+- SublimeText
+- Atom
+
+**Non-LSP IDE plugins**:
 
 * Atom (the `ide-haskell` plugin)
-* IntelliJ (Intellij-Haskell http://rikvdkleij.github.io/intellij-haskell/ or Haskforce http://haskforce.com/)
-* Visual Studio Code(the `Haskell Syntax Highlighting` extension)
+* IntelliJ IDEA (Intellij-Haskell http://rikvdkleij.github.io/intellij-haskell/ or Haskforce http://haskforce.com/)
+* Visual Studio Code (the `Haskell Syntax Highlighting` extension)
 
 **IDEs**:
 
 * [Haskell for Mac](http://haskellformac.com/)
 * [`leksah`](https://hackage.haskell.org/package/leksah)
-* [Visual Studio Code](https://code.visualstudio.com)
 
 **Educational resources:**
 
