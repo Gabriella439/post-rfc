@@ -309,6 +309,7 @@ features such as:
 * [`haskeline`](https://hackage.haskell.org/package/haskeline) - a complete Haskell implementation of `readline` for console
   building
 * [`process`](https://hackage.haskell.org/package/process) - low-level library for sub-process management
+* [`ansi-terminal`](https://hackage.haskell.org/package/ansi-terminal) - de facto standard cross-platform terminal library (works on Windows as well)
 
 **Some command-line tools written in Haskell:**
 
