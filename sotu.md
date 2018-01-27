@@ -1569,17 +1569,33 @@ off of the language.
 If you're a Haskell developer using Windows, I highly recommend the following
 installs to get started quickly and with as few issues as possible:
 
-* [Git for Windows](https://git-for-windows.github.io/) - A Unix-like
-  command-line environment bundled with `git` that you can use to follow along
-  with tutorials
-* [MinGHC](https://www.haskell.org/downloads/windows) - Use this for
-  project-independent Haskell experimentation
-* [Stack](https://github.com/commercialhaskell/stack) - Use this for
-  project development
+* [Stack](https://github.com/commercialhaskell/stack) - Use this for both
+  project development and out-of-project experimentation.
+  
+Both Haskell Platform, standalone GHC binaries and MinGHC are deprecated now on Windows in favor of Stack. Note also
+that because of bugs `stack setup` takes long time to complere (it seems to hang in `strip` but it doesn't) and requires
+some 1.5 GB of extra disk space for a temporary file to extract GHC .tar from .tar.xz.
+
+Git has traditionally poor support on Windows, although the support improved recently with support of Git by Visual Studio (Microsoft 
+contributed the upstream fixes). If you just need source control you can use Mercurial 
+instead (in the form of [TortoiseHg](https://www.mercurial-scm.org/wiki/TortoiseHg) which also includes a decent GUI frontend)). There are Mercurial analogs of github as well. Another advantage of Mercurial is
+that it works well with PuTTY SSH infrastructure - e.g. pageant SSH agent works and you don't need to keep separate set of keys.
+
+If you want git (and yes, git is cooler than mercurial) you have 4 options:
+
+- Standard git from https://git-scm.com/download/win (you don't need WinGit any more)
+- The same git distribution shipped with [Github for Windows](https://desktop.github.com/) front-end
+- A minimal version of this standard git (https://github.com/git-for-windows/git/releases/ - see MinGit there)
+- The git from Linux Subsystem for Windows 10 (it's actually real Ubuntu or SUSE Linux binaries of git). Unfortunately GHC itself is
+  not yet stable under LSW (although basic things work).
+  
+You can use TortoiseGit GUI front-end with git (but unlike TortoiseHg which ships its own Mercurial, TortoiseGit 
+ requires a full standard git installed separately as well).
 
 Additionally, learn to use the command line a little bit until Haskell IDE
 support improves.  Plus, it's a useful skill in general as you become a more
-experienced programmer.
+experienced programmer. You can use either cmd.exe or newer powershell - there is
+powershell support for Git.
 
 For Mac, the recommended installation is:
 
