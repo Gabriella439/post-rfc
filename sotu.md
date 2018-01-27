@@ -57,7 +57,7 @@ either defend my decision or change my mind.
 
 * [Application Domains](#application-domains)
   * [Compilers](#compilers)
-  * [Server-side programming](#server-side-programming)
+  * [Server-side web programming](#server-side-web-programming)
   * [Scripting / Command-line applications](#scripting--command-line-applications)
   * [Numerical programming](#numerical-programming)
   * [Data science](#data-science)
@@ -161,7 +161,7 @@ languages which you can use to write compilers to or from these languages.
 * [Oden restrospective on rewrite from Racket to Haskell](https://github.com/oden-lang/oden-lang.github.io/blob/master/blog/_posts/2016-01-17-the-haskell-rewrite.md)
 <br>
 
-## Server-side programming
+## Server-side web programming
 
 **Rating:** Mature
 
@@ -210,12 +210,14 @@ of the Haskell runtime.
 * [`yesod`](https://hackage.haskell.org/package/yesod) / [`yesod-*`](https://hackage.haskell.org/packages/search?terms=yesod) / [`snap`](https://hackage.haskell.org/package/snap) / [`snap-*`](https://hackage.haskell.org/packages/search?terms=snap) / [`happstack-server`](https://hackage.haskell.org/package/happstack-server) / [`happstack-*`](https://hackage.haskell.org/packages/search?terms=happstack) - "Enterprise" server frameworks with all the bells and whistles
 * [`servant`](https://hackage.haskell.org/package/servant) / [`servant-*`](https://hackage.haskell.org/packages/search?terms=servant) - Library for type-safe
   REST servers and clients that might blow your mind
+* [`websockets`](https://hackage.haskell.org/package/websockets) - Standalone websockets client and server
 * [`authenticate`](https://hackage.haskell.org/package/authenticate) / [`authenticate-*`](https://hackage.haskell.org/packages/search?terms=authenticate) - Shared authentication libraries
 * [`ekg`](https://hackage.haskell.org/package/ekg) / [`ekg-*`](https://hackage.haskell.org/packages/search?terms=ekg) - Haskell service monitoring
 * [`stm`](https://hackage.haskell.org/package/stm) - Software-transactional memory
 * [`lucid`](https://hackage.haskell.org/package/lucid) - Haskell DSL for
   building HTML
 * [`mustache`](https://hackage.haskell.org/package/mustache) / [`karver`](https://hackage.haskell.org/package/karver) - Templating libraries
+* [`aeson`](https://hackage.haskell.org/package/aeson) - Parsing and generation of JSON
 
 **Some web sites,services, and projects powered by Haskell:**
 
