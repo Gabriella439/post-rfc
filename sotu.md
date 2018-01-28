@@ -111,6 +111,7 @@ bound variables, syntax tree manipulations, and optimization.
 Anybody who has ever written a compiler knows how difficult they are to
 implement because by necessity they manipulate very weakly typed data
 structures (trees and maps of strings and integers).  Consequently, there is a
+
 huge margin for error in everything a compiler does, from type-checking to
 optimization, to code generation.  Haskell knocks this out of the park, though,
 with a really powerful type system with many extensions that can eliminate
@@ -129,6 +130,8 @@ languages which you can use to write compilers to or from these languages.
 * [`parsec`](https://hackage.haskell.org/package/parsec) / [`megaparsec`](https://hackage.haskell.org/package/megaparsec) / [`attoparsec`](https://hackage.haskell.org/package/attoparsec) / [`trifecta`](https://hackage.haskell.org/package/trifecta) / [`alex`](https://hackage.haskell.org/package/alex)+[`happy`](https://hackage.haskell.org/package/happy) - parsing libraries
 * [`bound`](https://hackage.haskell.org/package/bound) / [`unbound`](https://hackage.haskell.org/package/unbound) - manipulating bound variables
 * [`hoopl`](https://hackage.haskell.org/package/hoopl) - optimization
+* [`uuagc`](https://hackage.haskell.org/package/uuagc) - attribute grammars
+* [`unification-fd`](https://hackage.haskell.org/package/unification-fd) - fast structural unification
 * [`wl-pprint`](https://hackage.haskell.org/package/wl-pprint) / [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - pretty-printing
 * [`llvm-general`](https://hackage.haskell.org/package/llvm-general) - LLVM 3.5 API
 * [`llvm-hs`](https://hackage.haskell.org/package/llvm-hs) - LLVM 5 API (actively maintained fork of llvm-general)
