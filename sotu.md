@@ -1685,12 +1685,18 @@ visual playground for exploring the code.
 
 **Language Service Protocol**
 
-The recent movement is to migrate all the editor plugins for Haskell to the Microsoft's Language Protocol (LSP) which allows to support many different editors with one unified plugin. The server part of the protocol is in [`haskell-ide-engine`](https://github.com/haskell/haskell-ide-engine) (not yet on hackage). The client part is different for different editors:
+The recent movement is to migrate all the editor plugins for Haskell to the Microsoft's Language Protocol (LSP) which allows to support many different editors with one unified plugin. The server part of the protocol is in [`haskell-ide-engine`](https://github.com/haskell/haskell-ide-engine) (not yet on hackage). The client part is different for different editors.
 
-- Visual Studio Code / VSCode via [Haskell Language Server](https://marketplace.visualstudio.com/items?itemName=alanz.vscode-hie-server) plugin
-- neovim / vim7 via [`LanguageClient-neovim`](https://github.com/autozimu/LanguageClient-neovim)) plugin
-- SublimeText
+The following editors are tested. See [haskell-ide-engine/README.md](https://github.com/haskell/haskell-ide-engine/blob/master/README.md#editor-integration) for installation instructions: 
+
+- Visual Studio Code / VSCode
 - Atom
+- neovim / vim7
+- Sublime Text
+
+More editors probably work, but there is no installation instruction yet: Eclipse, Eclipse Che, Microsoft Monaco,IntelliJ / JetBrains IDEs, Emacs, Theia, Spyder IDE, Oni. See an up to date list of "language clients" at http://langserver.org/
+
+Note that the [LSP protocol specification](https://microsoft.github.io/language-server-protocol/specification) currently only covers navigation/browsing/references, types/symbol info, refactoring, linting and completion/intellisense aspects of IDE. Project management, building, syntax highlighting and debugging are not covered yet, so you need separate editor-specific support for that. Sometimes when you install HIE as per instruction, these components are bundled as well, but sometimes they don't.
 
 **Non-LSP IDE plugins**:
 
@@ -1701,7 +1707,7 @@ The recent movement is to migrate all the editor plugins for Haskell to the Micr
 **IDEs**:
 
 * [Haskell for Mac](http://haskellformac.com/)
-* [`leksah`](https://hackage.haskell.org/package/leksah)
+* [`leksah`](https://hackage.haskell.org/package/leksah).
 
 **Educational resources:**
 
