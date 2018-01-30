@@ -1672,18 +1672,30 @@ visual playground for exploring the code.
 * [`hlint`](https://hackage.haskell.org/package/hlint) — Code linter
 * [`ghc-mod`](https://hackage.haskell.org/package/ghc-mod) — editor agnostic tool that powers many IDE-like features
 * [`ghcid`](https://hackage.haskell.org/package/ghcid) — lightweight background type-checker that triggers on code changes
-* [`haskell-vim-now`](https://github.com/begriffs/haskell-vim-now) - streamlined
-  Haskell setup for `vim`
-* [`haskell-mode`](https://github.com/haskell/haskell-mode) — Umbrella project for Haskell `emacs` support
-* [`intero`](https://commercialhaskell.github.io/intero/) - Intero, a complete interactive development program for Haskell (another all-in-the-one solution for `emacs`)
-* [`structured-haskell-mode`](https://github.com/chrisdone/structured-haskell-mode) - structural editing based on Haskell syntax for `emacs`
 * [`codex`](https://hackage.haskell.org/package/codex) — Tags file generator for cabal project dependencies.
 * [`hdevtools`](https://hackage.haskell.org/package/hdevtools) — Persistent GHC-powered background server for development tools
 * [`ghc-imported-from`](https://hackage.haskell.org/package/ghc-imported-from) — editor agnostic tool that finds Haddock documentation page for a symbol
 * [`haskell-tools`](http://haskelltools.org/) - Refactoring tool + library
 * [`hindent`](https://github.com/chrisdone/hindent) - Haskell source indentation tool
 
-**Language Service Protocol**
+**Vim and Neovim Plugins:**
+
+* [`haskell-vim-now`](https://github.com/begriffs/haskell-vim-now) - a highly 
+customized `.vimrc` with some 20 plugins and key bindings configured to work with Haskell.
+* [haskell-ide-engine](https://github.com/haskell/haskell-ide-engine) (see below) via [LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim)
+
+The two plugins provide different sets of features. 
+Many plugins installed by `haskell-vim-now` can be used with `haskell-ide-engine`
+as well, but there is no ready made config/installation script yet.
+
+**Emacs Plugins:**
+
+* [`haskell-mode`](https://github.com/haskell/haskell-mode) — Umbrella project for Haskell `emacs` support
+* [`intero`](https://commercialhaskell.github.io/intero/) - Intero, a complete interactive development program for Haskell (another all-in-the-one solution for `emacs`)
+* [`structured-haskell-mode`](https://github.com/chrisdone/structured-haskell-mode) - structural editing based on Haskell syntax for `emacs`
+* [`haskell-ide-engine`](https://github.com/haskell/haskell-ide-engine) (see below) via [`emacs-lsp/lsp-haskell`](https://github.com/emacs-lsp/lsp-haskell)
+
+**Language Service Protocol:**
 
 The recent movement is to migrate all the editor plugins for Haskell to the Microsoft's Language Protocol (LSP) which allows to support many different editors with one unified plugin. The server part of the protocol is in [`haskell-ide-engine`](https://github.com/haskell/haskell-ide-engine) (not yet on hackage). The client part is different for different editors.
 
@@ -1698,13 +1710,13 @@ More editors probably work, but there is no installation instruction yet: Eclips
 
 Note that the [LSP protocol specification](https://microsoft.github.io/language-server-protocol/specification) currently only covers navigation/browsing/references, types/symbol info, refactoring, linting and completion/intellisense aspects of IDE. Project management, building, syntax highlighting and debugging are not covered yet, so you need separate editor-specific support for that. Sometimes when you install HIE as per instruction, these components are bundled as well, but sometimes they don't.
 
-**Non-LSP IDE plugins**:
+**Non-LSP IDE plugins:**
 
 * Atom (the `ide-haskell` plugin)
 * IntelliJ IDEA (Intellij-Haskell http://rikvdkleij.github.io/intellij-haskell/ or Haskforce http://haskforce.com/)
 * Visual Studio Code (the `Haskell Syntax Highlighting` extension)
 
-**IDEs**:
+**IDEs:**
 
 * [Haskell for Mac](http://haskellformac.com/)
 * [`leksah`](https://hackage.haskell.org/package/leksah).
