@@ -1,3 +1,4 @@
+
 # State of the Haskell ecosystem
 
 In this post I will describe the current state of the Haskell ecosystem to the
@@ -457,7 +458,7 @@ upward.
 
 **Rating:** Immature
 
-This boils down to Haskell's ability to compile to Javascript.  `ghcjs` is the
+This boils down to Haskell's ability to compile to JavaScript.  `ghcjs` is the
 front-runner, but for a while setting up `ghcjs` was non-trivial.  Now that
 the `stack` build tool supports `ghcjs` you can very easily set up a new `ghcjs`
 project by following these instructions:
@@ -465,7 +466,7 @@ project by following these instructions:
 * [Stack + GHCJS support](http://docs.haskellstack.org/en/stable/ghcjs/)
 
 One of the distinctive features of `ghcjs` compared to other competing
-Haskell-to-Javascript compilers is that a huge number of Haskell libraries work
+Haskell-to-JavaScript compilers is that a huge number of Haskell libraries work
 out of the box with `ghcjs` because it supports most of `ghc`'s primitive
 operations.
 
@@ -478,7 +479,7 @@ Haskell.
 **Areas for improvement:**
 
 * There needs to be a clear story for smooth integration with existing
-  Javascript projects
+  JavaScript projects
 * There need to be many more educational resources targeted at non-experts
   explaining how to translate existing front-end programming idioms to Haskell
 * There need to be several well-maintained and polished Haskell libraries for
@@ -486,7 +487,7 @@ Haskell.
 * The whole `ghcjs` ecosystem needs much more documentation.  There's not even
   a basic tutorial on how to actually use `ghcjs`
 
-**Notable Haskell-to-Javascript compilers:**
+**Notable Haskell-to-JavaScript compilers:**
 
 * [`ghcjs`](https://github.com/ghcjs/ghcjs)
 * [`haste`](https://hackage.haskell.org/package/haste-compiler)
@@ -677,7 +678,7 @@ The primary reason for the immature rating is the difficulty of integrating
 Haskell with existing game platforms, which often are biased towards a
 particular language or toolchain.  The only game platform where Haskell has no
 issues is native binaries for desktop games.  For the web, you must compile to
-Javascript, which is doable.  For mobile games on Android you have to cross
+JavaScript, which is doable.  For mobile games on Android you have to cross
 compile and interface the Haskell logic with Android through JNI + Haskell's
 foreign function interface.  For console games, you have no hope.
 
@@ -765,26 +766,26 @@ this branch of the Haskell ecosystem.
 
 **Rating:** Immature
 
-On hobbyist boards like the Raspberry Pi its possible to compile haskell code
-with ghc.  There are limitations; some libraries have problems on the arm platform,
-and ghci only works on newer compilers.  Cross compiling doesn't work with
-template haskell.  Stack and other large projects can take more than 1g of memory
+On hobbyist boards like the Raspberry Pi its possible to compile Haskell code
+with GHC.  There are limitations; some libraries have problems on the arm platform,
+and GHCi only works on newer compilers.  Cross compiling doesn't work with
+template Haskell.  Stack and other large projects can take more than 1g of memory
 to compile.
 
-However, if the haskell code builds, it runs with respectable performance on these machines.
+However, if the Haskell code builds, it runs with respectable performance on these machines.
 
 **Arch (Banana Pi)**
 
 update 2016-02-25:
 
-* installed today from pacman, current versions are ghc 7.10.3 and cabal-install 1.22.6.0
-* a compatable version of llvm also installed automatically.
-* ghci passes hello world test; cabal/ghc compiled a modest project normally.
+* installed today from pacman, current versions are GHC 7.10.3 and cabal-install 1.22.6.0
+* a compatible version of llvm also installed automatically.
+* GHCi passes hello world test; cabal/GHC compiled a modest project normally.
 
 **Raspian (Raspberry Pi, pi2, others)**
 
-* current version: ghc 7.4, cabal-install 1.14
-* ghci doesn't work.
+* current version: GHC 7.4, cabal-install 1.14
+* GHCi doesn't work.
 
 **Debian Jesse (Raspberry Pi 3)**
 
@@ -795,9 +796,9 @@ update 2016-02-25:
 
 * current version 7.8.2, but llvm is 3.6, which is too new.
 * downgrade packages for llvm not officially available.
-* with llvm downgrade to 3.4, ghc and ghci work, but problems compiling yesod,
-  scotty.  
-* compiler crashes, segfaults, etc.  
+* with llvm downgrade to 3.4, GHC and GHCi work, but problems compiling yesod,
+  scotty.
+* compiler crashes, segfaults, etc.
 
 <br>
 
@@ -814,8 +815,8 @@ purely functional manner. `cv-combinators`, `easyVision`, and `Zef` are some
 examples.
 
 There are Haskell bindings for OpenCV available via `HOpenCV` which has bindings
-for versions upto `OpenCV 2.0`. A fork maintained by Anthony Cowley has bindings
-available for versions upto `OpenCV 2.4`, but it pretty much stops there.
+for versions up to `OpenCV 2.0`. A fork maintained by Anthony Cowley has bindings
+available for versions up to `OpenCV 2.4`, but it pretty much stops there.
 Currently, `OpenCV 3.0` has been released, and there are no Haskell bindings
 covering it.
 
@@ -1385,7 +1386,7 @@ compared to other language package managers.  Key features include:
 
 * Excellent project isolation (including compiler isolation)
 * Global caching of shared dependencies to avoid wasteful rebuilds
-* Easily add local repositories or remote Github repositories as dependencies
+* Easily add local repositories or remote GitHub repositories as dependencies
 
 `stack` is also powered by Stackage, which is a very large Hackage mono-build
 that ensures that a large subset of Hackage builds correctly against each
@@ -1661,7 +1662,7 @@ those editors have gotten the most love.  Support for more traditional IDEs
 has improved recently with Haskell plugins for Atom, IntelliJ, and also the
 Haskell-native `leksah` IDE.
 
-Also, if you have a Mac then the "Haskel for Mac" development environment is
+Also, if you have a Mac then the "Haskell for Mac" development environment is
 supposed to work really well for learning since it provides an interactive and
 visual playground for exploring the code.
 
