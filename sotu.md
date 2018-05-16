@@ -56,43 +56,53 @@ either defend my decision or change my mind.
 
 ## Table of Contents
 
+Legend:
+
+🏆 = Best in class
+
+🥈 = Mature
+
+🌱 = Immature
+
+⛔ = Bad
+
 * [Application Domains](#application-domains)
-  * [Compilers](#compilers)
-  * [Server-side web programming](#server-side-web-programming)
-  * [Scripting / Command-line applications](#scripting--command-line-applications)
-  * [Numerical programming](#numerical-programming)
-  * [Data science](#data-science)
-  * [Front-end web programming](#front-end-web-programming)
-  * [Distributed programming](#distributed-programming)
-  * [Standalone GUI applications](#standalone-gui-applications)
-  * [Machine learning](#machine-learning)
-  * [Game programming](#game-programming)
-  * [Systems / embedded programming](#systems--embedded-programming)
-  * [Mobile apps](#mobile-apps)
-  * [ARM processor support](#arm-processor-support)
-  * [Computer Vision](#computer-vision)
+  * 🏆 [Compilers](#compilers)
+  * 🥈 [Server-side web programming](#server-side-web-programming)
+  * 🥈 [Scripting / Command-line applications](#scripting--command-line-applications)
+  * 🌱 [Numerical programming](#numerical-programming)
+  * 🌱 [Data science](#data-science)
+  * 🌱 [Front-end web programming](#front-end-web-programming)
+  * 🌱 [Distributed programming](#distributed-programming)
+  * 🌱 [Standalone GUI applications](#standalone-gui-applications)
+  * 🌱 [Machine learning](#machine-learning)
+  * 🌱 [Game programming](#game-programming)
+  * 🌱 [ARM processor support](#arm-processor-support)
+  * 🌱 [Computer Vision](#computer-vision)
+  * 🌱/⛔ [Systems / embedded programming](#systems--embedded-programming)
+  * 🌱/⛔ [Mobile apps](#mobile-apps)
 * [Common Programming Needs](#common-programming-needs)
-  * [Maintenance](#maintenance)
-  * [Single-machine Concurrency](#single-machine-concurrency)
-  * [Types / Type-driven development](#types--type-driven-development)
-  * [Parsing / Pretty-printing](#parsing--pretty-printing)
-  * [Domain-specific languages (DSLs)](#domain-specific-languages-dsls)
-  * [Testing](#testing)
-  * [Data structures and algorithms](#data-structures-and-algorithms)
-  * [Benchmarking](#benchmarking)
-  * [Unicode](#unicode)
-  * [Stream programming](#stream-programming)
-  * [Serialization / Deserialization](#serialization--deserialization)
-  * [Support for file formats](#support-for-file-formats)
-  * [Package management](#package-management)
-  * [Logging](#logging)
-  * [Code formatting](#code-formatting)
-  * [Education](#education)
-  * [Databases and data stores](#databases-and-data-stores)
-  * [Debugging](#debugging)
-  * [Cross-platform support](#cross-platform-support)
-  * [Hot code loading](#hot-code-loading)
-  * [IDE support](#ide-support)
+  * 🏆 [Maintenance](#maintenance)
+  * 🏆 [Single-machine Concurrency](#single-machine-concurrency)
+  * 🏆 [Types / Type-driven development](#types--type-driven-development)
+  * 🏆 [Parsing / Pretty-printing](#parsing--pretty-printing)
+  * 🥈 [Domain-specific languages (DSLs)](#domain-specific-languages-dsls)
+  * 🥈 [Testing](#testing)
+  * 🥈 [Data structures and algorithms](#data-structures-and-algorithms)
+  * 🥈 [Benchmarking](#benchmarking)
+  * 🥈 [Unicode](#unicode)
+  * 🥈 [Stream programming](#stream-programming)
+  * 🥈 [Serialization / Deserialization](#serialization--deserialization)
+  * 🥈 [Support for file formats](#support-for-file-formats)
+  * 🥈 [Package management](#package-management)
+  * 🥈 [Logging](#logging)
+  * 🥈 [Code formatting](#code-formatting)
+  * 🌱 [Education](#education)
+  * 🌱 [Databases and data stores](#databases-and-data-stores)
+  * 🌱 [Debugging](#debugging)
+  * 🌱 [Cross-platform support](#cross-platform-support)
+  * 🌱 [Hot code loading](#hot-code-loading)
+  * 🌱 [IDE support](#ide-support)
 
 # Application Domains
 
@@ -705,63 +715,6 @@ foreign function interface.  For console games, you have no hope.
 
 <br>
 
-## Systems / embedded programming
-
-**Rating:** Bad / Immature (See description)
-
-Since systems programming is an abused word, I will clarify that I mean
-programs where speed, memory layout, and latency really matter.
-
-Haskell fares really poorly in this area because:
-
-* The language is garbage collected, so there are no latency guarantees
-* Executable sizes are large
-* Memory usage is difficult to constrain (thanks to space leaks)
-* Haskell has a large and unavoidable runtime, which means you cannot easily
-  embed Haskell within larger programs
-* You can't easily predict what machine code that Haskell code will compile to
-
-Typically people approach this problem from the opposite direction: they write
-the low-level parts in C or Rust and then write Haskell bindings to the
-low-level code.
-
-It's worth noting that there is an alternative approach which is Haskell DSLs
-that are strongly typed that generate low-level code at runtime.  This is the
-approach championed by the company Galois.
-
-**Notable libraries:**
-
-* [`atom`](https://hackage.haskell.org/package/atom) / [`ivory`](https://hackage.haskell.org/package/ivory) - DSL for generating embedded programs
-* [`copilot`](https://hackage.haskell.org/package/copilot) - Stream DSL that generates C code
-* [`improve`](https://hackage.haskell.org/package/improve) - High-assurance DSL for embedded code that generates C and Ada
-
-**Educational resources:**
-
-* [/r/haskell - Haskell compiled down to Embedded Hardware](https://www.reddit.com/r/haskell/comments/3gyol1/haskell_compiled_down_to_embedded_hardware/)
-
-<br>
-
-## Mobile apps
-
-**Rating:** Immature? / Bad? (Uncertain)
-
-This greatly lags behind using the language that is natively supported by the
-mobile platform (i.e. Java for Android or Objective-C / Swift for iOS).
-
-I don't know a whole lot about this area, but I'm definitely sure it is far
-from mature.  All I can do is link to the resources I know of for Android and
-iPhone development using Haskell.
-
-I also can't really suggest improvements because I'm pretty out of touch with
-this branch of the Haskell ecosystem.
-
-**Educational resources:**
-
-* [Android development in Haskell](https://wiki.haskell.org/Android)
-* [iPhone development in Haskell](https://wiki.haskell.org/IPhone)
-
-<br>
-
 ## ARM processor support
 
 **Rating:** Immature
@@ -832,6 +785,63 @@ covering it.
 **Propaganda:**
 
 * [Google TechTalk on LumiGuide](https://www.youtube.com/watch?v=IKznN_TYjZk)
+
+<br>
+
+## Systems / embedded programming
+
+**Rating:** Bad / Immature (See description)
+
+Since systems programming is an abused word, I will clarify that I mean
+programs where speed, memory layout, and latency really matter.
+
+Haskell fares really poorly in this area because:
+
+* The language is garbage collected, so there are no latency guarantees
+* Executable sizes are large
+* Memory usage is difficult to constrain (thanks to space leaks)
+* Haskell has a large and unavoidable runtime, which means you cannot easily
+  embed Haskell within larger programs
+* You can't easily predict what machine code that Haskell code will compile to
+
+Typically people approach this problem from the opposite direction: they write
+the low-level parts in C or Rust and then write Haskell bindings to the
+low-level code.
+
+It's worth noting that there is an alternative approach which is Haskell DSLs
+that are strongly typed that generate low-level code at runtime.  This is the
+approach championed by the company Galois.
+
+**Notable libraries:**
+
+* [`atom`](https://hackage.haskell.org/package/atom) / [`ivory`](https://hackage.haskell.org/package/ivory) - DSL for generating embedded programs
+* [`copilot`](https://hackage.haskell.org/package/copilot) - Stream DSL that generates C code
+* [`improve`](https://hackage.haskell.org/package/improve) - High-assurance DSL for embedded code that generates C and Ada
+
+**Educational resources:**
+
+* [/r/haskell - Haskell compiled down to Embedded Hardware](https://www.reddit.com/r/haskell/comments/3gyol1/haskell_compiled_down_to_embedded_hardware/)
+
+<br>
+
+## Mobile apps
+
+**Rating:** Immature? / Bad? (Uncertain)
+
+This greatly lags behind using the language that is natively supported by the
+mobile platform (i.e. Java for Android or Objective-C / Swift for iOS).
+
+I don't know a whole lot about this area, but I'm definitely sure it is far
+from mature.  All I can do is link to the resources I know of for Android and
+iPhone development using Haskell.
+
+I also can't really suggest improvements because I'm pretty out of touch with
+this branch of the Haskell ecosystem.
+
+**Educational resources:**
+
+* [Android development in Haskell](https://wiki.haskell.org/Android)
+* [iPhone development in Haskell](https://wiki.haskell.org/IPhone)
 
 <br>
 
