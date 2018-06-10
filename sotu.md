@@ -70,6 +70,7 @@ Legend:
   * 🏆 [Compilers](#compilers)
   * 🥈 [Server-side web programming](#server-side-web-programming)
   * 🥈 [Scripting / Command-line applications](#scripting--command-line-applications)
+  * 🌱 [Data science](#data-science)
   * 🌱 [Numerical programming](#numerical-programming)
   * 🌱 [Data science](#data-science)
   * 🌱 [Front-end web programming](#front-end-web-programming)
