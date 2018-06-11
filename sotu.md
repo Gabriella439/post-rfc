@@ -72,7 +72,6 @@ Legend:
   * 🥈 [Scripting / Command-line applications](#scripting--command-line-applications)
   * 🌱 [Data science](#data-science)
   * 🌱 [Numerical programming](#numerical-programming)
-  * 🌱 [Data science](#data-science)
   * 🌱 [Front-end web programming](#front-end-web-programming)
   * 🌱 [Distributed programming](#distributed-programming)
   * 🌱 [Standalone GUI applications](#standalone-gui-applications)
