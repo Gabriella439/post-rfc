@@ -143,7 +143,7 @@ languages which you can use to write compilers to or from these languages.
 * [`hoopl`](https://hackage.haskell.org/package/hoopl) - optimization
 * [`uuagc`](https://hackage.haskell.org/package/uuagc) - attribute grammars
 * [`unification-fd`](https://hackage.haskell.org/package/unification-fd) - fast structural unification
-* [`wl-pprint`](https://hackage.haskell.org/package/wl-pprint) / [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - pretty-printing
+* [`prettyprinter`](https://hackage.haskell.org/package/prettyprinter) - pretty-printing
 * [`llvm-general`](https://hackage.haskell.org/package/llvm-general) - LLVM 3.5 API
 * [`llvm-hs`](https://hackage.haskell.org/package/llvm-hs) - LLVM 5 API (actively maintained fork of llvm-general)
 * `language-`{[`ecmascript`](https://hackage.haskell.org/package/language-ecmascript)|[`python`](https://hackage.haskell.org/package/language-python)|[`c-quote`](https://hackage.haskell.org/package/language-c-quote)|[`lua`](https://hackage.haskell.org/package/language-lua)|[`java`](https://hackage.haskell.org/package/language-java)|[`objc`](https://hackage.haskell.org/package/language-objc)|[`cil`](https://hackage.haskell.org/package/language-cil)} - parsers and
@@ -1112,7 +1112,7 @@ main deficiency of `attoparsec` is the poor error messages.
 The pretty-printing front is also excellent.  Academic researchers just really
 love writing pretty-printing libraries in Haskell for some reason.
 
-**Notable libraries:**
+**Parsing libraries:**
 
 * [`parsec`](https://hackage.haskell.org/package/parsec) - Best overall "value"
 * [`megaparsec`](https://hackage.haskell.org/package/megaparsec) - Modern, actively maintained fork of `parsec`
@@ -1124,7 +1124,10 @@ love writing pretty-printing libraries in Haskell for some reason.
 * [`trifecta`](https://hackage.haskell.org/package/trifecta) - Best error messages (`clang`-style)
 * [`parsers`](https://hackage.haskell.org/package/parsers) - Interface compatible with `attoparsec`, `parsec` and `trifecta` which lets you easily switch between them.  People commonly use this library to begin with `trifecta` or `parsec` (for better error messages) then switch to `attoparsec` when done for performance
 * [`alex`](https://hackage.haskell.org/package/alex) / [`happy`](https://hackage.haskell.org/package/happy) - Like `lexx` / `yacc` but with Haskell integration
-* [`ansi-wl-pprint`](https://hackage.haskell.org/package/ansi-wl-pprint) - Pretty-printing library
+
+**Pretty-printing libraries:**
+
+* [`prettyprinter`](https://hackage.haskell.org/package/prettyprinter) - Pretty-printing library
 * [`text-format`](https://hackage.haskell.org/package/text-format) - High-performance string formatting
 
 **Educational resources:**
