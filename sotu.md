@@ -324,6 +324,7 @@ features such as:
   building
 * [`process`](https://hackage.haskell.org/package/process) - low-level library for sub-process management
 * [`ansi-terminal`](https://hackage.haskell.org/package/ansi-terminal) - de facto standard cross-platform terminal library (works on Windows as well)
+* [`path`](https://hackage.haskell.org/package/path) - type safe handling of file paths
 
 **Some command-line tools written in Haskell:**
 
