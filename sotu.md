@@ -222,8 +222,8 @@ of the Haskell runtime.
 * [`scotty`](https://hackage.haskell.org/package/scotty) - A beginner-friendly server framework analogous to Ruby's Sinatra
 * [`spock`](https://www.spock.li/) - Lighter than the "enterprise" frameworks, but more featureful than scotty (type-safe routing, sessions, conn pooling, csrf protection, authentication, etc)
 * [`yesod`](https://hackage.haskell.org/package/yesod) / [`yesod-*`](https://hackage.haskell.org/packages/search?terms=yesod) / [`snap`](https://hackage.haskell.org/package/snap) / [`snap-*`](https://hackage.haskell.org/packages/search?terms=snap) / [`happstack-server`](https://hackage.haskell.org/package/happstack-server) / [`happstack-*`](https://hackage.haskell.org/packages/search?terms=happstack) - "Enterprise" server frameworks with all the bells and whistles
-* [`servant`](https://hackage.haskell.org/package/servant) / [`servant-*`](https://hackage.haskell.org/packages/search?terms=servant) - Library for type-safe
-  REST servers and clients that might blow your mind
+* [`servant`](https://hackage.haskell.org/package/servant) / [`servant-*`](https://hackage.haskell.org/packages/search?terms=servant) - Library for type-safe REST servers and clients that might blow your mind
+* [`graphql-api`](http://hackage.haskell.org/package/graphql-api) - Implement a GraphQL API
 * [`websockets`](https://hackage.haskell.org/package/websockets) - Standalone websockets client and server
 * [`authenticate`](https://hackage.haskell.org/package/authenticate) / [`authenticate-*`](https://hackage.haskell.org/packages/search?terms=authenticate) - Shared authentication libraries
 * [`ekg`](https://hackage.haskell.org/package/ekg) / [`ekg-*`](https://hackage.haskell.org/packages/search?terms=ekg) - Haskell service monitoring
