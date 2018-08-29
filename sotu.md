@@ -326,6 +326,7 @@ features such as:
 * [`ansi-terminal`](https://hackage.haskell.org/package/ansi-terminal) - de facto standard cross-platform terminal library (works on Windows as well)
 * [`brick`](http://hackage.haskell.org/package/brick) - terminal user interfaces (TUIs)
 * [`path`](https://hackage.haskell.org/package/path) / [`path-io`](https://hackage.haskell.org/package/path-io) - type safe handling of file paths
+* [`http-client`](http://hackage.haskell.org/package/http-client) / [`http-client-*`](https://hackage.haskell.org/packages/search?terms=http-client) / [`req`](http://hackage.haskell.org/package/req) / [`req-*`](https://hackage.haskell.org/packages/search?terms=req) / [`wreq`](http://hackage.haskell.org/package/wreq) - HTTP clients
 
 **Some command-line tools written in Haskell:**
 
