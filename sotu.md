@@ -978,6 +978,7 @@ memory and non-blocking I/O.
 * [`stm`](https://hackage.haskell.org/package/stm) - Software transactional memory
 * [`unagi-chan`](https://hackage.haskell.org/package/unagi-chan) - High performance channels
 * [`async`](https://hackage.haskell.org/package/async) - Futures library
+* [`parallel-io`](https://hackage.haskell.org/package/parallel-io) - An easy-to-use task-parallel library, most noted by the type signature `parallel :: [IO a] -> IO [a]`
 
 **Educational resources:**
 
