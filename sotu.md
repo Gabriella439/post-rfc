@@ -1650,6 +1650,8 @@ The `halive` library has the best hot code swapping demo by far:
 
 **Notable libraries:**
 
+* [`rapid`](http://hackage.haskell.org/package/rapid) - Code reloading within
+  `ghci` that persists state across reloads
 * `plugins` / `hint` - Runtime compilation and linking
 * `dyre` / `halive` - Program reinitialization with saved state
 
