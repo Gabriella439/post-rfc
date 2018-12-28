@@ -122,7 +122,6 @@ bound variables, syntax tree manipulations, and optimization.
 Anybody who has ever written a compiler knows how difficult they are to
 implement because by necessity they manipulate very weakly typed data
 structures (trees and maps of strings and integers).  Consequently, there is a
-
 huge margin for error in everything a compiler does, from type-checking to
 optimization, to code generation.  Haskell knocks this out of the park, though,
 with a really powerful type system with many extensions that can eliminate
