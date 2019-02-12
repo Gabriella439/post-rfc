@@ -458,7 +458,7 @@ upward.
 **Propaganda:**
 
 * [Exploiting vector instructions with generalized stream fusion](http://research.microsoft.com/en-us/um/people/simonpj/papers/ndp/haskell-beats-C.pdf)
-* [Type-safe Runtime Code Generation: Accelerate to LLVM](http://www.cse.unsw.edu.au/~chak/papers/acc-llvm.pdf)
+* [Type-safe Runtime Code Generation: Accelerate to LLVM](https://github.com/tmcdonell/tmcdonell.github.io/raw/master/papers/acc-llvm-haskell2015.pdf)
 
 **Educational Resources:**
 
