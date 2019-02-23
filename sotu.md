@@ -1335,7 +1335,6 @@ rich ecosystem including common streaming tasks like:
 * [The official `conduit` tutorial](https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/conduit-overview)
 * [The official `pipes` tutorial](http://hackage.haskell.org/package/pipes/docs/Pipes-Tutorial.html)
 * [The official `io-streams` tutorial](http://hackage.haskell.org/package/io-streams/docs/System-IO-Streams-Tutorial.html)
-* 
 
 <br>
 
