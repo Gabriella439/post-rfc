@@ -1286,6 +1286,7 @@ features include:
 **Notable libraries:**
 
 * [`criterion`](https://hackage.haskell.org/package/criterion)
+* [`gauge`](http://hackage.haskell.org/package/gauge) offers a similar feature set as `criterion` but has much fewer dependencies
 
 **Educational resources:**
 
