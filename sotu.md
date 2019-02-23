@@ -1387,9 +1387,11 @@ not much of an issue.
 **Notable libraries:**
 
 * [`aeson`](https://hackage.haskell.org/package/aeson) - JSON encoding/decoding
-* [`cassava`](https://hackage.haskell.org/package/cassava) - CSV encoding/decoding
+* [`cassava`](https://hackage.haskell.org/package/cassava) / [`sv`](http://hackage.haskell.org/package/sv)- CSV encoding/decoding
 * [`yaml`](https://hackage.haskell.org/package/yaml) - YAML encoding/decoding
+* [`HsYAML`](https://hackage.haskell.org/package/HsYAML) - pure Haskell YAML 1.2 parser
 * [`xml`](https://hackage.haskell.org/package/xml) - XML encoding/decoding
+* [`tomland`](http://hackage.haskell.org/package/tomland) - TOML encoding/decoding
 
 <br>
 
