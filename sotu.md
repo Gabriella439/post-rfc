@@ -977,6 +977,7 @@ memory and non-blocking I/O.
 * [`stm`](https://hackage.haskell.org/package/stm) - Software transactional memory
 * [`unagi-chan`](https://hackage.haskell.org/package/unagi-chan) - High performance channels
 * [`async`](https://hackage.haskell.org/package/async) - Futures library
+* [`streamly`](http://hackage.haskell.org/package/streamly) - A streaming library offering high performance concurrency
 
 **Educational resources:**
 
