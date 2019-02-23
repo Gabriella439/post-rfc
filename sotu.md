@@ -1264,6 +1264,7 @@ pretty good and diverse enough to cover the majority of use cases.
 * [`accelerate`](https://hackage.haskell.org/package/accelerate) / [`accelerate-*`](https://hackage.haskell.org/packages/search?terms=accelerate) - GPU programming
 * [`repa`](https://hackage.haskell.org/package/repa) / [`repa-*`](https://hackage.haskell.org/packages/search?terms=repa) - parallel shape-polymorphic arrays
 * [`discrimination`](http://hackage.haskell.org/package/discrimination) - Efficient linear-time sorting for user-defined datatypes
+* [`algebraic-graphs`](https://hackage.haskell.org/package/algebraic-graphs)
 
 <br>
 
