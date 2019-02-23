@@ -1517,7 +1517,7 @@ store you use.
 
 **Notable libraries:**
 
-* [`mysql-simple`](https://hackage.haskell.org/package/mysql-simple) - MySQL bindings
+* [`mysql-haskell`](http://hackage.haskell.org/package/mysql-haskell) / [`mysql-simple`](https://hackage.haskell.org/package/mysql-simple) - MySQL bindings
 * [`postgresql-simple`](https://hackage.haskell.org/package/postgresql-simple) - Postgres bindings
 * [`persistent`](https://hackage.haskell.org/package/persistent) - Database-agnostic ORM that supports automatic migrations
 * [`esqueleto`](https://hackage.haskell.org/package/esqueleto) / [`relational-record`](https://hackage.haskell.org/package/relational-record) / [`opaleye`](https://hackage.haskell.org/package/opaleye) - type-safe APIs for building well-formed SQL queries
