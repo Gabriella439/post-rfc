@@ -1327,7 +1327,7 @@ rich ecosystem including common streaming tasks like:
 
 **Notable libraries:**
 
-* [`conduit`](https://hackage.haskell.org/package/conduit) / [`io-streams`](https://hackage.haskell.org/package/io-streams) / [`pipes`](https://hackage.haskell.org/package/pipes) / [`streaming`](https://hackage.haskell.org/package/streaming) - Stream programming libraries (Full disclosure: I authored `pipes` and wrote the official `io-streams` tutorial)
+* [`conduit`](https://hackage.haskell.org/package/conduit) / [`io-streams`](https://hackage.haskell.org/package/io-streams) / [`pipes`](https://hackage.haskell.org/package/pipes) / [`streaming`](https://hackage.haskell.org/package/streaming) / [`streamly`](http://hackage.haskell.org/package/streamly) - Stream programming libraries (Full disclosure: I authored `pipes` and wrote the official `io-streams` tutorial)
 * [`machines`](https://hackage.haskell.org/package/machines) - Networked stream transducers library
 
 **Educational resources:**
