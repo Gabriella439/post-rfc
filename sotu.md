@@ -1366,10 +1366,11 @@ ongoing work to improve the serialization speed of existing libraries.
 
 **Notable libraries:**
 
-* [`binary`](https://hackage.haskell.org/package/binary) / [`cereal`](https://hackage.haskell.org/package/cereal) - serialization / deserialization libraries
+* [`binary`](https://hackage.haskell.org/package/binary) / [`cereal`](https://hackage.haskell.org/package/cereal) / [`serialise`](http://hackage.haskell.org/package/serialise) / [`store`](http://hackage.haskell.org/package/store) - serialization / deserialization libraries
 
 **Educational resources:**
 
+* [Benchmarks of several popular serialization libraries](https://github.com/haskell-perf/serialization)
 * [Faster binary serialization](http://code.haskell.org/~duncan/binary-experiment/binary.pdf) / [Better, faster binary serialization](https://github.com/meiersi/HaskellerZ/blob/master/meetups/20150529-ZuriHac2015_Duncan_Coutts-Better_Faster_Binary_Serialization/binary.pdf) - Slides on serialization efficiency improvements
 
 <br>
