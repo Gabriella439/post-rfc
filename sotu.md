@@ -1306,6 +1306,7 @@ inefficient.  You should always use `Text` whenever possible.
 
 * [`text`](https://hackage.haskell.org/package/text)
 * [`text-icu`](https://hackage.haskell.org/package/text-icu)
+* [`unicode-transforms`](https://hackage.haskell.org/package/unicode-transforms) – Unicode normalization
 
 <br>
 
