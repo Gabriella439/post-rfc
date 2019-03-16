@@ -1443,6 +1443,7 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 * [`monad-logger`](https://hackage.haskell.org/package/monad-logger) - add logging with line numbers to your monad stack. Uses fast-logger under the hood.
 * [`katip`](http://hackage.haskell.org/package/katip) - Structured logging
 * [`log`](https://hackage.haskell.org/package/log-base) - Logging system with ElasticSearch, PostgreSQL and stdout sinks.
+* [`co-log`](https://hackage.haskell.org/package/co-log) - Composable contravariant comonadic logging library.
 
 <br>
 
