@@ -161,6 +161,8 @@ languages which you can use to write compilers to or from these languages.
 * [`Lasca`](http://lasca-lang.org) (a small Scala-like language with global type inference and optional dynamic mode on LLVM backend)
 * [`verve`](https://github.com/tadeuzagallo/verve-lang) - Functional language with object-oriented support
 * [`sixten`](https://github.com/ollef/sixten) - Haskell/Idris-style language with a focus on precise and efficient memory layout
+* [`carp`](https://github.com/carp-lang/Carp) - An efficient, statically typed Lisp with ownership tracking.
+* [`unison`](https://github.com/unisonweb/unison) - A purely functional distributed programming language with algebraic effects.
 * [`oden`](https://github.com/oden-lang/oden) (no longer in active development)
 
 **Educational resources:**
