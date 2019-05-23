@@ -249,6 +249,7 @@ of the Haskell runtime.
 * [ZoomHub](http://zoomhub.net/) ([Code](https://github.com/zoomhub/zoomhub))
 * [PostgREST](https://postgrest.com/en/v4.3/) - Generates a REST API for a
   Postgres database
+* [Hasura](https://github.com/hasura/graphql-engine)
 
 **Propaganda:**
 
