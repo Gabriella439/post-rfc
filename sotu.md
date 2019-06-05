@@ -717,6 +717,9 @@ foreign function interface.  For console games, you have no hope.
   that also lets you embed shader code directly within Haskell.  See the
   [GPipe wiki](https://wiki.haskell.org/GPipe) to learn more
 
+**Educational resources:**
+
+* [Purely Functional Games](https://gilmi.me/blog/post/2018/07/24/pfgames)
 
 <br>
 
