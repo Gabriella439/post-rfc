@@ -79,8 +79,8 @@ Legend:
   * 🌱 [Game programming](#game-programming)
   * 🌱 [ARM processor support](#arm-processor-support)
   * 🌱 [Computer Vision](#computer-vision)
+  * 🌱 [Mobile apps](#mobile-apps)
   * 🌱/⛔ [Systems / embedded programming](#systems--embedded-programming)
-  * 🌱/⛔ [Mobile apps](#mobile-apps)
 * [Common Programming Needs](#common-programming-needs)
   * 🏆 [Maintenance](#maintenance)
   * 🏆 [Single-machine Concurrency](#single-machine-concurrency)
@@ -796,6 +796,25 @@ covering it.
 
 <br>
 
+## Mobile apps
+
+**Rating:** Immature
+
+This greatly lags behind using languages that are natively supported by the
+mobile platform (i.e. Java for Android or Objective-C / Swift for iOS).
+
+However, one route is to compile Haskell to a supported language.  For
+example, you can compile Haskell to Java using [Eta](https://eta-lang.org/)
+to port Haskell games to Android.
+
+**Educational resources:**
+
+* [Android 2048 game in Eta](https://github.com/Jyothsnasrinivas/eta-android-2048)
+* [Android development in Haskell](https://wiki.haskell.org/Android)
+* [iPhone development in Haskell](https://wiki.haskell.org/IPhone)
+
+<br>
+
 ## Systems / embedded programming
 
 **Rating:** Bad / Immature (See description)
@@ -829,27 +848,6 @@ approach championed by the company Galois.
 **Educational resources:**
 
 * [/r/haskell - Haskell compiled down to Embedded Hardware](https://www.reddit.com/r/haskell/comments/3gyol1/haskell_compiled_down_to_embedded_hardware/)
-
-<br>
-
-## Mobile apps
-
-**Rating:** Immature? / Bad? (Uncertain)
-
-This greatly lags behind using the language that is natively supported by the
-mobile platform (i.e. Java for Android or Objective-C / Swift for iOS).
-
-I don't know a whole lot about this area, but I'm definitely sure it is far
-from mature.  All I can do is link to the resources I know of for Android and
-iPhone development using Haskell.
-
-I also can't really suggest improvements because I'm pretty out of touch with
-this branch of the Haskell ecosystem.
-
-**Educational resources:**
-
-* [Android development in Haskell](https://wiki.haskell.org/Android)
-* [iPhone development in Haskell](https://wiki.haskell.org/IPhone)
 
 <br>
 
