@@ -631,6 +631,11 @@ library if you are interested in the first approach:
 
 * [`tensorflow` Haskell bindings](https://github.com/tensorflow/haskell)
 
+You will also want to check out Haskell bindings to the `ArrayFire`
+library if you are interested in the first approach:
+
+* [`ArrayFire` Haskell bindings](https://github.com/arrayfire/arrayfire-haskell)
+
 Also, Tweag.io has released `Sparkle`, a Haskell integration with Spark.  This
 enables the use of MLib from Haskell.  MLib is widely used in the industry
 for machine learning. Sparkle itself is fairly new.
@@ -655,6 +660,8 @@ then the most promising ones are the `HLearn` project:
   type-based API
 * [`tensorflow`](https://github.com/tensorflow/haskell) - Haskell bindings to
   Google's `tensorflow` project
+* [`arrayfire`](https://github.com/arrayfire/arrayfire-haskell) - Haskell bindings to
+  ArrayFire
 * [`ad`](https://hackage.haskell.org/package/ad) - Automatic differentiation,
   used as a substrate for many Haskell machine learning projects
 
