@@ -1718,6 +1718,7 @@ visual playground for exploring the code.
 * [`ghc-imported-from`](https://hackage.haskell.org/package/ghc-imported-from) — editor agnostic tool that finds Haddock documentation page for a symbol
 * [`haskell-tools`](http://haskelltools.org/) - Refactoring tool + library
 * [`hindent`](https://github.com/chrisdone/hindent) - Haskell source indentation tool
+* [`ghcide`](https://github.com/digital-asset/ghcide) - A library for building Haskell IDE tooling
 
 **Vim and Neovim Plugins:**
 
