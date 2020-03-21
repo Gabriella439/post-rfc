@@ -1466,8 +1466,6 @@ Haskell provides two tools for automatic code formatting:
 
 * `stylish-haskell` - Less opinionated code formatting tool that mostly
   formats imports, language extensions, and data type definitions
-* `hindent` - Strict formatting tool that formats everything in the file in a
-  canonical form (analogous to `gofmt`)
 
 <br>
 
@@ -1717,7 +1715,6 @@ visual playground for exploring the code.
 * [`hdevtools`](https://hackage.haskell.org/package/hdevtools) — Persistent GHC-powered background server for development tools
 * [`ghc-imported-from`](https://hackage.haskell.org/package/ghc-imported-from) — editor agnostic tool that finds Haddock documentation page for a symbol
 * [`haskell-tools`](http://haskelltools.org/) - Refactoring tool + library
-* [`hindent`](https://github.com/chrisdone/hindent) - Haskell source indentation tool
 * [`ghcide`](https://github.com/digital-asset/ghcide) - A library for building Haskell IDE tooling
 
 **Vim and Neovim Plugins:**
