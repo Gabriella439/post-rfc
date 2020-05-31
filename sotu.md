@@ -1471,11 +1471,9 @@ Haskell provides two tools for automatic code formatting:
 
 ## Education
 
-**Rating:** Immature
+**Rating:** Mature
 
-This rating will switch to "Mature" once the "Haskell Programming from first
-principles" book is published.  I highly recommend this book, even though it is
-still in Early Access form, for the following reasons:
+"Haskell Programming from first principles" has been published.  I highly recommend it, for the following reasons:
 
 * The book does not assume any prior programming experience
 * The book does not have any conceptual gaps or out-of-order dependencies
@@ -1483,9 +1481,8 @@ still in Early Access form, for the following reasons:
 
 **Educational resources:**
 
-* [Haskell Programming from first principles](http://haskellbook.com/) - The
-  best Haskell resource to learn from. The book costs $60, but it's worth the
-  price.
+* [Haskell Programming from first principles](http://haskellbook.com/) - The best Haskell resource to learn from. The book costs $60, but it's worth the price.
+* [Get Programming with Haskell](https://www.manning.com/books/get-programming-with-haskell)- An approachable and thorough introduction to Haskell and functional programming. A capstone project at the end of each unit.
 * [Haskell Wikibook](https://en.wikibooks.org/wiki/Haskell) — One of the highest
   quality among Wikimedia's Wikibooks, which starts from zero, with no
   assumption of previous programming experience
