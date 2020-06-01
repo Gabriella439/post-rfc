@@ -1759,7 +1759,7 @@ Note that the [LSP protocol specification](https://microsoft.github.io/language-
 
 **Educational resources:**
 
-* [A Vim + Haskell Workflow](http://www.stephendiehl.com/posts/vim_haskell.html)
+* [A Vim + Haskell Workflow](https://www.stephendiehl.com/posts/vim_2016.html)
 * [Survey: Which Haskell development tools are you using that make you a more
    productive Haskell programmer?](https://www.reddit.com/r/haskell/comments/3bqy5h/survey_which_haskell_development_tools_are_you/)
 
