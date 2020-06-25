@@ -1713,6 +1713,7 @@ visual playground for exploring the code.
 * [`ghc-imported-from`](https://hackage.haskell.org/package/ghc-imported-from) — editor agnostic tool that finds Haddock documentation page for a symbol
 * [`haskell-tools`](http://haskelltools.org/) - Refactoring tool + library
 * [`ghcide`](https://github.com/digital-asset/ghcide) - A library for building Haskell IDE tooling
+* [`stan`](https://github.com/kowainik/stan) - Haskell Static Analyser
 
 **Vim and Neovim Plugins:**
 
