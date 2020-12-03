@@ -250,6 +250,7 @@ of the Haskell runtime.
 * [PostgREST](https://postgrest.com/en/v4.3/) - Generates a REST API for a
   Postgres database
 * [Hasura](https://github.com/hasura/graphql-engine)
+* [Mercury](https://mercury.com/)
 
 **Propaganda:**
 
