@@ -223,6 +223,7 @@ of the Haskell runtime.
 * [`scotty`](https://hackage.haskell.org/package/scotty) - A beginner-friendly server framework analogous to Ruby's Sinatra
 * [`spock`](https://www.spock.li/) - Lighter than the "enterprise" frameworks, but more featureful than scotty (type-safe routing, sessions, conn pooling, csrf protection, authentication, etc)
 * [`yesod`](https://hackage.haskell.org/package/yesod) / [`yesod-*`](https://hackage.haskell.org/packages/search?terms=yesod) / [`snap`](https://hackage.haskell.org/package/snap) / [`snap-*`](https://hackage.haskell.org/packages/search?terms=snap) / [`happstack-server`](https://hackage.haskell.org/package/happstack-server) / [`happstack-*`](https://hackage.haskell.org/packages/search?terms=happstack) - "Enterprise" server frameworks with all the bells and whistles
+* [`ihp`](https://ihp.digitallyinduced.com/) - batteries-included web framework with a friendly and helpful community. The best choice when getting started with haskell.
 * [`servant`](https://hackage.haskell.org/package/servant) / [`servant-*`](https://hackage.haskell.org/packages/search?terms=servant) - Library for type-safe REST servers and clients that might blow your mind
 * [`graphql-api`](http://hackage.haskell.org/package/graphql-api) - Implement a GraphQL API
 * [`websockets`](https://hackage.haskell.org/package/websockets) - Standalone websockets client and server
@@ -271,6 +272,11 @@ of the Haskell runtime.
 * [The Yesod book](http://www.yesodweb.com/book)
 * [The Servant tutorial](https://haskell-servant.readthedocs.io/en/stable/tutorial/index.html)
 * [Overview of Happstack](http://www.happstack.com)
+* [IHP Guide](https://ihp.digitallyinduced.com/Guide/index.html)
+* [IHP Casts](https://ihpcasts.com/)
+
+**Notable hosting platforms:**
+* [IHP Cloud](https://ihpcloud.com/)
 
 <br>
 
