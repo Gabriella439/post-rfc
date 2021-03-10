@@ -1469,10 +1469,13 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 
 **Rating:** Mature
 
-Haskell has tool(s) for automatic code formatting:
+Haskell has tools for automatic code formatting:
 
 * `stylish-haskell` - Less opinionated code formatting tool that mostly
   formats imports, language extensions, and data type definitions
+* `ormolu` - More opinionated formatting tool that uses GHC's own parser
+* `brittany` - Formats more than `stylish-haskell`, but less opinionated than
+  `ormolu`.
 
 <br>
 
