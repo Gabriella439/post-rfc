@@ -86,8 +86,8 @@ Legend:
   * 🏆 [Single-machine Concurrency](#single-machine-concurrency)
   * 🏆 [Types / Type-driven development](#types--type-driven-development)
   * 🏆 [Parsing / Pretty-printing](#parsing--pretty-printing)
+  * 🏆 [Testing](#testing)
   * 🥈 [Domain-specific languages (DSLs)](#domain-specific-languages-dsls)
-  * 🥈 [Testing](#testing)
   * 🥈 [Data structures and algorithms](#data-structures-and-algorithms)
   * 🥈 [Benchmarking](#benchmarking)
   * 🥈 [Unicode](#unicode)
@@ -1193,61 +1193,49 @@ overload, such as:
 
 ## Testing
 
-**Rating:** Mature
+**Rating:** Best in Class
 
-There are a few places where Haskell is the clear leader among all languages:
+In terms of testing, Haskell is a clear leader.
+It has both more practical, more advanced and more advanced test automation than other languages.
 
-* property-based testing
-* mocking / dependency injection
-
-Haskell's `QuickCheck` is the gold standard which all other property-based
-testing libraries are measured against.  The reason `QuickCheck` works so
-smoothly in Haskell is due to Haskell's type class system and purity.  The type
-class system simplifies automatic generation of random data from the input type
-of the property test.  Purity means that any failing test result can be
+Haskell's property testing, which started with `QuickCheck`, is the gold
+standard which all other property-based testing implementations are measured
+against.  The reason property testing works so smoothly in Haskell is due to
+Haskell's strong static types and type class system.  The strong static types
+allow for automatic generation of what would otherwise be boiler plate;
+generators, shrinking, general properties.  The type class system simplifies
+how tests are defined.  Shrinking means that any failing test result can be
 automatically minimized by rerunning the check on smaller and smaller inputs
-until `QuickCheck` identifies the corner case that triggers the failure.
+until the property testing framework identifies the corner case that triggers
+the failure.
 
-Mocking is another area where Haskell shines because you can overload almost
-all built-in syntax, including:
-
-* `do` notation
-* `if` statements
-* numeric literals
-* string literals
-
-Haskell programmers overload this syntax (particularly `do` notation) to write
-code that looks like it is doing real work:
-
-```haskell
-example = do str <- readLine
-             putLine str
-```
-
-... and the code will actually evaluate to a pure syntax tree that you can use
-to mock in external inputs and outputs:
-
-```haskell
-example = ReadLine (\str -> PutStrLn str (Pure ()))
-```
-
-Haskell also supports most testing functionality that you expect from other
+Haskell supports all testing functionality that you expect from other
 languages, including:
 
 * standard package interfaces for testing
 * unit testing libraries
 * test result summaries and visualization
+* golden tests
+* integration tests with standard integrations like databases, web servers, ...
+
+On top of that, Haskell also supports more advanced testing features that are not common elsewhere:
+
+* Flakiness diagnostics
+* Deterministic randomness
+* Monadic test suite definition
+
 
 **Notable libraries:**
 
-* [`QuickCheck`](https://hackage.haskell.org/package/QuickCheck) - property-based testing
+- [`validity`](https://hackage.haskell.org/package/validity) - Property testing with smarter generators, Free generators, free shrinking, cheap properties
+- [`sydtest`](https://hackage.haskell.org/package/sydtest) - A modern testing framework for Haskell with good defaults and advanced testing features. It also has companion libraries for all major integration testing.
+* [`QuickCheck`](https://hackage.haskell.org/package/QuickCheck) - The original property-based testing library
+* [`hedgehog`](http://hackage.haskell.org/package/hedgehog) - Property-based testing with integrated shrinking, as an alternative to QuickCheck
 * [`doctest`](https://hackage.haskell.org/package/doctest) - tests embedded directly within documentation
 * [`free`](https://hackage.haskell.org/package/free) - Haskell's abstract version of "dependency injection"
 * [`hspec`](https://hackage.haskell.org/package/hspec) - Testing library analogous to Ruby's RSpec
 * [`HUnit`](https://hackage.haskell.org/package/HUnit) - Testing library analogous to Java's JUnit
 * [`tasty`](https://hackage.haskell.org/package/tasty) - Combination unit / regression / property testing library
-* [`hedgehog`](http://hackage.haskell.org/package/hedgehog) - property-based testing with integrated shrinking
-- [`HTF`](https://hackage.haskell.org/package/HTF) - Preprocessor based unit testing with various output formats
 
 **Educational resources:**
 
