@@ -1216,6 +1216,7 @@ languages, including:
 * unit testing libraries
 * test result summaries and visualization
 * golden tests
+* mocking
 * integration tests with standard integrations like databases, web servers, ...
 
 On top of that, Haskell also supports more advanced testing features that are not common elsewhere:
