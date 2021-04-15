@@ -1196,7 +1196,7 @@ overload, such as:
 **Rating:** Best in Class
 
 In terms of testing, Haskell is a clear leader.
-It has both more practical, more advanced and more advanced test automation than other languages.
+It has both more practical, more robust and more advanced test automation than other languages.
 
 Haskell's property testing, which started with `QuickCheck`, is the gold
 standard which all other property-based testing implementations are measured
