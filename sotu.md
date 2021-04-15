@@ -1792,6 +1792,7 @@ Note that the [LSP protocol specification](https://microsoft.github.io/language-
 * Stephen Diehl
 * Tim Docker
 * Tran Ma
+* Tom Sydney Kerckhove @NorfairKing
 * Yuriy Syrovetskiy
 * @bburdette
 * @co-dan
