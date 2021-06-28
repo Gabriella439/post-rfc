@@ -97,7 +97,7 @@ Legend:
   * 🥈 [Package management](#package-management)
   * 🥈 [Logging](#logging)
   * 🥈 [Code formatting](#code-formatting)
-  * 🌱 [Education](#education)
+  * 🥈 [Education](#education)
   * 🌱 [Databases and data stores](#databases-and-data-stores)
   * 🌱 [Debugging](#debugging)
   * 🌱 [Cross-platform support](#cross-platform-support)
