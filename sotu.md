@@ -660,6 +660,8 @@ then the most promising ones are the `HLearn` project:
 
 **Notable libraries:**
 
+* [`hasktorch`](https://github.com/hasktorch/hasktorch#readme) - Haskell bindings to 
+  libtorch which is the C++ API for PyTorch
 * [`HLearn-*`](https://hackage.haskell.org/packages/search?terms=HLearn) -
   Advanced implementations of a subset of machine learning algorithms
 * [`grenade`](https://github.com/HuwCampbell/grenade) - Machine learning
