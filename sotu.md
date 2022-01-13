@@ -699,7 +699,7 @@ Examples of games that are difficult to implement at all in Haskell:
 * Real-time strategy games
 * MMORPGs
 
-Haskell has SDL and OpenGL bindings, which are actually quite good, but that's
+Haskell has SDL, OpenGL, and Vulkan bindings, which are actually quite good, but that's
 about it.  You're on your own from that point onward.  There is not a rich
 ecosystem of higher-level libraries built on top of those bindings.  There is
 some work in this area, but I'm not aware of anything production quality or
@@ -725,6 +725,7 @@ foreign function interface.  For console games, you have no hope.
   game programming for beginners
 * [Code World](https://code.world/haskell) - Similar to `gloss`, but you can try
   it in your browser
+* [`vulkan`](https://hackage.haskell.org/package/vulkan) - Low-level Vulkan bindings
 * [`gl`](https://hackage.haskell.org/package/gl) - Comprehensive OpenGL bindings
 * [`SDL`](https://hackage.haskell.org/package/SDL) / [`SDL-*`](https://hackage.haskell.org/packages/search?terms=SDL) / [`sdl2`](https://hackage.haskell.org/package/sdl2) - Bindings to the SDL library
 * [`SFML`](https://hackage.haskell.org/package/SFML) - Bindings to the SFML library
