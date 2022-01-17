@@ -132,7 +132,7 @@ You can treat this like a collaborative wiki.
   > uniqueness, or any of the other stuff that a critic might be interested
   > in?
 
-# NFTs are harmful to the environment
+## NFTs are harmful to the environment
 
 * [HERE IS THE ARTICLE YOU CAN SEND TO PEOPLE WHEN THEY SAY “BUT THE ENVIRONMENTAL ISSUES WITH CRYPTOART WILL BE SOLVED SOON, RIGHT?”](https://everestpipkin.medium.com/but-the-environmental-issues-with-cryptoart-1128ef72e6a3)
 
