@@ -453,7 +453,7 @@ can find by just checking the library's reverse dependencies:
 
 However, I don't have enough experience with `accelerate` or enough familiarity
 with numerical programming success stories in Haskell to vouch for this just
-yet.  If somebody has more experience then me in this regard and can provide
+yet.  If somebody has more experience than me in this regard and can provide
 evidence that the ecosystem is mature then I might consider revising my rating
 upward.
 
@@ -660,7 +660,7 @@ then the most promising ones are the `HLearn` project:
 
 **Notable libraries:**
 
-* [`hasktorch`](https://github.com/hasktorch/hasktorch#readme) - Haskell bindings to 
+* [`hasktorch`](https://github.com/hasktorch/hasktorch#readme) - Haskell bindings to
   libtorch which is the C++ API for PyTorch
 * [`HLearn-*`](https://hackage.haskell.org/packages/search?terms=HLearn) -
   Advanced implementations of a subset of machine learning algorithms
@@ -1730,11 +1730,11 @@ visual playground for exploring the code.
 
 **Vim and Neovim Plugins:**
 
-* [`haskell-vim-now`](https://github.com/begriffs/haskell-vim-now) - a highly 
+* [`haskell-vim-now`](https://github.com/begriffs/haskell-vim-now) - a highly
 customized `.vimrc` with some 20 plugins and key bindings configured to work with Haskell.
 * [haskell-ide-engine](https://github.com/haskell/haskell-ide-engine) (see below) via [LanguageClient-neovim](https://github.com/autozimu/LanguageClient-neovim)
 
-The two plugins provide different sets of features. 
+The two plugins provide different sets of features.
 Many plugins installed by `haskell-vim-now` can be used with `haskell-ide-engine`
 as well, but there is no ready made config/installation script yet.
 
@@ -1749,7 +1749,7 @@ as well, but there is no ready made config/installation script yet.
 
 The recent movement is to migrate all the editor plugins for Haskell to the Microsoft's Language Protocol (LSP) which allows to support many different editors with one unified plugin. The server part of the protocol is in [`haskell-ide-engine`](https://github.com/haskell/haskell-ide-engine) (not yet on hackage). The client part is different for different editors.
 
-The following editors are tested. See [haskell-ide-engine/README.md](https://github.com/haskell/haskell-ide-engine/blob/master/README.md#editor-integration) for installation instructions: 
+The following editors are tested. See [haskell-ide-engine/README.md](https://github.com/haskell/haskell-ide-engine/blob/master/README.md#editor-integration) for installation instructions:
 
 - Visual Studio Code / VSCode
 - Atom
