@@ -34,6 +34,11 @@ You can treat this like a collaborative wiki.
   `/u/Zombiehype` asked "What's up with the NFT hate?" on `/r/OutOfTheLoop` and
   `/u/NoahDiesSlowly` succinctly summarizes the most common criticisms of NFTs.
 
+* [The Problem With NFTs](https://www.youtube.com/watch?v=YQ_xWvX1n9g)
+
+  This is a YouTube video explaining some of the basics behind NFTs and the
+  problems associated with them.
+
 * [Why NFTs are bad: the long version](https://antsstyle.medium.com/why-nfts-are-bad-the-long-version-2c16dae145e2)
 
   > This long article explains technical and economic details to explain both
