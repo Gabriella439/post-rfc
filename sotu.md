@@ -1474,10 +1474,10 @@ Haskell has decent logging support.  That's pretty much all there is to say.
 
 Haskell has tools for automatic code formatting:
 
-* `stylish-haskell` - Less opinionated code formatting tool that mostly
+* [`stylish-haskell`](https://hackage.haskell.org/package/stylish-haskell) - Less opinionated code formatting tool that mostly
   formats imports, language extensions, and data type definitions
-* `ormolu` - More opinionated formatting tool that uses GHC's own parser
-* `brittany` - Formats more than `stylish-haskell`, but less opinionated than
+* [`ormolu`](https://hackage.haskell.org/package/ormolu) - More opinionated formatting tool that uses GHC's own parser
+* [`brittany`](https://hackage.haskell.org/package/brittany) - Formats more than `stylish-haskell`, but less opinionated than
   `ormolu`.
 
 <br>
@@ -1682,8 +1682,8 @@ The `halive` library has the best hot code swapping demo by far:
 
 * [`rapid`](http://hackage.haskell.org/package/rapid) - Code reloading within
   `ghci` that persists state across reloads
-* `plugins` / `hint` - Runtime compilation and linking
-* `dyre` / `halive` - Program reinitialization with saved state
+* [`plugins`](https://hackage.haskell.org/package/plugins) / [`hint`](https://hackage.haskell.org/package/hint) - Runtime compilation and linking
+* [`dyre`](https://hackage.haskell.org/package/dyre) / [`halive`](https://hackage.haskell.org/package/halive) - Program reinitialization with saved state
 
 <br>
 
