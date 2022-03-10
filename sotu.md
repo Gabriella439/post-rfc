@@ -1309,6 +1309,7 @@ features include:
 
 * [`criterion`](https://hackage.haskell.org/package/criterion)
 * [`gauge`](http://hackage.haskell.org/package/gauge) offers a similar feature set as `criterion` but has much fewer dependencies
+* [`tasty-bench`](https://hackage.haskell.org/package/tasty-bench) even lighter than `guage` with support for comparing benchmarks
 
 **Educational resources:**
 
