@@ -27,6 +27,7 @@ I'm a trans woman and I began feminizing my voice before coming out and
 publicly transitioning.  The relevant events from my personal timeline were:
 
 - January 2021: I began to practice feminizing my voice by being self-taught
+  (using [this guide](https://www.reddit.com/r/transvoice/comments/d3clhe/ls_voice_training_guide_level_1_for_mtf/))
 - July 2021: I first came out publicly on Twitter
 - January 2022: I finished coming out to essentially everyone in my life
 - March 2022: I began to see a voice therapist
@@ -47,6 +48,9 @@ Also, for what it's worth, this is what my sounds like at the time of this
 writing:
 
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1336741795&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/gabriella-gonzalez-358817694" title="Gabriella Gonzalez" target="_blank" style="color: #cccccc; text-decoration: none;">Gabriella Gonzalez</a> · <a href="https://soundcloud.com/gabriella-gonzalez-358817694/2022-09-02-example-voice-contrast" title="2022-09-02 - Example Voice Contrast" target="_blank" style="color: #cccccc; text-decoration: none;">2022-09-02 - Example Voice Contrast</a></div>
+
+I'm also still continuing to learn more, but I feel comfortable enough to share
+what I've learned so far.
 
 Alright, with that out of the way, let's get to the tips …
 
@@ -73,8 +77,6 @@ seek a voice therapist.
 You also don't want to strain your voice because it will greatly decrease
 the quality of your voice: you'll literally sound "strained" and unnatural while
 speaking.
-
-TODO: Insert recording demonstrating what strain sounds like
 
 ### What does strain feel like?
 
@@ -304,7 +306,7 @@ The three things I'll mention for the purpose of this guide are:
 
   **RESONANCE IS THE MAIN THING THAT FEMINIZES YOUR VOICE!!!**
 
-- airflow
+- airflow (a.k.a. open quotient)
 
   Increasing airflow is what reduces strain and helps you attain a
   comfortable, effortless, and natural-sounding voice.  Given the importance
@@ -324,14 +326,25 @@ before worrying about pitch.  A common mistake that most people make is
 assuming that pitch is the most important part of vocal feminization and
 that is (in my view) wrong or at best highly misleading.
 
-TODO: Recording showing the elements of a voice
+Here are two great recordings highlighting many elements of vocal feminization:
+
+* [Vocal elements demo (layered)](https://clyp.it/5eq3io3u)
+* [Vocal elements demo (separate)](https://clyp.it/ggetrab2)
+
+… and the author of those recordings also authored the same guide that I
+initially used for being self-taught.
+
+* [L's Voice Training Guide (Level 1) for MTF transgender vocal feminization](https://www.reddit.com/r/transvoice/comments/d3clhe/ls_voice_training_guide_level_1_for_mtf/)
+
+Although that guide ultimately did not work out for me, it is a GOLDMINE for
+useful exercises, videos, and recordings.
 
 ### Resonance overview
 
-Resonance is the main thing that feminizes your voice.  Increasing resonance is
-sometimes called "brightening" your resonance.  In isolation, brightening
-resonance will make your voice sound brassy and you will feel your throat and/or
-nose "buzz" in new places.
+Resonance is the main thing that feminizes your voice.  You want to increase
+your voice's resonant frequency which is also called "brightening" your
+resonance.  In isolation, brightening resonance will make your voice sound
+brassy and you will feel your throat and/or nose "buzz" in new places.
 
 Anything you do to make your vocal tract throat smaller will brighten your
 resonance and feminize your voice.  The most common and effective way to do this
@@ -346,7 +359,10 @@ to try to speak as if your voice is coming from the top back of your vocal tract
 instead of coming from your chest.  If you do this correctly you will naturally
 raise your larynx when attempting to speak in this way.
 
-TODO: Link to recording teaching how to train resonance
+I also recommend this video that explains resonance and some ways to practice
+and build an intuition for resonance:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BW8X2nXexQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Airflow overview
 
@@ -366,6 +382,11 @@ strain your voice when speaking (especially when accessing higher pitch).
 In particular, you will feel tenseness or a pinch around your vocal cords if
 they're not getting enough airflow.  When you recruit enough air your vocal
 cords will feel more relaxed.
+
+This video is the best resource I could find on this subject and it helped me
+build an intuition for what to listen for and how to promote airflow:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xdsaPJdU24s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Pitch overview
 
@@ -393,6 +414,13 @@ a tool for feminizing your voice *per se*.  Accessing a wider range of pitch
 gives you more tools to express yourself, and that greater expressiveness
 does more to feminize your voice than the average pitch.
 
+I tried to do pitch training using this video (from the self-taught guide):
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9-1Padxsmio?start=281" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+… but ultimately I found that improving airflow did much more to improve the
+range of my pitch than those exercises.
+
 ### What do I need to fix?
 
 I can summarize the recent points by giving you the following rules of
@@ -406,6 +434,35 @@ thumb for what to fix when your voice sounds wrong to you.
 
 There's obviously more to feminizing a voice than these three changes, but
 those were the biggest wins, in my experience.
+
+### Long-form speaking
+
+Minimizing strain and improving airflow was a particularly big deal for me
+because I have an unusually high "voice demand" compared to to other people.
+In particular, I do quite a bit of "long-form" speaking, such as:
+
+* presentations
+* streams
+* teaching
+* leading meetings at work
+
+… where I may have to speak for extended periods of time with infrequent
+interruptions.
+
+This is more challenging than conversational speech, where you have numerous
+opportunities to pause, catch your breath, and reset your voice.  In demand
+contexts, my voice would begin to strain and degrade quite quickly (on the order
+of a few minutes) and while I might occasionally reset and recover my voice
+quality it would rapidly degrade again.
+
+For me, improving airflow (and also speaking a little more slowly) was the big
+thing that fixed that.  Now I can speak at length with fairly consistent
+quality.
+
+Moreover, once I found a voice with much better airflow and lower strain I
+began using that voice everywhere (even in less demanding contexts) because it
+was way more comfortable.  Once you get the hang of speaking effeminately with
+lower strain you get hooked on it and can't go back.
 
 ### Practice mixing vowels into your voice
 
@@ -646,4 +703,9 @@ notice you're doing it for quite a while.  People are generally pretty
 self-absorbed and won't notice stuff like that until it hits them in the
 face.
 
-TODO: Add recordings illustrating various concepts
+## Conclusion
+
+Let me know if you disagree with any of the advice here.  I'm pretty open to
+being corrected or using more guarded language if I spoke too confidently.
+
+Also, feel free to submit changes if there's anything you'd like to add.
