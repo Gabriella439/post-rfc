@@ -450,7 +450,7 @@ In particular, I do quite a bit of "long-form" speaking, such as:
 interruptions.
 
 This is more challenging than conversational speech, where you have numerous
-opportunities to pause, catch your breath, and reset your voice.  In demand
+opportunities to pause, catch your breath, and reset your voice.  In demanding
 contexts, my voice would begin to strain and degrade quite quickly (on the order
 of a few minutes) and while I might occasionally reset and recover my voice
 quality it would rapidly degrade again.
