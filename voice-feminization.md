@@ -234,7 +234,7 @@ and that takes time.
 
 ### Learn how to not "misplace" your voice
 
-Eventually you will eventually encounter the following frustrating
+Eventually you will encounter the following frustrating
 phenomenon:
 
 - Your voice is "on fire" (it feels great and sounds great)
