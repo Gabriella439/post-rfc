@@ -556,9 +556,76 @@ Alright, with that out of the way, let's get to the tips:
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/VlYFl83RwmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    Code switching made it harder for me to feminize my voice because you have to
-    "relearn" 
+    Code switching made it harder for me to feminize my voice because I had to
+    "relearn" some things in different social contexts.  For example, there
+    would be many contexts where I could feminize my voice very confidently
+    and then other contexts where I struggle, because my mind would basically
+    be like "this is not at all the same thing".
 
-TODO: Talk about leaning on all your available tools to avoid strain
-TODO: Talk about pitch as stylistic thing
+    Anyway, I mention this to note that it's totally fine if your feminine voice
+    doesn't "transfer" easily between contexts.  That will get better as you
+    gain more experience feminizing your voice in each context.
+
+1.  Find a safe way to train out loud
+
+    Many trans women who begin to feminize their voice do so before they come
+    out (myself included).  Unfortunately, this can make it hard to find a safe
+    place to train without accidentally outing oneself.
+
+    You can partially mitigate this by focusing on practicing resonance first.
+    Many resonance-related exercises can be done under your breath or without
+    even speaking at all, which makes them safe to use in even hostile
+    environments.
+
+    Or, you might find an environment where you can speak out loud, but not
+    too loud.  For example, you might train in the privacy of your own room if
+    you're quiet enough.
+
+    However, you don't want to do this for too long, for the following reasons:
+
+    * You will learn a bad habit of speaking with not enough airflow
+
+      If you're always speaking quietly or under your breath you won't learn how
+      to recruit enough air and you will consequently strain yourself once you
+      try to graduate to more advanced stuff.
+
+    * You will lean too hard on resonance to feminize your voice
+
+      … which will also strain your voice.  You want to cultivate a more
+      well-rounded voice in order to keep your feminine speech comfortable.
+
+    So, it's really worth investing in finding a place where you can practice
+    "for real" free of any volume constraints or inhibitions.
+
+    Some places that might work for you:
+
+    * Your car (if you own one)
+
+      You can drive to some parking lot and then sit in your car and train.
+      Or you can train your voice while commuting.
+
+    * Middle of nowhere
+
+      If you know a secluded place (e.g. along a trail, a park, or the
+      wilderness) where you're unlikely to meet other people, you can use that.
+
+    * A music practice room
+
+      If you play an instrument, you can rent/reserve a practice room and train
+      your voice while you practice your instrument.  If the rooms are
+      sufficiently sound-proof and/or your instrument is loud enough then nobody
+      will notice.
+
+    * A public place where nobody will recognize you
+
+      You might not be scared to practice your voice in public if it is around
+      complete strangers (if all you are worried about is friends and family
+      finding out).
+
+    Additionally, you can also try just gradually feminizing your voice, even
+    around people you know.  If you feminize it slowly enough they won't even
+    notice you're doing it for quite a while.  People are generally pretty
+    self-absorbed and won't notice stuff like that until it hits them in the
+    face.
+
 TODO: Add recordings illustrating various concepts
