@@ -47,7 +47,7 @@ helpful.
 Also, for what it's worth, this is what my sounds like at the time of this
 writing:
 
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1336741795&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/gabriella-gonzalez-358817694" title="Gabriella Gonzalez" target="_blank" style="color: #cccccc; text-decoration: none;">Gabriella Gonzalez</a> · <a href="https://soundcloud.com/gabriella-gonzalez-358817694/2022-09-02-example-voice-contrast" title="2022-09-02 - Example Voice Contrast" target="_blank" style="color: #cccccc; text-decoration: none;">2022-09-02 - Example Voice Contrast</a></div>
+[2022-02-02 - Example Voice Contrast](https://soundcloud.com/gabriella-gonzalez-358817694/2022-09-02-example-voice-contrast)
 
 I'm also still continuing to learn more, but I feel comfortable enough to share
 what I've learned so far.
@@ -111,8 +111,8 @@ If you continue reading, I'll assume you are a tryhard like me.
 ### HRT will not feminize your voice at all
 
 I think most people know this.  If you went through a male puberty like
-me then most likely testosterone irreversibly deepened your voice.  Sorry
-🤷🏻‍♀️.
+me then most likely testosterone irreversibly deepened your voice.  It's
+unfortunate, but that's the reality.
 
 ### Surgery alone will not feminize your voice
 
@@ -362,7 +362,7 @@ raise your larynx when attempting to speak in this way.
 I also recommend this video that explains resonance and some ways to practice
 and build an intuition for resonance:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BW8X2nXexQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[The Single MOST Powerful Element of Voice Feminization: The Gender Dial (R1) | Exercises and Lecture](https://www.youtube.com/embed/BW8X2nXexQs)
 
 ### Airflow overview
 
@@ -386,7 +386,7 @@ cords will feel more relaxed.
 This video is the best resource I could find on this subject and it helped me
 build an intuition for what to listen for and how to promote airflow:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xdsaPJdU24s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[CLEAN UP THE VOICE & AVOID STRAIN | False Vocal Fold Control | 8 Exercises, Document, and Lecture](https://www.youtube.com/embed/xdsaPJdU24s)
 
 ### Pitch overview
 
@@ -416,7 +416,7 @@ does more to feminize your voice than the average pitch.
 
 I tried to do pitch training using this video (from the self-taught guide):
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9-1Padxsmio?start=281" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+["How To Warm Up Your Voice" - Voice Lessons To the World](https://www.youtube.com/embed/9-1Padxsmio?start=281)
 
 … but ultimately I found that improving airflow did much more to improve the
 range of my pitch than those exercises.
@@ -642,7 +642,7 @@ well-rounded voice is a more comfortable voice.
 
 By "code switching" I mean what this video is describing:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VlYFl83RwmU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[9 Difference Voices Women Use](https://www.youtube.com/embed/VlYFl83RwmU)
 
 Code switching made it harder for me to feminize my voice because I had to
 "relearn" some things in different social contexts.  For example, there
