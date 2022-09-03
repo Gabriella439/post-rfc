@@ -435,7 +435,7 @@ thumb for what to fix when your voice sounds wrong to you.
 There's obviously more to feminizing a voice than these three changes, but
 those were the biggest wins, in my experience.
 
-### Long-form speaking
+### Airflow - Revisited
 
 Minimizing strain and improving airflow was a particularly big deal for me
 because I have an unusually high "voice demand" compared to to other people.
@@ -463,6 +463,22 @@ Moreover, once I found a voice with much better airflow and lower strain I
 began using that voice everywhere (even in less demanding contexts) because it
 was way more comfortable.  Once you get the hang of speaking effeminately with
 lower strain you get hooked on it and can't go back.
+
+More generally, my voice therapist really drilled into me the importance of
+airflow:
+
+Pinching your voice to brighten resonance?  Not enough airflow.
+
+Voice degrades at night when you're tired?  Not enough airflow.
+
+Having trouble controlling pitch?  Not enough airflow.
+
+Straining your voice?  Not enough airflow.
+
+Voice degrades during long-form speaking?  Not enough airflow.
+
+I got a little sick of hearing of this and it took me a while to understand
+what she was asking me to do, but then I realized how right she was.
 
 ### Practice mixing vowels into your voice
 
