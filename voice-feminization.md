@@ -17,7 +17,7 @@ idiosyncratic to me and observations that I believe are generally applicable,
 based on what my voice therapist has taught me and also based on what I've
 learned from comparing notes with other people feminizing their voice.
 
-#### Background
+## Background
 
 I wanted to explain a bit about my own background before I dive into the various
 observations since that background may help provide context for what I'm about
@@ -45,7 +45,9 @@ helpful.
 
 Alright, with that out of the way, let's get to the tips:
 
-#### Don't strain your voice
+## Tips
+
+### Don't strain your voice
 
 I cannot stress this enough.  You do not need to strain your voice to
 feminize to feminize your voice.  Your feminine voice should feel
@@ -69,7 +71,7 @@ while speaking.
 
 TODO: Insert recording demonstrating what strain sounds like
 
-#### What does strain feel like?
+### What does strain feel like?
 
 Strain feels like a build-up in tension, typically around your throat.  As
 this tension builds up you find that you have greater difficulty sustaining
@@ -84,7 +86,7 @@ seriously stop and see a voice therapist.
 When I do feel strain I most commonly feel it either around my vocal cords
 (near the middle of my neck) or in the neck muscles beneath my jaw.
 
-#### You might not have to actively train hard to feminizing your voice
+### You might not have to actively train hard to feminizing your voice
 
 Many transfems report feminizing their voice by "just" gradually trying to
 slowly speak more effeminately over time.  I cannot guarantee that this will
@@ -99,13 +101,13 @@ gradual process was even an option.
 
 If you continue reading, I'll assume you are a tryhard like me.
 
-#### HRT will not feminize your voice at all
+### HRT will not feminize your voice at all
 
 I think most people know this.  If you went through a male puberty like
 me then most likely testosterone irreversibly deepened your voice.  Sorry
 🤷🏻‍♀️.
 
-#### Surgery alone will not feminize your voice
+### Surgery alone will not feminize your voice
 
 There is such a thing as voice feminization surgery, but that mainly affects
 your habitual pitch which is not really the most important part of voice
@@ -116,7 +118,7 @@ This is a long-winded way of saying: you will need practice and time to
 feminize your voice regardless of what you choose to do.  There are no
 shortcuts here.
 
-#### Great news: you can still feminize your voice much more than you think
+### Great news: you can still feminize your voice much more than you think
 
 Don't despair!  A lot of transfems greatly underestimate how much they can
 feminize their voice.  Even if your pre-transition voice is extremely deep
@@ -131,7 +133,7 @@ voice your default voice, meaning that you will not need to pay attention
 or concentrate to feminize your voice.  With practice, your feminine voice
 can become automatic and effortless.
 
-#### Voice training is (mostly) a mental exercise, not a physical exercise
+### Voice training is (mostly) a mental exercise, not a physical exercise
 
 What I mean is that almost all the muscles you need to engage to feminize
 your voice are already strong enough to do what you need.  The main
@@ -175,7 +177,7 @@ things you can focus on as you practice speaking or perform a drill, like:
 The more you pay attention to these things the more you improve your "mental
 resolution" of what is going on and that in turn improves your control.
 
-#### Don't try to power through strain
+### Don't try to power through strain
 
 Thinking of vocal training as a mental exercise rather than a physical
 exercise will also help you avoid strain.  You do **NOT** want to try to
@@ -193,7 +195,7 @@ steps:
 - Try something different next time
 - Don't give up: trust that you will eventually find a comfortable voice
 
-#### It's more important to be perceptive than to be persistent
+### It's more important to be perceptive than to be persistent
 
 Along the same lines: if you haven't discovered anything new since your last
 practice then likely nothing will have improved since then.  Repeating the
@@ -206,7 +208,7 @@ Or to put it another way: if nothing changes, nothing will improve.
 Keep experimenting so that you're always trying new things and learning new
 things.  Don't get stuck in a practice routine.
 
-#### Voice feminization still takes time
+### Voice feminization still takes time
 
 A lot of people will hear "mental exercise" and think that they can discover
 some sort of clever shortcut or trick to speed up the process.  This is
@@ -222,7 +224,7 @@ In particular, there are many lessons or tricks you might be unable to learn
 until you develop improved proprioceptive control of the relevant muscles
 and that takes time.
 
-#### Learn how to not "misplace" your voice
+### Learn how to not "misplace" your voice
 
 Eventually you will eventually encounter the following frustrating
 phenomenon:
@@ -252,7 +254,7 @@ things you are doing that you are blind to.  Failing to notice those
 "other things" is one reason why the same trick will work on one day but
 then fail the next day.
 
-#### Voices are complicated
+### Voices are complicated
 
 Some voice training guides will try to distil voice training to a few
 orthogonal axes like:
@@ -285,7 +287,7 @@ isn't.  After doing this long enough you will build up the mental tools to
 begin thinking about your voice at a much higher level of abstraction
 (like programming in a higher-level programming language).
 
-#### Voices are simple
+### Voices are simple
 
 LOL.  Just kidding.  Voices are still complicated, but I'm going to to
 simplify things in the way most other guides do so that I can talk about
@@ -319,7 +321,7 @@ that is (in my view) very wrong or at best highly misleading.
 
 TODO: Recording showing the elements of a voice
 
-#### What is resonance?
+### What is resonance?
 
 Resonance is the main thing that feminizes your voice.  Resonance will sound
 bright/brassy and you will feel your throat and/or nose "buzz" in new places
@@ -334,7 +336,7 @@ voice doesn't sound feminine enough to your own ears.
 
 TODO: Link to recording teaching how to train resonance
 
-#### What is airflow?
+### What is airflow?
 
 Airflow is how much air you muster in order to speak.  The greater the
 airflow the more "breathy" your voice is, both figuratively (the way it
@@ -353,7 +355,7 @@ In particular, you will feel tenseness or a pinch around your vocal cords if
 they're not getting enough airflow.  When you recruit enough air your vocal
 cords will feel more relaxed.
 
-#### What is pitch?
+### What is pitch?
 
 I think we all know what pitch is, so I'll skip that part.
 
@@ -379,7 +381,7 @@ a tool for feminizing your voice *per se*.  Accessing a wider range of pitch
 gives you more tools to express yourself, and that greater expressiveness
 does more to feminize your voice than the average pitch.
 
-#### What do I need to fix?
+### What do I need to fix?
 
 I can summarize the recent points by giving you the following rules of
 thumb for what to fix when your voice sounds wrong to you.
@@ -393,7 +395,7 @@ thumb for what to fix when your voice sounds wrong to you.
 There's obviously more to feminizing a voice than these three changes, but
 those were the biggest wins, in my experience.
 
-#### Practice mixing vowels into your voice
+### Practice mixing vowels into your voice
 
 In this guide I'm not sharing a lot of specific tricks, except for this one.
 This is one of the few tricks that had a disproportionate effect on both the
@@ -427,7 +429,7 @@ same voice fairly closely day after day.
 I no longer think in terms of vowels as I'm speaking, but this trick helped
 bootstrap a lot of my progress while learning.
 
-#### Record your voice
+### Record your voice
 
 You would think that this advice is obvious but I have met people trying to
 feminize their voice that don't do this.
@@ -435,7 +437,7 @@ feminize their voice that don't do this.
 You will actually need up two types of recording apps, which brings us
 to the next two points:
 
-#### Get an app for short-term recordings
+### Get an app for short-term recordings
 
 You will need to be able to quickly record and play back throwaway
 recordings of your voice when practicing by yourself
@@ -463,7 +465,7 @@ This quick and easy playback is essential for a few reasons:
 
 I personally use Vocal Pitch Monitor on Android for this purpose.
 
-#### Get an app for long-term recordings
+### Get an app for long-term recordings
 
 You also need to create more permanent recordings of yourself to listen to
 days/weeks/months later
@@ -488,7 +490,7 @@ These long-term recordings serve several purposes:
 
 I personally use QuickTime on macOS for this purpose.
 
-#### Bonus: Record videos of yourself speaking effeminately
+### Bonus: Record videos of yourself speaking effeminately
 
 If you use QuickTime you can also easily record and play back videos of
 yourself speaking.  This might not seem like a big deal, but for me it
@@ -496,7 +498,7 @@ went a long way towards internalizing my voice as "mine".  Seeing my
 face speaking effeminately helps when I want to cement any new speaking
 habits.
 
-#### You will be far more critical of your own voice than others
+### You will be far more critical of your own voice than others
 
 You don't want to go too overboard when critically listening to your own
 voice.  At some point you will begin to become more critical of your voice
@@ -516,7 +518,7 @@ of feminine voices and masculine voices than people acknowledge and as you
 actively train your voice you will become more conscious of this overlap
 and (hopefully) more forgiving of your own voice.
 
-#### Keep learning new things
+### Keep learning new things
 
 I've said this already, but it's important to keep experimenting with new
 things for another reason: the more tricks you learn to feminize your voice
@@ -550,7 +552,7 @@ feminize your voice.
 Anyway, use all the tools at your disposal to feminize your voice because a
 well-rounded voice is a more comfortable voice.
 
-#### Code switching might make things harder
+### Code switching might make things harder
 
 By "code switching" I mean what this video is describing:
 
@@ -566,7 +568,7 @@ Anyway, I mention this to note that it's totally fine if your feminine voice
 doesn't "transfer" easily between contexts.  That will get better as you
 gain more experience feminizing your voice in each context.
 
-#### Find a safe way to train out loud
+### Find a safe way to train out loud
 
 Many trans women who begin to feminize their voice do so before they come
 out (myself included).  Unfortunately, this can make it hard to find a safe
