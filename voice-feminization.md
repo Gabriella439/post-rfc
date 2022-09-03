@@ -8,7 +8,7 @@ won't help you feminize your voice or even help you get started.  However, this
 might help supplement or accelerate your existing work to feminize your voice.
 
 Also, this guide will focus more on "meta" tips for feminizing your voice and
-focus less on low-level specific tipes.  These tips are not necessarily in any
+focus less on low-level specific tips.  These tips are not necessarily in any
 specific order, although I made an attempt to order them into a somewhat logical
 progression.
 
