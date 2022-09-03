@@ -483,8 +483,8 @@ what she was asking me to do, but then I realized how right she was.
 ### Practice mixing vowels into your voice
 
 In this guide I'm not sharing a lot of specific tricks, except for this one.
-This is one of the few tricks that had a disproportionate effect on both the
-quality of my voice but also the speed of my learning process.  It might not
+This is one of the few tricks that had a disproportionate effect on the
+quality of my voice and the speed of my learning process.  It might not
 work for everybody, but I'm mentioning this in case it does help somebody
 because I never saw this trick mentioned in the wild.
 
