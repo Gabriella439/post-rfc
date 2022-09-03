@@ -59,7 +59,7 @@ Alright, with that out of the way, let's get to the tips …
 ### Don't strain your voice
 
 I cannot stress this enough.  You do not need to strain your voice to
-feminize to feminize your voice.  Your feminine voice should feel
+feminize your voice.  Your feminine voice should feel
 comfortable, easy, and natural when you speak.
 
 The reason why this is my #1 tip is because this is the only mistake you
