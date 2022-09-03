@@ -43,7 +43,12 @@ unlearn.
 If some of that stuff sounds familiar to you then you might find this guide
 helpful.
 
-Alright, with that out of the way, let's get to the tips:
+Also, for what it's worth, this is what my sounds like at the time of this
+writing:
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1336741795&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/gabriella-gonzalez-358817694" title="Gabriella Gonzalez" target="_blank" style="color: #cccccc; text-decoration: none;">Gabriella Gonzalez</a> · <a href="https://soundcloud.com/gabriella-gonzalez-358817694/2022-09-02-example-voice-contrast" title="2022-09-02 - Example Voice Contrast" target="_blank" style="color: #cccccc; text-decoration: none;">2022-09-02 - Example Voice Contrast</a></div>
+
+Alright, with that out of the way, let's get to the tips …
 
 ## Tips
 
@@ -53,10 +58,10 @@ I cannot stress this enough.  You do not need to strain your voice to
 feminize to feminize your voice.  Your feminine voice should feel
 comfortable, easy, and natural when you speak.
 
-The reason that this is my #1 tip is because this is the only mistake you
+The reason why this is my #1 tip is because this is the only mistake you
 can make that can cause permanent damage to your voice.  Voice feminization
-is a completely reversible process unless you strain your voice and then you
-risk irreversible degrading your voice.
+is a completely reversible process unless you chronically strain your voice and
+then you risk irreversible degrading your voice.
 
 I was fortunate to avoid irreversibly damaging my voice, but I probably came
 close back when I was self-taught.  Not only did I strain my voice quite a
@@ -66,8 +71,8 @@ research and realized that I needed to stop and get help, which led me to
 seek a voice therapist.
 
 You also don't want to strain your voice because it will greatly decrease
-the quality of your voice: you'll literally sound "strained" and unnatural
-while speaking.
+the quality of your voice: you'll literally sound "strained" and unnatural while
+speaking.
 
 TODO: Insert recording demonstrating what strain sounds like
 
@@ -80,13 +85,13 @@ your feminine voice, typically after only a few minutes of use.
 The surefire sign that you strained yourself too much is that your voice
 becomes hoarse.  It's not the end of the world if you accidentally make your
 voice hoarse (everybody gets hoarse once in a while), but frequent and
-repeated episodes of voice hoarseness is a red flag that you need to
-seriously stop and see a voice therapist.
+repeated episodes of voice hoarseness are a red flag that you need to seriously
+stop and see a voice therapist.
 
 When I do feel strain I most commonly feel it either around my vocal cords
 (near the middle of my neck) or in the neck muscles beneath my jaw.
 
-### You might not have to actively train hard to feminizing your voice
+### You might not have to actively train hard
 
 Many transfems report feminizing their voice by "just" gradually trying to
 slowly speak more effeminately over time.  I cannot guarantee that this will
@@ -118,7 +123,7 @@ This is a long-winded way of saying: you will need practice and time to
 feminize your voice regardless of what you choose to do.  There are no
 shortcuts here.
 
-### Great news: you can still feminize your voice much more than you think
+### Great news: you can feminize your voice quite well!
 
 Don't despair!  A lot of transfems greatly underestimate how much they can
 feminize their voice.  Even if your pre-transition voice is extremely deep
@@ -164,13 +169,14 @@ control those muscles.
 This also means that it's less important how long you practice and it's
 more important how mentally engaged you are with your practice.  Don't just
 mindlessly drill various exercises: instead, pay attention to what is
-happening inside your head and use your brain.  There are all sorts of
+happening inside your vocal tract and use your brain.  There are all sorts of
 things you can focus on as you practice speaking or perform a drill, like:
 
 - How does your throat feel?  Relaxed or tense?  Do you feel strain?
 - How does your voice sound to you in your head?
 - How does your voice sound when you play back a recording?
 - What does the flow of air feel like?
+- Where do you feel vibration?
 - What did you do to make all of the above happen?
 - What is your overall emotional state as you're speaking?
 
@@ -259,9 +265,9 @@ then fail the next day.
 Some voice training guides will try to distil voice training to a few
 orthogonal axes like:
 
-- Resonance
-- Pitch
-- Airflow
+- resonance
+- pitch
+- airflow
 
 … but this is a gross oversimplification of what is actually happening when
 you produce a voice.
@@ -270,13 +276,12 @@ First off, these elements of a voice are not really independent of one
 another.  With training you can manipulate your voice to modulate only
 pitch or modulate only resonance, but by default if you try change one of
 these things that will likely spill over into other changes.  Everything
-inside your mouth and throat is interconnected.  Controlling your voice at
-first will feel like like trying to program with really messy and low-level
-assembly code.
+inside your vocal tract is interconnected.  Controlling your voice at first will
+feel like like trying to program with really messy and low-level assembly code.
 
 Furthermore, there is a lot more dimension to these things.  For example,
-you can technically measure resonance on a linear scale, but your voice is
-not actually linear; there is more than one way to produce the same target
+you can technically measure resonance on a linear scale, but your vocal tract
+is not a linear dial; there is more than one way to produce the same target
 resonance.
 
 This is why you need to understand your voice at a low level first before
@@ -295,17 +300,17 @@ voices in broad strokes.
 
 The three things I'll mention for the purpose of this guide are:
 
-- Resonance
+- resonance
 
   **RESONANCE IS THE MAIN THING THAT FEMINIZES YOUR VOICE!!!**
 
-- Airflow
+- airflow
 
   Increasing airflow is what reduces strain and helps you attain a
   comfortable, effortless, and natural-sounding voice.  Given the importance
   of reducing strain, airflow is really important!
 
-- Pitch
+- pitch
 
   Pitch does far less to feminize your voice and is more of a "stylistic"
   thing.  I'll expand upon this later.
@@ -317,26 +322,33 @@ third.
 This means that you should focus primarily on resonance and airflow at first
 before worrying about pitch.  A common mistake that most people make is
 assuming that pitch is the most important part of vocal feminization and
-that is (in my view) very wrong or at best highly misleading.
+that is (in my view) wrong or at best highly misleading.
 
 TODO: Recording showing the elements of a voice
 
-### What is resonance?
+### Resonance overview
 
-Resonance is the main thing that feminizes your voice.  Resonance will sound
-bright/brassy and you will feel your throat and/or nose "buzz" in new places
-when you practice brightening resonance.
+Resonance is the main thing that feminizes your voice.  Increasing resonance is
+sometimes called "brightening" your resonance.  In isolation, brightening
+resonance will make your voice sound brassy and you will feel your throat and/or
+nose "buzz" in new places.
 
-Anything you do to make your vocal tract throat smaller (including, but not
-limited to, raising your larynx) will brighten your resonance and feminize
-your voice.
+Anything you do to make your vocal tract throat smaller will brighten your
+resonance and feminize your voice.  The most common and effective way to do this
+is to raise your larynx, but there are other ways you can modulate resonance,
+such as by shaping your tongue or mouth.
 
 A good sign that you're not brightening your resonance enough is that your
 voice doesn't sound feminine enough to your own ears.
 
+"One simple trick" I see trans women commonly share for brightening resonance is
+to try to speak as if your voice is coming from the top back of your vocal tract
+instead of coming from your chest.  If you do this correctly you will naturally
+raise your larynx when attempting to speak in this way.
+
 TODO: Link to recording teaching how to train resonance
 
-### What is airflow?
+### Airflow overview
 
 Airflow is how much air you muster in order to speak.  The greater the
 airflow the more "breathy" your voice is, both figuratively (the way it
@@ -355,9 +367,9 @@ In particular, you will feel tenseness or a pinch around your vocal cords if
 they're not getting enough airflow.  When you recruit enough air your vocal
 cords will feel more relaxed.
 
-### What is pitch?
+### Pitch overview
 
-I think we all know what pitch is, so I'll skip that part.
+I think we all know what pitch is, so I'll gloss over that part.
 
 The main thing I want to mention is that resonance is not pitch.  They are
 very different things and the most common mistake people make is believing
@@ -367,7 +379,7 @@ the voice.
 I like to think of pitch as a tool for self-expression, meaning that it's
 something you modulate to "color" the way you speak to better convey
 yourself.  Masculine speech tends to be more monotone whereas feminine
-speech tends to access a (much) wider range of pitch.
+speech tends to access a *much* wider range of pitch.
 
 In particular, feminine speaking can use pitch in a very situational way;
 it's not like a feminine voice has just "one" pitch.  On a "macro" scale,
@@ -400,7 +412,8 @@ those were the biggest wins, in my experience.
 In this guide I'm not sharing a lot of specific tricks, except for this one.
 This is one of the few tricks that had a disproportionate effect on both the
 quality of my voice but also the speed of my learning process.  It might not
-work for everybody, but I'm mentioning this in case it does help somebody.
+work for everybody, but I'm mentioning this in case it does help somebody
+because I never saw this trick mentioned in the wild.
 
 The thing that worked really well for me was trying to "mix" specific vowel
 sounds into my speech.  In other words, I try to "color" the way I speak to
@@ -434,8 +447,8 @@ bootstrap a lot of my progress while learning.
 You would think that this advice is obvious but I have met people trying to
 feminize their voice that don't do this.
 
-You will actually need up two types of recording apps, which brings us
-to the next two points:
+You will actually need two types of recording apps, which brings us to the next
+two points:
 
 ### Get an app for short-term recordings
 
@@ -589,7 +602,7 @@ However, you don't want to do this for too long, for the following reasons:
 
   If you're always speaking quietly or under your breath you won't learn how
   to recruit enough air and you will consequently strain yourself once you
-  try to graduate to more advanced stuff.
+  try to graduate to more advanced stuff (especially varying pitch).
 
 * You will lean too hard on resonance to feminize your voice
 
@@ -604,7 +617,10 @@ Some places that might work for you:
 * Your car (if you own one)
 
   You can drive to some parking lot and then sit in your car and train.
-  Or you can train your voice while commuting.
+  Or you can train your voice while driving.
+
+  Along the same lines, if you own a motorcycle you can also train your voice
+  while driving.
 
 * Middle of nowhere
 
