@@ -498,8 +498,6 @@ speech, that tends to promote a brighter resonance.  Similarly, if I mix a
 promote improved airflow.  Longer vowels tend to promote a higher pitch
 than shorter vowels.
 
-TODO: Recording illustrating this
-
 The reason this worked well for me was because it focused more on the way
 my voice sounded rather than the way I was moving my muscles.  I personally
 found it easier and more intuitive to reproduce a desired vowel sound
