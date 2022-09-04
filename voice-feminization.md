@@ -585,7 +585,7 @@ habits.
 ### Take notes
 
 I prefer most of my notes to be audio recordings (organized by date), but
-written notes are okay, too, and can help supplement those records.
+written notes are okay, too, and can help supplement those recordings.
 
 The main purpose of taking notes is to force yourself to *think* about
 what you are doing.  Remember that you will progress more quickly if
