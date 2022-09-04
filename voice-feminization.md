@@ -75,8 +75,8 @@ research and realized that I needed to stop and get help, which led me to
 seek a voice therapist.
 
 You also don't want to strain your voice because it will greatly decrease
-the quality of your voice: you'll literally sound "strained" and unnatural while
-speaking.
+the quality of your voice: even when you're not hoarse you'll literally
+sound "strained" and unnatural while speaking.
 
 ### What does strain feel like?
 
@@ -344,9 +344,9 @@ useful exercises, videos, and recordings.
 Resonance is the main thing that feminizes your voice.  You want to increase
 your voice's resonant frequency which is also called "brightening" your
 resonance.  In isolation, brightening resonance will make your voice sound
-brassy and you will feel your throat and/or nose "buzz" in new places.
+brassy and you will feel your vocal tract "buzz" in new places.
 
-Anything you do to make your vocal tract throat smaller will brighten your
+Anything you do to make your vocal tract smaller will brighten your
 resonance and feminize your voice.  The most common and effective way to do this
 is to raise your larynx, but there are other ways you can modulate resonance,
 such as by shaping your tongue or mouth.
@@ -354,7 +354,7 @@ such as by shaping your tongue or mouth.
 A good sign that you're not brightening your resonance enough is that your
 voice doesn't sound feminine enough to your own ears.
 
-"One simple trick" I see trans women commonly share for brightening resonance is
+"One simple trick" I see transfems commonly share for brightening resonance is
 to try to speak as if your voice is coming from the top back of your vocal tract
 instead of coming from your chest.  If you do this correctly you will naturally
 raise your larynx when attempting to speak in this way.
@@ -582,6 +582,19 @@ went a long way towards internalizing my voice as "mine".  Seeing my
 face speaking effeminately helps when I want to cement any new speaking
 habits.
 
+### Take notes
+
+I prefer most of my notes to be audio recordings (organized by date), but
+written notes are okay, too, and can help supplement those records.
+
+The main purpose of taking notes is to force yourself to *think* about
+what you are doing.  Remember that you will progress more quickly if
+you mentally engage with the voice feminization process.
+
+A secondary purpose of taking notes is to help yourself revisit an
+older voice or trick that worked well for you in the past, especially
+when you "misplace" your voice.
+
 ### You will be far more critical of your own voice than others
 
 You don't want to go too overboard when critically listening to your own
@@ -604,7 +617,7 @@ and (hopefully) more forgiving of your own voice.
 
 ### Keep learning new things
 
-I've said this already, but it's important to keep experimenting with new
+I've mentioned this already, but it's important to keep experimenting with new
 things for another reason: the more tricks you learn to feminize your voice
 the less you will strain your voice.
 
@@ -654,7 +667,7 @@ gain more experience feminizing your voice in each context.
 
 ### Find a safe way to train out loud
 
-Many trans women who begin to feminize their voice do so before they come
+Many transfems who begin to feminize their voice do so before they come
 out (myself included).  Unfortunately, this can make it hard to find a safe
 place to train without accidentally outing oneself.
 
