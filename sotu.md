@@ -1188,8 +1188,8 @@ overload, such as:
 **Educational resources:**
 
 * [You could have invented monads](http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html)
-* [Rebindable syntax](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#ghc-flag--XRebindableSyntax)
-* [Monad comprehensions](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#ghc-flag--XMonadComprehensions)
+* [Rebindable syntax](https://downloads.haskell.org/ghc/latest/docs/users_guide/exts/rebindable_syntax.html)
+* [Monad comprehensions](https://downloads.haskell.org/ghc/latest/docs/users_guide/exts/monad_comprehensions.html)
 * [Overloaded strings](https://www.fpcomplete.com/school/to-infinity-and-beyond/pick-of-the-week/guide-to-ghc-extensions/basic-syntax-extensions#overloadedstrings)
 
 <br>
@@ -1581,13 +1581,13 @@ work that needs to be done.  See the following page for more details:
 
 **Educational resources**:
 
-* [GHC Manual - Profiling chapter](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/profiling.html) - Read the whole thing; you will thank me
+* [GHC Manual - Profiling chapter](https://downloads.haskell.org/ghc/latest/docs/users_guide/profiling.html) - Read the whole thing; you will thank me
   later
-* [Debugging runtime options](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/runtime-control.html#rts-options-debugging) - See the `+RTS -xc` flag which adds stack traces to all exceptions (requires profiling enabled)
+* [Debugging runtime options](https://downloads.haskell.org/ghc/latest/docs/users_guide/runtime_control.html#rts-options-for-hackers-debuggers-and-over-interested-souls) - See the `+RTS -xc` flag which adds stack traces to all exceptions (requires profiling enabled)
 * [`GHC.Stack`](http://hackage.haskell.org/package/base-4.8.1.0/docs/GHC-Stack.html) - Programmatic access to the call stack
 * [Pinpointing space leaks in big programs](http://blog.ezyang.com/2011/06/pinpointing-space-leaks-in-big-programs/)
 * [Real World Haskell - Profiling and Optimization](http://book.realworldhaskell.org/read/profiling-and-optimization.html)
-* [The GHCi Debuggger](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci-debugger.html) - Manual for GHCi-based breakpoints and
+* [The GHCi Debuggger](https://downloads.haskell.org/ghc/latest/docs/users_guide/ghci.html#the-ghci-debugger) - Manual for GHCi-based breakpoints and
   single-stepping
 * [Parallel and Concurrent Programming in Haskell - Debugging, Tuning, and Interfacing with Foreign Code](http://chimera.labs.oreilly.com/books/1230000000929/ch15.html#_debugging_concurrent_programs) - Debugging concurrent programs
 * [Haskell wiki - ThreadScope](https://wiki.haskell.org/ThreadScope)
