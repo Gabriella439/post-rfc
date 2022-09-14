@@ -306,7 +306,7 @@ The three things I'll mention for the purpose of this guide are:
 
   **RESONANCE IS THE MAIN THING THAT FEMINIZES YOUR VOICE!!!**
 
-- airflow (a.k.a. open quotient)
+- airflow
 
   Increasing airflow is what reduces strain and helps you attain a
   comfortable, effortless, and natural-sounding voice.  Given the importance
