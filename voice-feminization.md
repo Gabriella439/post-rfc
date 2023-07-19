@@ -31,7 +31,7 @@ publicly transitioning.  The relevant events from my personal timeline were:
 - July 2021: I first came out publicly on Twitter
 - January 2022: I finished coming out to essentially everyone in my life
 - March 2022: I began to see a voice therapist
-- September 2022: The time I'm writing this post
+- September 2022: The time I initially wrote this post
 
 So throughout a long part of the voice feminization process there were plenty of
 times where I had neither the psychological safety nor support to feminize my
@@ -44,10 +44,11 @@ unlearn.
 If some of that stuff sounds familiar to you then you might find this guide
 helpful.
 
-Also, for what it's worth, this is what my sounds like at the time of this
-writing:
+Also, for what it's worth, these are two recordings of what my voice sounds like before and after voice feminization (the first video is pre-transition):
 
-[2022-02-02 - Example Voice Contrast](https://soundcloud.com/gabriella-gonzalez-358817694/2022-09-02-example-voice-contrast)
+- Before voice feminization: [Nix meetup presentation](https://www.youtube.com/watch?v=GMQPzv3Sx58)
+
+- After voice feminization: [ZuriHac 2023 presentation](https://www.youtube.com/watch?v=iAtYXS7eaiE)
 
 I'm also still continuing to learn more, but I feel comfortable enough to share
 what I've learned so far.
@@ -405,7 +406,7 @@ speech tends to access a *much* wider range of pitch.
 In particular, feminine speaking can use pitch in a very situational way;
 it's not like a feminine voice has just "one" pitch.  On a "macro" scale,
 women might lower their pitch in professional settings and raise their pitch
-in more casual settings.  One a "micro" scale, feminine pitch can vary
+in more casual settings.  On a "micro" scale, feminine pitch can vary
 wildly and repeatedly over the course of a single sentence as a tool for
 emphasis.
 
@@ -509,9 +510,6 @@ to not "misplace" my voice.  Any time my voice was "on fire" I would study
 what vowel sounds my voice most closely resembled.  Furthermore, those vowel
 sounds captured enough nuances of the voice that I'd be able to recreate the
 same voice fairly closely day after day.
-
-I no longer think in terms of vowels as I'm speaking, but this trick helped
-bootstrap a lot of my progress while learning.
 
 ### Record your voice
 
